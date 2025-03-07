@@ -25,3 +25,8 @@ GPUs:
 - AMD W6600
 
 **Important:** this is a live repository, not everything is standardized. If you have questions or suggestions please submit an issue.
+
+## File structure
+- `kernels` contains for each kernel the contains the kernel files, T1 input format JSON file, and the script for the auto-tuning. 
+- `cachefiles` contains the brute-forced search spaces. Each kernel has its own folder, which contains both a T4 format output file and an original cache file for each GPU the kernel has been brute-forced on. 
+- `utilities` contains utility scripts. 
