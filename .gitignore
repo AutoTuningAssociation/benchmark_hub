@@ -1,6 +1,7 @@
 # benchmark_hub specific rules
 # do not upload uncompressed JSON cachefiles
 cachefiles/**/*.json
+currently_unused/cachefiles/**/*.json
 
 # OS specific files
 *.DS_Store
