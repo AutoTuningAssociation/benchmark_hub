@@ -1,0 +1,206 @@
+{
+    "General": {
+        "BenchmarkName": "hotspot",
+        "OutputFormat": "JSON"
+    },
+    "ConfigurationSpace": {
+        "TuningParameters": [
+            {
+                "Name": "grid_width",
+                "Type": "int",
+                "Values": "[4096]",
+                "Default": 4096
+            },
+            {
+                "Name": "grid_height",
+                "Type": "int",
+                "Values": "[4096]",
+                "Default": 4096
+            },
+            {
+                "Name": "block_size_x",
+                "Type": "int",
+                "Values": "[1, 2, 4, 8, 16] + list(range(32, 1024+1, 32))",
+                "Default": 256
+            },
+            {
+                "Name": "block_size_y",
+                "Type": "int",
+                "Values": "[2**i for i in range(0, 6)]",
+                "Default": 1
+            },
+            {
+                "Name": "tile_size_x",
+                "Type": "int",
+                "Values": "[i for i in range(1, 11)]",
+                "Default": 1
+            },
+            {
+                "Name": "tile_size_y",
+                "Type": "int",
+                "Values": "[i for i in range(1, 11)]",
+                "Default": 1
+            },
+            {
+                "Name": "temporal_tiling_factor",
+                "Type": "int",
+                "Values": "[i for i in range(1, 11)]",
+                "Default": 1
+            },
+            {
+                "Name": "max_tfactor",
+                "Type": "int",
+                "Values": "[10]",
+                "Default": 1
+            },
+            {
+                "Name": "loop_unroll_factor_t",
+                "Type": "int",
+                "Values": "[i for i in range(1, 10+1)]",
+                "Default": 2
+            },
+            {
+                "Name": "sh_power",
+                "Type": "int",
+                "Values": "[0, 1]",
+                "Default": 1
+            }
+        ],
+        "Conditions": [
+            {
+                "Expression": "block_size_x*block_size_y>= 32",
+                "Parameters": [
+                    "block_size_x",
+                    "block_size_y"
+                ]
+            },
+            {
+                "Expression": "temporal_tiling_factor % loop_unroll_factor_t == 0",
+                "Parameters": [
+                    "temporal_tiling_factor",
+                    "loop_unroll_factor_t"
+                ]
+            },
+            {
+                "Expression": "block_size_x*block_size_y <= 1024",
+                "Parameters": [
+                    "block_size_x",
+                    "block_size_y"
+                ]
+            },
+            {
+                "Expression": "(block_size_x*tile_size_x+ temporal_tiling_factor * 2) * (block_size_y*tile_size_y+ temporal_tiling_factor * 2) * (2+sh_power) * 4 <= 49152",
+                "Parameters": [
+                    "block_size_x",
+                    "tile_size_x",
+                    "temporal_tiling_factor",
+                    "block_size_y",
+                    "tile_size_y",
+                    "sh_power"
+                ]
+            }
+        ]
+    },
+    "BenchmarkConfig": {
+        "dataSize": 4096,
+        "iterations": 10,
+        "MAX_THREADS": 1024,
+        "MAX_SHARED_MEMORY_BLOCK": 49152,
+        "MAX_SHARED_MEMORY": 102400
+    },
+    "KernelSpecification": {
+        "Language": "CUDA",
+        "CompilerOptions": [
+            "-std=c++11"
+        ],
+        "BenchmarkName": "hotspot",
+        "KernelName": "calculate_temp",
+        "KernelFile": "hotspot_milo.cu",
+        "GlobalSizeType": "OpenCL",
+        "LocalSize": {
+            "X": "block_size_x",
+            "Y": "block_size_y",
+            "Z": "1"
+        },
+        "GlobalSize": {
+            "X": "4096",
+            "Y": "4096",
+            "Z": "1"
+        },
+        "GridDivX": [
+            "block_size_x",
+            "tile_size_x"
+        ],
+        "GridDivY": [
+            "block_size_y",
+            "tile_size_y"
+        ],
+        "ProblemSize": [
+            4096,
+            4096
+        ],
+        "SharedMemory": 0,
+        "Stream": null,
+        "Misc": {
+            "jitify": true
+        },
+        "Arguments": [
+            {
+                "Name": "power",
+                "Type": "float",
+                "Size": 25160256,
+                "MemoryType": "Vector",
+                "AccessType": "ReadOnly",
+                "FillType": "Random",
+                "FillValue": 1.0
+            },
+            {
+                "Name": "temp",
+                "Type": "float",
+                "Size": 16777216,
+                "MemoryType": "Vector",
+                "AccessType": "ReadOnly",
+                "FillType": "Random",
+                "FillValue": 324.0
+            },
+            {
+                "Name": "temp_dst",
+                "Type": "float",
+                "Size": 16777216,
+                "MemoryType": "Vector",
+                "AccessType": "ReadWrite",
+                "FillType": "Constant",
+                "FillValue": 0.0,
+                "Output": 1
+            },
+            {
+                "Name": "Rx_1",
+                "Type": "float",
+                "MemoryType": "Scalar",
+                "AccessType": "ReadOnly",
+                "FillValue": 0.1
+            },
+            {
+                "Name": "Ry_1",
+                "Type": "float",
+                "MemoryType": "Scalar",
+                "AccessType": "ReadOnly",
+                "FillValue": 0.1
+            },
+            {
+                "Name": "Rz_1",
+                "Type": "float",
+                "MemoryType": "Scalar",
+                "AccessType": "ReadOnly",
+                "FillValue": 3.0517578579
+            },
+            {
+                "Name": "step_div_cap",
+                "Type": "float",
+                "MemoryType": "Scalar",
+                "AccessType": "ReadOnly",
+                "FillValue": 21.845333099365234
+            }
+        ]
+    }
+}

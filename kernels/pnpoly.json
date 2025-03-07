@@ -1,0 +1,65 @@
+{
+    "General": {
+        "BenchmarkName": "pnpoly",
+        "OutputFormat": "JSON"
+    },
+    "ConfigurationSpace": {
+        "TuningParameters": [
+            {
+                "Name": "between_method",
+                "Type": "int",
+                "Values": "[0, 1, 2, 3]",
+                "Default": 1
+            },
+            {
+                "Name": "block_size_x",
+                "Type": "int",
+                "Values": "[32 * i for i in range(1, 32)]",
+                "Default": 32
+            },
+            {
+                "Name": "tile_size",
+                "Type": "int",
+                "Values": "[1] + [2 * i for i in range(1, 11)]",
+                "Default": 1
+            },
+            {
+                "Name": "use_method",
+                "Type": "int",
+                "Values": "[0, 1, 2]",
+                "Default": 1
+            }
+        ],
+        "Conditions": []
+    },
+    "KernelSpecification": {
+        "Language": "CUDA",
+        "CompilerOptions": [
+            "-std=c++11"
+        ],
+        "BenchmarkName": "pnpoly",
+        "KernelName": "cn_pnpoly",
+        "KernelFile": "pnpoly.cu",
+        "GlobalSizeType": "CUDA",
+        "GlobalSize": {
+            "X": "block_size_x",
+            "Y": "1",
+            "Z": "1"
+        },
+        "LocalSize": {
+            "X": "block_size_x",
+            "Y": "1",
+            "Z": "1"
+        },
+        "GridDivX": [
+            "block_size_x",
+            "tile_size"
+        ],
+        "ProblemSize": [
+            20000000
+        ],
+        "SharedMemory": 0,
+        "Stream": null,
+        "Arguments": []
+    }
+}

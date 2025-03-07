@@ -1,0 +1,283 @@
+{
+    "General": {
+        "BenchmarkName": "gemm",
+        "OutputFormat": "JSON"
+    },
+    "ConfigurationSpace": {
+        "TuningParameters": [
+            {
+                "Name": "GEMMK",
+                "Type": "int",
+                "Values": "[0]",
+                "Default": [
+                    0
+                ]
+            },
+            {
+                "Name": "MWG",
+                "Type": "int",
+                "Values": "[16, 32, 64, 128]",
+                "Default": 64
+            },
+            {
+                "Name": "NWG",
+                "Type": "int",
+                "Values": "[16, 32, 64, 128]",
+                "Default": 64
+            },
+            {
+                "Name": "KWG",
+                "Type": "int",
+                "Values": "[16, 32]",
+                "Default": 32
+            },
+            {
+                "Name": "MDIMC",
+                "Type": "int",
+                "Values": "[8, 16, 32]",
+                "Default": 32
+            },
+            {
+                "Name": "NDIMC",
+                "Type": "int",
+                "Values": "[8, 16, 32]",
+                "Default": 32
+            },
+            {
+                "Name": "MDIMA",
+                "Type": "int",
+                "Values": "[8, 16, 32]",
+                "Default": 32
+            },
+            {
+                "Name": "NDIMB",
+                "Type": "int",
+                "Values": "[8, 16, 32]",
+                "Default": 32
+            },
+            {
+                "Name": "KWI",
+                "Type": "int",
+                "Values": "[2]",
+                "Default": 2
+            },
+            {
+                "Name": "VWM",
+                "Type": "int",
+                "Values": "[1, 2, 4, 8]",
+                "Default": 2
+            },
+            {
+                "Name": "VWN",
+                "Type": "int",
+                "Values": "[1, 2, 4, 8]",
+                "Default": 2
+            },
+            {
+                "Name": "STRM",
+                "Type": "int",
+                "Values": "[0, 1]",
+                "Default": 1
+            },
+            {
+                "Name": "STRN",
+                "Type": "int",
+                "Values": "[0, 1]",
+                "Default": 1
+            },
+            {
+                "Name": "SA",
+                "Type": "int",
+                "Values": "[0, 1]",
+                "Default": 1
+            },
+            {
+                "Name": "SB",
+                "Type": "int",
+                "Values": "[0, 1]",
+                "Default": 1
+            },
+            {
+                "Name": "KREG",
+                "Type": "int",
+                "Values": "[1]",
+                "Default": 1
+            },
+            {
+                "Name": "PRECISION",
+                "Type": "int",
+                "Values": "[32]",
+                "Default": 32
+            }
+        ],
+        "Conditions": [
+            {
+                "Expression": "KWG % KWI == 0",
+                "Parameters": [
+                    "KWG",
+                    "KWI"
+                ]
+            },
+            {
+                "Expression": "MWG % (MDIMC * VWM) == 0",
+                "Parameters": [
+                    "MWG",
+                    "MDIMC",
+                    "VWM"
+                ]
+            },
+            {
+                "Expression": "NWG % (NDIMC * VWN) == 0",
+                "Parameters": [
+                    "NWG",
+                    "NDIMC",
+                    "VWN"
+                ]
+            },
+            {
+                "Expression": "MWG % (MDIMA * VWM) == 0",
+                "Parameters": [
+                    "MWG",
+                    "MDIMA",
+                    "VWM"
+                ]
+            },
+            {
+                "Expression": "NWG % (NDIMB * VWN) == 0",
+                "Parameters": [
+                    "NWG",
+                    "NDIMB",
+                    "VWN"
+                ]
+            },
+            {
+                "Expression": "KWG % ((MDIMC * NDIMC)/MDIMA) == 0",
+                "Parameters": [
+                    "KWG",
+                    "MDIMC",
+                    "NDIMC",
+                    "MDIMA"
+                ]
+            },
+            {
+                "Expression": "KWG % ((MDIMC * NDIMC)/NDIMB) == 0",
+                "Parameters": [
+                    "KWG",
+                    "MDIMC",
+                    "NDIMC",
+                    "NDIMB"
+                ]
+            },
+            {
+                "Expression": "not (MWG == 128 and NWG == 128 and MDIMC == 8 and NDIMC == 8)",
+                "Parameters": [
+                    "MWG",
+                    "NWG",
+                    "MDIMC",
+                    "NDIMC"
+                ]
+            }
+        ]
+    },
+    "BenchmarkConfig": {
+        "dataSize": 4096,
+        "iterations": 10,
+        "MAX_THREADS": 1024,
+        "MAX_SHARED_MEMORY_BLOCK": 49152,
+        "MAX_SHARED_MEMORY": 102400
+    },
+    "KernelSpecification": {
+        "Language": "OpenCL",
+        "CompilerOptions": [
+            "-std=c++11"
+        ],
+        "BenchmarkName": "hotspot",
+        "KernelName": "Xgemm",
+        "KernelFile": "gemm_milo/common.opencl",
+        "GlobalSizeType": "OpenCL",
+        "LocalSize": {
+            "X": "block_size_x",
+            "Y": "block_size_y",
+            "Z": "1"
+        },
+        "GlobalSize": {
+            "X": "4096",
+            "Y": "4096",
+            "Z": "1"
+        },
+        "GridDivX": [
+            "MWG"
+        ],
+        "GridDivY": [
+            "NWG"
+        ],
+        "ProblemSize": [
+            4096,
+            4096,
+            4096
+        ],
+        "SharedMemory": 0,
+        "Stream": null,
+        "Misc": {
+            "jitify": true
+        },
+        "Arguments": [
+            {
+                "Name": "power",
+                "Type": "float",
+                "Size": 25160256,
+                "MemoryType": "Vector",
+                "AccessType": "ReadOnly",
+                "FillType": "Random",
+                "FillValue": 1.0
+            },
+            {
+                "Name": "temp",
+                "Type": "float",
+                "Size": 16777216,
+                "MemoryType": "Vector",
+                "AccessType": "ReadOnly",
+                "FillType": "Random",
+                "FillValue": 324.0
+            },
+            {
+                "Name": "temp_dst",
+                "Type": "float",
+                "Size": 16777216,
+                "MemoryType": "Vector",
+                "AccessType": "ReadWrite",
+                "FillType": "Constant",
+                "FillValue": 0.0,
+                "Output": 1
+            },
+            {
+                "Name": "Rx_1",
+                "Type": "float",
+                "MemoryType": "Scalar",
+                "AccessType": "ReadOnly",
+                "FillValue": 0.1
+            },
+            {
+                "Name": "Ry_1",
+                "Type": "float",
+                "MemoryType": "Scalar",
+                "AccessType": "ReadOnly",
+                "FillValue": 0.1
+            },
+            {
+                "Name": "Rz_1",
+                "Type": "float",
+                "MemoryType": "Scalar",
+                "AccessType": "ReadOnly",
+                "FillValue": 3.0517578579
+            },
+            {
+                "Name": "step_div_cap",
+                "Type": "float",
+                "MemoryType": "Scalar",
+                "AccessType": "ReadOnly",
+                "FillValue": 21.845333099365234
+            }
+        ]
+    }
+}
