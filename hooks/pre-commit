@@ -1,0 +1,17 @@
+#!/bin/bash
+set -e  # Exit immediately if a command exits with a non-zero status
+
+echo "Checking for uncompressed JSON files in cachefiles..."
+
+# Find all .json files inside 'cachefiles' subfolders that don't have a .json.gz counterpart
+find cachefiles -type f -name "*.json" | while read -r json_file; do
+    gz_file="${json_file}.gz"
+    
+    if [ ! -f "$gz_file" ]; then
+        echo "Compressing: $json_file -> $gz_file"
+        gzip -c "$json_file" > "$gz_file"
+    fi
+done
+
+# Ensure Git only stages the compressed files (not the ignored .json files)
+git add cachefiles/**/*.json.gz

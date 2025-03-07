@@ -1,0 +1,9 @@
+#!/bin/bash
+# Automatically decompress JSON files inside cachefiles/ after checkout
+
+find cachefiles -type f -name "*.json.gz" | while read file; do
+    json_file="${file%.gz}"  # Remove .gz extension
+    if [ ! -f "$json_file" ]; then  # Only decompress if missing
+        gunzip -k "$file"
+    fi
+done

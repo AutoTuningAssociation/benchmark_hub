@@ -1,3 +1,10 @@
+# benchmark_hub specific rules
+# do not upload uncompressed JSON cachefiles
+cachefiles/**/*.json
+
+# OS specific files
+*.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
