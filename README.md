@@ -5,6 +5,13 @@ Anyone can contribute by providing new kernels and brute-forced search spaces on
 
 The brute-forced files can be used with the [autotuning-methodology](https://github.com/AutoTuningAssociation/autotuning_methodology) to compare optimization algorithms accross a wide variety of search spaces, and with [Kernel Tuner]() for hyperparameter tuning optimization algorithms, without constant access to the original hardware.
 
+## Automatic compression and decompression
+To automatically compress new cachefiles when committing and decompress new cachefiles when checking out, run `git config --local core.hooksPath .githooks/`. 
+To get the decompressed files after cloning, run the above command and checkout with `git checkout main`.
+
+## Search spaces overview
+16 fully brute-forced search spaces are currently available, as a product of the following kernels and GPUs. 
+
 Kernels:
 - GEMM
 - Convolution
@@ -17,4 +24,4 @@ GPUs:
 - AMD MI250X
 - AMD W6600
 
-This means that 16 fully brute-forced search spaces are currently available. 
+**Important:** this is a live repository, not everything is standardized. If you have questions or suggestions please submit an issue.
