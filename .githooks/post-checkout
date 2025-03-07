@@ -1,9 +1,14 @@
 #!/bin/bash
+set -e  # Exit immediately if a command exits with a non-zero status
+
 # Automatically decompress JSON files inside cachefiles/ after checkout
+echo "Checking for not yet uncompressed JSON files..."
 
 find cachefiles -type f -name "*.json.gz" | while read file; do
     json_file="${file%.gz}"  # Remove .gz extension
+    
     if [ ! -f "$json_file" ]; then  # Only decompress if missing
+        echo "Decompressing: $json_file -> $file"
         gunzip -k "$file"
     fi
 done
