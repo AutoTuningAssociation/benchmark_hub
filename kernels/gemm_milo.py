@@ -9,7 +9,7 @@ import time
 
 import kernel_tuner
 import numpy as np
-from kernel_tuner.file_utils import store_metadata_file
+from kernel_tuner.file_utils import store_metadata_file, store_output_file
 
 
 def get_metrics(total_flops):
@@ -22,12 +22,22 @@ def ops(m, n, k):
     return (m * n * k * 2 + 2 * m * k) / 1e9
 
 
-def tune(inputs, device, searchspace_set=2):
+def tune(
+    inputs, 
+    device_name: str,
+    strategy="brute_force",
+    strategy_options=None,
+    verbose=True,
+    quiet=False,
+    simulation_mode=False,
+    lang="CUDA",
+    searchspace_set=2
+):
 
-    path = os.path.dirname(os.path.realpath(__file__)) + "/gemm_cltune_cuda/"
+    path = os.path.dirname(os.path.realpath(__file__)) + "/gemm_milo/"
 
     # kernel string
-    kernel_string = '#include "cl_to_cuda.h"\n'
+    kernel_string = '#include "cl_to_cuda.h"\n' if lang == "CUDA" else ""
     files = ["common.opencl", "xgemm_part1.opencl", "xgemm_part2.opencl", "xgemm_part3.opencl", "xgemm_part4.opencl"]
     for f in files:
         with open(path + f, "r") as fp:
@@ -132,10 +142,10 @@ def tune(inputs, device, searchspace_set=2):
     block_size_names = ["MDIMC", "NDIMC", "block_size_z"]
     total_flops = ops(*inputs)
     metrics = get_metrics(total_flops)
-    filename = f"gemm_{device}"
+
+    base_cachepath = f"../cachefiles/gemm_milo/{device_name.upper()}"
 
     # start tuning
-    print(f"Starting tuning, {filename=}")
     start = time.time()
     results, env = kernel_tuner.tune_kernel(
         "Xgemm",
@@ -145,38 +155,39 @@ def tune(inputs, device, searchspace_set=2):
         tune_params,
         block_size_names=block_size_names,
         restrictions=restrict,
-        verbose=False,
         compiler_options=["-I" + path],
-        lang="HIP",
+        lang=lang,
         grid_div_x=grid_div_x,
         grid_div_y=grid_div_y,
         device=0,
         platform=0,
         iterations=32,
         metrics=metrics,
-        cache=filename + "_cache.json",
-        simulation_mode=False,
+        cache=base_cachepath,
+        verbose=verbose,
+        quiet=quiet,
+        strategy=strategy,
+        strategy_options=strategy_options,
+        simulation_mode=simulation_mode,
     )
     end = time.time()
     env["execution_time"] = end - start
 
-    env_file = open(f"gemm_{device}_env.json", "w")
-    json.dump(env, env_file, indent=6)
-    env_file.close()
-
-    # Store the metadata of this run
-    store_metadata_file(f"gemm_{device}_metadata.json")
-
+    store_output_file(f"{base_cachepath}-results.json", results, tune_params)
+    store_metadata_file(f"{base_cachepath}-metadata.json")
     return results, env
 
 
 if __name__ == "__main__":
+    language = sys.argv[1]
+    device_name = sys.argv[2]
 
-    arg1 = sys.argv[1]
-    if arg1 not in ("a100", "a4000", "mi50", "w6600", "mi250"):
-        print("argv[1] not valid, specify a100 or a4000 or mi50 or w6600 or mi250")
-        exit()
+    if len(sys.argv) != 3:
+        raise ValueError(f"Usage: python gemm_milo.py [language ('HIP' or 'CUDA')] [device name], given: {sys.argv}")
+
+    if language not in ("HIP", "CUDA"):
+        raise ValueError(f"{language} not valid, specify HIP or CUDA")
 
     # start tuning process
     m = n = k = 4096
-    results, env = tune([m, n, k], arg1)
+    tune([m, n, k], device_name=device_name, lang=language)

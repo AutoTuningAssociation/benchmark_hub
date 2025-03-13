@@ -2,6 +2,7 @@
 import os
 import sys
 from collections import OrderedDict
+import time
 
 import numpy
 import numpy as np
@@ -9,8 +10,6 @@ import numpy as np
 import kernel_tuner
 from kernel_tuner.file_utils import store_metadata_file, store_output_file
 
-file_path_results = "../last_run/_tune_configuration-results.json"
-file_path_metadata = "../last_run/_tune_configuration-metadata.json"
 max_threads = 1024
 
 
@@ -166,11 +165,11 @@ def get_input_data(problem_size, max_tfactor):
 # def tune(inputs, lang, strategy):
 def tune(
     device_name: str,
-    strategy="mls",
+    strategy="brute_force",
     strategy_options=None,
     verbose=True,
     quiet=False,
-    simulation_mode=True,
+    simulation_mode=False,
     lang="CUDA",
 ):
     problem_size = (4096, 4096)
@@ -221,7 +220,10 @@ def tune(
     )
     # metrics["reg"] = lambda p : p["num_regs"]
 
+    base_cachepath = f"../cachefiles/hotspot_milo/{device_name.upper()}"
+
     # start tuning
+    start = time.time()
     results, env = kernel_tuner.tune_kernel(
         "calculate_temp",
         kernel_string,
@@ -233,7 +235,7 @@ def tune(
         grid_div_y=grid_div_y,
         grid_div_x=grid_div_x,
         restrictions=restrictions,
-        cache="../cachefiles/hotspot_milo/" + device_name.lower(),
+        cache=base_cachepath,
         observers=observer,
         lang=lang,
         device=0,
@@ -244,8 +246,11 @@ def tune(
         simulation_mode=simulation_mode,
         objective="GFLOP/s",
     )
-    store_output_file(file_path_results, results, tune_params)
-    store_metadata_file(file_path_metadata)
+    end = time.time()
+    env["execution_time"] = end - start
+
+    store_output_file(f"{base_cachepath}-results.json", results, tune_params)
+    store_metadata_file(f"{base_cachepath}-metadata.json")
     return results, env
 
 
@@ -253,16 +258,10 @@ if __name__ == "__main__":
     language = sys.argv[1]
     device_name = sys.argv[2]
 
-    if len(sys.argv) != 2:
-        print("Usage: ./hotspot_milo.py [language ('HIP' or 'CUDA')] [device name]")
-        exit(1)
+    if len(sys.argv) != 3:
+        raise ValueError(f"Usage: python hotspot_milo.py [language ('HIP' or 'CUDA')] [device name], given: {sys.argv}")
 
     if language not in ("HIP", "CUDA"):
         raise ValueError(f"{language} not valid, specify HIP or CUDA")
-
-    if device_name == "A4000":
-        language = "CUDA"
-    else:
-        language = "HIP"
 
     tune(device_name=device_name, lang=language)
