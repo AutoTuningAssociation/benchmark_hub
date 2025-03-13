@@ -5,12 +5,13 @@ import numbers
 from copy import deepcopy
 from itertools import product
 from pathlib import Path
+from warnings import warn
 
 # set the files to use
-basepath = Path(__file__).parent
-target_infile = basepath / "convolution_milo" / "MI50_original.json"
-target_outfile = basepath / "convolution_milo" / "MI50_extended.json"
-extra_sourcefile = basepath / "convolution_milo" / "MI250X.json"
+basepath = Path(__file__).parent.parent / "cachefiles"
+target_infile = basepath / "convolution_milo" / "A6000.json"
+target_outfile = basepath / "convolution_milo" / "A6000_extended.json"
+extra_sourcefile = basepath / "convolution_milo" / "A4000.json"
 
 # load the JSON files
 with target_infile.open() as fp:
@@ -67,7 +68,11 @@ for config_string, base_config in target["cache"].items():
             elif isinstance(source_base, str):
                 return source_base
             # make sure all are the same type
-            assert type(target_base) == type(source_base) == type(source_extra)
+            if isinstance(target_base, int) and isinstance(source_base, float) and isinstance(source_extra, float):
+                target_base = float(target_base)
+            assert (
+                type(target_base) == type(source_base) == type(source_extra)
+            ), f"{type(target_base)} ({target_base}) != {type(source_base)} ({source_base}) != {type(source_extra)} ({source_extra})"
             if isinstance(target_base, (list, tuple)):
                 # if we're dealing with lists, go recursive
                 assert len(target_base) == len(source_base) == len(source_extra)
@@ -87,8 +92,15 @@ for config_string, base_config in target["cache"].items():
                 return target_base
 
         # apply the relative value change
+        # mandatory keys
         for key in [
             "time",
+        ]:
+            new_target_config[key] = change_relatively(
+                base_config[key], source_base_config[key], source_extra_config[key]
+            )
+        # optional keys
+        for key in [
             "times",
             "compile_time",
             "verification_time",
@@ -97,9 +109,12 @@ for config_string, base_config in target["cache"].items():
             "framework_time",
             "GFLOP/s",
         ]:
-            new_target_config[key] = change_relatively(
-                base_config[key], source_base_config[key], source_extra_config[key]
-            )
+            if key in base_config and key in source_base_config and key in source_extra_config:
+                new_target_config[key] = change_relatively(
+                    base_config[key], source_base_config[key], source_extra_config[key]
+                )
+            else:
+                warn(f"Key {key} missing, not adjusted relatively but kept as in base_config", RuntimeWarning)
 
         # add the new config to the new target data
         new_target["cache"][new_config_string] = new_target_config
@@ -107,7 +122,7 @@ for config_string, base_config in target["cache"].items():
 # check that the extension is succesful
 assert len(new_target["cache"]) == len(
     extra_source
-), f"Lengths don't match; target: {len(new_target['cache'])}, source: {len(extra_source)}"
+), f"Lengths don't match; target: {len(new_target['cache'])}, source: {len(extra_source)} (can also happen due to differences in restrictions; use `extend_kerneltuner_cachefile_lines.py`)"
 
 # write to the target file
 with target_outfile.open("w+") as fp:
