@@ -62,17 +62,28 @@ def tune(
 
     tune_params["use_padding"] = [0, 1]  # toggle the insertion of padding in shared memory
 
-    # limit the search to only use padding when its effective
+    # added based on cache and T1 file
+    tune_params["use_shmem"] = [0, 1]
+    tune_params["use_cmem"] = [1]
+    tune_params["filter_height"] = [15]
+    tune_params["filter_width"] = [15]
     restrict = [
-        "(use_padding==0 or (block_size_x % 32 != 0))",
-        "((block_size_x*tile_size_x+4)*(block_size_y*tile_size_y+4) < 12*1024)",
+        "use_padding==0 or block_size_x % 32 != 0",
+        "block_size_x*block_size_y<=1024",
+        "use_padding==0 or use_shmem != 0",
+        "use_shmem == 0 or (((block_size_x*tile_size_x+(filter_width-1)))*((block_size_y*tile_size_y+(filter_height-1)))) < 12*1024"
     ]
-    restrict.append(
-        "(((block_size_x*tile_size_x+%d)*(block_size_y*tile_size_y+%d)) < 12*1024)"
-        % (filter_width - 1, filter_height - 1)
-    )
-    restrict.append("block_size_x * block_size_y <= 1024")
 
+    # # limit the search to only use padding when its effective
+    # restrict = [
+    #     "(use_padding==0 or (block_size_x % 32 != 0))",
+    #     "((block_size_x*tile_size_x+4)*(block_size_y*tile_size_y+4) < 12*1024)",
+    # ]
+    # restrict.append(
+    #     "(((block_size_x*tile_size_x+%d)*(block_size_y*tile_size_y+%d)) < 12*1024)"
+    #     % (filter_width - 1, filter_height - 1)
+    # )
+    # restrict.append("block_size_x * block_size_y <= 1024")
     # print(restrict)
 
     problem_size = (image_width, image_height)
