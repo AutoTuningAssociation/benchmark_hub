@@ -13,7 +13,7 @@ for directory in directories:
     dirpath = Path(basepath / directory)
     assert dirpath.is_dir(), f"Not a directory: {dirpath}"
     for infile in dirpath.iterdir():
-        if infile.suffix.endswith("json") and not infile.stem.endswith("_T4"):
+        if infile.suffix.endswith("json") and not (infile.stem.endswith("_T4") or infile.stem.endswith("_C")):
             outfile = infile.with_stem(infile.stem + "_T4")
             if outfile.exists():
                 print(f"  | skipping {infile.stem}, already exists")

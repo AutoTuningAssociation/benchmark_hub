@@ -28,7 +28,9 @@ def adjust_scores(input_file, output_file):
 # Example usage
 base_path = "/Users/fjwillemsen/Downloads/new_0.95_10x50x/"
 input_files = [
+    "hyperparamtuning_paper_bruteforce_diff_evo_T4.json",
     "hyperparamtuning_paper_bruteforce_dual_annealing_T4.json",
+    "hyperparamtuning_paper_bruteforce_genetic_algorithm_T4.json",
     "hyperparamtuning_paper_bruteforce_pso_T4.json",
     "hyperparamtuning_paper_bruteforce_simulated_annealing_T4.json",
 ]
