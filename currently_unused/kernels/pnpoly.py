@@ -22,6 +22,7 @@ This code was written for use with the Kernel Tuner. See:
 
 Author: Ben van Werkhoven <b.vanwerkhoven@esciencecenter.nl>
 """
+
 import sys
 from collections import OrderedDict
 

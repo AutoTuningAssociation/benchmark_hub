@@ -2,7 +2,6 @@
 
 """Tuning script to tune the CLTune GEMM CUDA kernel. Based on https://github.com/CNugteren/CLBlast/blob/master/src/kernels/level3/xgemm_part1.opencl."""
 
-import json
 import os
 import sys
 import time
@@ -23,7 +22,7 @@ def ops(m, n, k):
 
 
 def tune(
-    inputs, 
+    inputs,
     device_name: str,
     strategy="brute_force",
     strategy_options=None,
@@ -31,9 +30,8 @@ def tune(
     quiet=False,
     simulation_mode=False,
     lang="CUDA",
-    searchspace_set=2
+    searchspace_set=2,
 ):
-
     path = os.path.dirname(os.path.realpath(__file__)) + "/gemm_milo/"
 
     # kernel string

@@ -120,8 +120,8 @@ for config_string, base_config in target["cache"].items():
         new_target["cache"][new_config_string] = new_target_config
 
 # check that the extension is succesful
-assert len(new_target["cache"]) == len(
-    extra_source
+assert (
+    len(new_target["cache"]) == len(extra_source)
 ), f"Lengths don't match; target: {len(new_target['cache'])}, source: {len(extra_source)} (can also happen due to differences in restrictions; use `extend_kerneltuner_cachefile_lines.py`)"
 
 # write to the target file

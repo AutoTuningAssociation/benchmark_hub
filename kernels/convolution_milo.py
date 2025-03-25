@@ -71,7 +71,7 @@ def tune(
         "use_padding==0 or block_size_x % 32 != 0",
         "block_size_x*block_size_y<=1024",
         "use_padding==0 or use_shmem != 0",
-        "use_shmem == 0 or (((block_size_x*tile_size_x+(filter_width-1)))*((block_size_y*tile_size_y+(filter_height-1)))) < 12*1024"
+        "use_shmem == 0 or (((block_size_x*tile_size_x+(filter_width-1)))*((block_size_y*tile_size_y+(filter_height-1)))) < 12*1024",
     ]
 
     # # limit the search to only use padding when its effective
@@ -144,7 +144,9 @@ if __name__ == "__main__":
     device_name = sys.argv[2]
 
     if len(sys.argv) != 3:
-        raise ValueError(f"Usage: python convolution_milo.py [language ('HIP' or 'CUDA')] [device name], given: {sys.argv}")
+        raise ValueError(
+            f"Usage: python convolution_milo.py [language ('HIP' or 'CUDA')] [device name], given: {sys.argv}"
+        )
 
     if language not in ("HIP", "CUDA"):
         raise ValueError(f"{language} not valid, specify HIP or CUDA")

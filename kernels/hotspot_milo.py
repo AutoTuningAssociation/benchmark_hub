@@ -4,7 +4,6 @@ import sys
 from collections import OrderedDict
 import time
 
-import numpy
 import numpy as np
 
 import kernel_tuner

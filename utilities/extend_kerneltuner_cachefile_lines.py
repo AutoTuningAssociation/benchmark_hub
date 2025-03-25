@@ -105,8 +105,8 @@ for missing_config_string, missing_config in missing_cachelines.items():
     new_target["cache"][missing_config_string] = new_config
 
 # check that the extension is succesful
-assert len(new_target["cache"]) == len(
-    extra_source
+assert (
+    len(new_target["cache"]) == len(extra_source)
 ), f"Lengths don't match; target: {len(new_target['cache'])}, source: {len(extra_source)} (can also happen due to differences in restrictions`)"
 
 # write to the target file
