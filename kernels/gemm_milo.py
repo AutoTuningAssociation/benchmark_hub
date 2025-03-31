@@ -35,7 +35,7 @@ def tune(
     path = os.path.dirname(os.path.realpath(__file__)) + "/gemm_milo/"
 
     # kernel string
-    kernel_string = '#include "cl_to_cuda.h"\n' if lang == "CUDA" else ""
+    kernel_string = '#include "cl_to_cuda.h"\n' if lang != "OpenCL" else ""
     files = ["common.opencl", "xgemm_part1.opencl", "xgemm_part2.opencl", "xgemm_part3.opencl", "xgemm_part4.opencl"]
     for f in files:
         with open(path + f, "r") as fp:
@@ -181,10 +181,10 @@ if __name__ == "__main__":
     device_name = sys.argv[2]
 
     if len(sys.argv) != 3:
-        raise ValueError(f"Usage: python gemm_milo.py [language ('HIP' or 'CUDA')] [device name], given: {sys.argv}")
+        raise ValueError(f"Usage: python gemm_milo.py [language ('HIP', 'OpenCL' or 'CUDA')] [device name], given: {sys.argv}")
 
-    if language not in ("HIP", "CUDA"):
-        raise ValueError(f"{language} not valid, specify HIP or CUDA")
+    if language not in ("HIP", "OpenCL", "CUDA"):
+        raise ValueError(f"{language} not valid, specify HIP, OpenCL or CUDA")
 
     # start tuning process
     m = n = k = 4096
