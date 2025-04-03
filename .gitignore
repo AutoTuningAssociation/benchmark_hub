@@ -3,6 +3,9 @@
 cachefiles/**/*.json
 currently_unused/cachefiles/**/*.json
 
+# do not upload temp files
+temp_*.c
+
 # do not upload large reference output files
 kernels/dedisp_milo/*.npy
 
