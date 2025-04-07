@@ -7,10 +7,10 @@ The brute-forced files can be used with the [autotuning-methodology](https://git
 
 ## Automatic compression and decompression
 To automatically compress new cachefiles when committing and decompress new cachefiles when checking out, run `git config --local core.hooksPath .githooks/`. 
-To get the decompressed files after cloning, run the above command and checkout with `git checkout main`.
+To get the decompressed files after cloning, run the above command and checkout with `git checkout main`. 
 
 ## Search spaces overview
-16 fully brute-forced search spaces are currently available, as a product of the following kernels and GPUs. 
+24 fully brute-forced search spaces are currently available, as a product of the following kernels and GPUs. 
 
 Kernels:
 - GEMM
@@ -21,8 +21,10 @@ Kernels:
 GPUs:
 - Nvidia A100
 - Nvidia A4000
+- NVIDIA A6000
 - AMD MI250X
 - AMD W6600
+- AMD W7800
 
 **Important:** this is a live repository, not everything is standardized. If you have questions or suggestions please submit an issue.
 
