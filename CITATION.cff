@@ -14,3 +14,8 @@ title: "FAIR Benchmark Hub for Auto-Tuning"
 abstract: "This repository is a FAIR-compliant hub for GPU auto-tuning benchmarking resources. It provides fully brute-forced search spaces (in original and T4 format) and their source files (kernel files and T1 input files)."
 license: "MIT"
 url: "https://github.com/AutoTuningAssociation/benchmark_hub"
+doi: 10.5281/zenodo.15364124
+identifiers:
+  - description: Collection of archived snapshots of all versions of this data.
+    type: doi
+    value: "10.5281/zenodo.15364124"
