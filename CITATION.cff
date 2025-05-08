@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Willemsen"
+  given-names: "Floris-Jan"
+  orcid: "https://orcid.org/0000-0003-2295-8263"
+- family-names: "van Nieuwpoort"
+  given-names: "Rob V."
+  orcid: "https://orcid.org/0000-0002-2947-9444"
+- family-names: "van Werkhoven"
+  given-names: "Ben"
+  orcid: "https://orcid.org/0000-0002-7508-3272"
+title: "FAIR Benchmark Hub for Auto-Tuning"
+abstract: "This repository is a FAIR-compliant hub for GPU auto-tuning benchmarking resources. It provides fully brute-forced search spaces (in original and T4 format) and their source files (kernel files and T1 input files)."
+license: "MIT"
+url: "https://github.com/AutoTuningAssociation/benchmark_hub"
