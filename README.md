@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15364124.svg)](https://doi.org/10.5281/zenodo.15364124)
+
 # FAIR Benchmark Hub for Auto-Tuning
 This repository is a FAIR-compliant hub for GPU auto-tuning benchmarking resources. 
 It provides fully brute-forced search spaces (in original and T4 format) and their source files (kernel files and T1 input files). 
