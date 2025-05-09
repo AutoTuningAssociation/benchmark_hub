@@ -5,8 +5,8 @@ from kernel_tuner.cache.cli_tools import convert_t4
 basepath = Path(__file__).parent.parent / "cachefiles"
 directories = ["convolution_milo", "dedispersion_milo", "gemm_milo", "hotspot_milo"]
 
-basepath = Path("/Users/fjwillemsen/Downloads")
-directories = ["new_0.95_10x50x"]
+# basepath = Path("/Users/fjwillemsen/Downloads")
+# directories = ["new_0.95_10x50x"]
 
 for directory in directories:
     print(f"Converting files in {directory}")
