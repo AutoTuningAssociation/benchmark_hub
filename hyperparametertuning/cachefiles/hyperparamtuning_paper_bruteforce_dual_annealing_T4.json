@@ -12,7 +12,10 @@
         "compilation": 38.73119503259659,
         "framework": 2.051420509815216,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          1404346.5172871947
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -36,7 +39,10 @@
         "compilation": 25.083232671022415,
         "framework": 1.4661997556686401,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          1423512.282051146
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -60,7 +66,10 @@
         "compilation": 25.94960480928421,
         "framework": 1.1484436690807343,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          1392903.305683285
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -84,7 +93,10 @@
         "compilation": 25.138217955827713,
         "framework": 1.1417269706726074,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          1395563.4813010693
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -108,7 +120,10 @@
         "compilation": 25.235358625650406,
         "framework": 1.0598637163639069,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          1499882.083144039
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -132,7 +147,10 @@
         "compilation": 25.101203471422195,
         "framework": 1.1501573026180267,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          1448676.4690876007
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -156,7 +174,10 @@
         "compilation": 24.91706982254982,
         "framework": 1.3268627226352692,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          1411807.0164956152
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -180,7 +201,10 @@
         "compilation": 25.77783912420273,
         "framework": 1.1036470532417297,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          1397947.702176869
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,

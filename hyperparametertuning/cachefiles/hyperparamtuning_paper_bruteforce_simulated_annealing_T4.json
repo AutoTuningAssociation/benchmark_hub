@@ -15,7 +15,10 @@
         "compilation": 38.63011300563812,
         "framework": 2.1203383803367615,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          921328.1093165278
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -42,7 +45,10 @@
         "compilation": 25.433912873268127,
         "framework": 1.3944916427135468,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          921800.1033216715
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -69,7 +75,10 @@
         "compilation": 25.500763207674026,
         "framework": 1.0911300778388977,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          928890.2014419436
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -96,7 +105,10 @@
         "compilation": 25.36318078637123,
         "framework": 1.1225230991840363,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          919535.7668250799
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -123,7 +135,10 @@
         "compilation": 25.02523362636566,
         "framework": 2.8923265635967255,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          937770.8980441093
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -150,7 +165,10 @@
         "compilation": 25.526296347379684,
         "framework": 1.4484114944934845,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          932101.9419357181
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -177,7 +195,10 @@
         "compilation": 25.462117046117783,
         "framework": 1.259494572877884,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          941962.0106033981
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -204,7 +225,10 @@
         "compilation": 25.88406205177307,
         "framework": 1.3502314686775208,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          923993.6731792986
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -231,7 +255,10 @@
         "compilation": 25.301650166511536,
         "framework": 1.312602311372757,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          930943.1361220777
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -258,7 +285,10 @@
         "compilation": 25.545548647642136,
         "framework": 1.3787373900413513,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          919171.3859178126
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -285,7 +315,10 @@
         "compilation": 39.11632299423218,
         "framework": 0.20895898342132568,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          739237.4834679067
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -312,7 +345,10 @@
         "compilation": 25.42719617486,
         "framework": 1.2180395424365997,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          876991.2364408374
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -339,7 +375,10 @@
         "compilation": 25.685545057058334,
         "framework": 1.236550509929657,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          874957.6291851699
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -366,7 +405,10 @@
         "compilation": 25.862623006105423,
         "framework": 1.2299716472625732,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          886246.4558929205
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -393,7 +435,10 @@
         "compilation": 25.826673954725266,
         "framework": 1.2321434915065765,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          877781.4051024616
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -420,7 +465,10 @@
         "compilation": 25.870442390441895,
         "framework": 1.1935755610466003,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          870067.0642517507
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -447,7 +495,10 @@
         "compilation": 25.892939418554306,
         "framework": 1.1888481676578522,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          878543.9248755574
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -474,7 +525,10 @@
         "compilation": 25.81598237156868,
         "framework": 1.2842938303947449,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          886866.128154099
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -501,7 +555,10 @@
         "compilation": 26.095915585756302,
         "framework": 1.3335831463336945,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          886086.413692683
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -528,7 +585,10 @@
         "compilation": 26.139527559280396,
         "framework": 1.174088567495346,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          874284.0011902153
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -555,7 +615,10 @@
         "compilation": 25.793079286813736,
         "framework": 1.269020140171051,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          876731.9544218481
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -582,7 +645,10 @@
         "compilation": 25.84441378712654,
         "framework": 1.1515803635120392,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          874359.1130413115
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -609,7 +675,10 @@
         "compilation": 25.588475167751312,
         "framework": 1.1895261704921722,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          895684.2699497938
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -636,7 +705,10 @@
         "compilation": 25.893915444612503,
         "framework": 1.4355964958667755,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          879497.6251684129
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -663,7 +735,10 @@
         "compilation": 26.247482746839523,
         "framework": 1.2809522449970245,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          876875.8735246956
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -690,7 +765,10 @@
         "compilation": 26.198048144578934,
         "framework": 1.355677843093872,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          893032.3399975896
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -717,7 +795,10 @@
         "compilation": 26.957470923662186,
         "framework": 1.3204067945480347,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          888357.6651103795
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -744,7 +825,10 @@
         "compilation": 26.0181687772274,
         "framework": 1.2140683829784393,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          890366.3384243846
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -771,7 +855,10 @@
         "compilation": 25.852520018815994,
         "framework": 1.1558681726455688,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          905608.1864237785
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -798,7 +885,10 @@
         "compilation": 26.05210244655609,
         "framework": 1.2711137533187866,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          899765.7743766904
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -825,7 +915,10 @@
         "compilation": 25.566712021827698,
         "framework": 1.3854987919330597,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          885099.3761569262
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -852,7 +945,10 @@
         "compilation": 25.382693856954575,
         "framework": 1.216832548379898,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          907398.6856527627
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -879,7 +975,10 @@
         "compilation": 25.737185031175613,
         "framework": 1.2204349040985107,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          899643.2576961815
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -906,7 +1005,10 @@
         "compilation": 25.783881545066833,
         "framework": 1.298505812883377,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          903830.8064192533
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -933,7 +1035,10 @@
         "compilation": 25.987189263105392,
         "framework": 1.2606121599674225,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          892370.5732412636
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -960,7 +1065,10 @@
         "compilation": 26.027068495750427,
         "framework": 1.285012811422348,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          906132.5456574559
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -987,7 +1095,10 @@
         "compilation": 26.191875338554382,
         "framework": 1.2220218777656555,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          903911.2059175968
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1014,7 +1125,10 @@
         "compilation": 25.311514735221863,
         "framework": 1.3026148080825806,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          902401.9174464047
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1041,7 +1155,10 @@
         "compilation": 26.053544133901596,
         "framework": 1.3314485549926758,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          897341.6690379381
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1068,7 +1185,10 @@
         "compilation": 26.002056896686554,
         "framework": 1.2235678732395172,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          902849.7700765729
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1095,7 +1215,10 @@
         "compilation": 25.44943243265152,
         "framework": 1.1600255966186523,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          903832.9224213958
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1122,7 +1245,10 @@
         "compilation": 25.04274994134903,
         "framework": 1.538015902042389,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          907895.5518454313
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1149,7 +1275,10 @@
         "compilation": 25.718554854393005,
         "framework": 1.264318823814392,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          892929.2516671121
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1176,7 +1305,10 @@
         "compilation": 26.07826143503189,
         "framework": 1.1884793639183044,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          897626.1933036149
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1203,7 +1335,10 @@
         "compilation": 25.746557861566544,
         "framework": 1.1776089668273926,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          907697.24040851
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1230,7 +1365,10 @@
         "compilation": 25.62277764081955,
         "framework": 1.2886598706245422,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          919875.242549926
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1257,7 +1395,10 @@
         "compilation": 26.10175684094429,
         "framework": 1.2951940298080444,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          907817.9317265749
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1284,7 +1425,10 @@
         "compilation": 25.0479094684124,
         "framework": 1.2175552546977997,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          916498.1088601053
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1311,7 +1455,10 @@
         "compilation": 26.11055225133896,
         "framework": 1.239243894815445,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          914859.1991737485
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1338,7 +1485,10 @@
         "compilation": 25.770608335733414,
         "framework": 1.9439496099948883,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          929824.6232755482
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1365,7 +1515,10 @@
         "compilation": 25.750230997800827,
         "framework": 1.9915737211704254,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          911820.7500241697
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1392,7 +1545,10 @@
         "compilation": 25.852415710687637,
         "framework": 1.3819485902786255,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          906638.5817267001
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1419,7 +1575,10 @@
         "compilation": 26.12251788377762,
         "framework": 2.157263457775116,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          918412.232156843
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1446,7 +1605,10 @@
         "compilation": 25.30331164598465,
         "framework": 1.3054721057415009,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          924794.0132245421
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1473,7 +1635,10 @@
         "compilation": 400.39656683802605,
         "framework": 75.45066624879837,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          907852.7211472392
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1500,7 +1665,10 @@
         "compilation": 25.614313781261444,
         "framework": 1.2424364686012268,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          914303.9222694933
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1527,7 +1695,10 @@
         "compilation": 25.280848145484924,
         "framework": 1.2882128357887268,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          910075.4826590419
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1554,7 +1725,10 @@
         "compilation": 25.43574571609497,
         "framework": 1.2267939746379852,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          893267.2659084201
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1581,7 +1755,10 @@
         "compilation": 25.160610675811768,
         "framework": 1.1004991829395294,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          902866.2207983434
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1608,7 +1785,10 @@
         "compilation": 25.42310580611229,
         "framework": 1.2414529919624329,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          902449.3034780025
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1635,7 +1815,10 @@
         "compilation": 25.615323334932327,
         "framework": 1.1780932545661926,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          892467.136990279
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1662,7 +1845,10 @@
         "compilation": 25.98242089152336,
         "framework": 1.2640655040740967,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          897391.4338462055
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1689,7 +1875,10 @@
         "compilation": 25.88871866464615,
         "framework": 1.3008303940296173,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          923941.9975727797
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1716,7 +1905,10 @@
         "compilation": 25.419477373361588,
         "framework": 1.2515448033809662,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          913320.6808418036
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1743,7 +1935,10 @@
         "compilation": 25.62442421913147,
         "framework": 1.16763636469841,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          900739.3370009959
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1770,7 +1965,10 @@
         "compilation": 25.670502334833145,
         "framework": 1.2016184628009796,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          911443.9343959093
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1797,7 +1995,10 @@
         "compilation": 25.10685846209526,
         "framework": 1.1485330760478973,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          901653.5582952201
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1824,7 +2025,10 @@
         "compilation": 25.527969002723694,
         "framework": 1.096472144126892,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          918313.7977309525
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1851,7 +2055,10 @@
         "compilation": 26.045802980661392,
         "framework": 1.2306571006774902,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          916155.2558839321
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1878,7 +2085,10 @@
         "compilation": 24.902135133743286,
         "framework": 1.0942034423351288,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          903134.0723223984
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1905,7 +2115,10 @@
         "compilation": 25.848153978586197,
         "framework": 1.1043958365917206,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          908183.5269220173
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1932,7 +2145,10 @@
         "compilation": 25.854814797639847,
         "framework": 1.276303082704544,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          904720.6016778946
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1959,7 +2175,10 @@
         "compilation": 25.585267692804337,
         "framework": 1.2655742466449738,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          918989.0562780201
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -1986,7 +2205,10 @@
         "compilation": 25.605395436286926,
         "framework": 1.2073814868927002,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          925993.1119531393
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -2013,7 +2235,10 @@
         "compilation": 25.732841342687607,
         "framework": 1.240655779838562,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          918185.9051585197
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -2040,7 +2265,10 @@
         "compilation": 26.13038569688797,
         "framework": 1.1951103806495667,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          912101.3994291425
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -2067,7 +2295,10 @@
         "compilation": 25.397393852472305,
         "framework": 1.2114271521568298,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          918122.8259578347
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -2094,7 +2325,10 @@
         "compilation": 25.94723179936409,
         "framework": 1.3142675161361694,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          926284.2374145985
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -2121,7 +2355,10 @@
         "compilation": 25.99441632628441,
         "framework": 1.149255782365799,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          922782.5007885695
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -2148,7 +2385,10 @@
         "compilation": 26.16235986351967,
         "framework": 1.1256113648414612,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          916646.418582648
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
@@ -2175,7 +2415,10 @@
         "compilation": 25.84020420908928,
         "framework": 1.375388354063034,
         "search_algorithm": 0,
-        "validation": 0
+        "validation": 0,
+        "runtimes": [
+          928944.3444274366
+        ]
       },
       "invalidity": "correct",
       "correctness": 1,
