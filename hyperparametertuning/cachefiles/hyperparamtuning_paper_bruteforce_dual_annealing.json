@@ -1,0 +1,30 @@
+{
+"device_name": "x86_64",
+"kernel_name": "hyperparamtuning_dual_annealing",
+"problem_size": [],
+"tune_params_keys": [
+"method"
+],
+"tune_params": {
+"method": [
+"COBYLA",
+"L-BFGS-B",
+"SLSQP",
+"CG",
+"Powell",
+"Nelder-Mead",
+"BFGS",
+"trust-constr"
+]
+},
+"objective": "score",
+"cache": {
+"COBYLA": {"method": "COBYLA", "score": -0.333, "scores": [-0.333], "compile_time": 38.73119503259659, "verification_time": 0, "benchmark_time": 1404346.5172871947, "strategy_time": 0, "framework_time": 2.051420509815216, "timestamp": "2025-03-17 07:22:09.499315+00:00"},
+"L-BFGS-B": {"method": "L-BFGS-B", "score": -0.567, "scores": [-0.567], "compile_time": 25.083232671022415, "verification_time": 0, "benchmark_time": 1423512.282051146, "strategy_time": 0, "framework_time": 1.4661997556686401, "timestamp": "2025-03-17 07:45:53.038186+00:00"},
+"SLSQP": {"method": "SLSQP", "score": -0.654, "scores": [-0.654], "compile_time": 25.94960480928421, "verification_time": 0, "benchmark_time": 1392903.305683285, "strategy_time": 0, "framework_time": 1.1484436690807343, "timestamp": "2025-03-17 08:09:05.968628+00:00"},
+"CG": {"method": "CG", "score": -0.375, "scores": [-0.375], "compile_time": 25.138217955827713, "verification_time": 0, "benchmark_time": 1395563.4813010693, "strategy_time": 0, "framework_time": 1.1417269706726074, "timestamp": "2025-03-17 08:32:21.558427+00:00"},
+"Powell": {"method": "Powell", "score": -0.549, "scores": [-0.549], "compile_time": 25.235358625650406, "verification_time": 0, "benchmark_time": 1499882.083144039, "strategy_time": 0, "framework_time": 1.0598637163639069, "timestamp": "2025-03-17 08:57:21.466843+00:00"},
+"Nelder-Mead": {"method": "Nelder-Mead", "score": -1.122, "scores": [-1.122], "compile_time": 25.101203471422195, "verification_time": 0, "benchmark_time": 1448676.4690876007, "strategy_time": 0, "framework_time": 1.1501573026180267, "timestamp": "2025-03-17 09:21:30.169605+00:00"},
+"BFGS": {"method": "BFGS", "score": -0.405, "scores": [-0.405], "compile_time": 24.91706982254982, "verification_time": 0, "benchmark_time": 1411807.0164956152, "strategy_time": 0, "framework_time": 1.3268627226352692, "timestamp": "2025-03-17 09:45:02.002904+00:00"},
+"trust-constr": {"method": "trust-constr", "score": -0.338, "scores": [-0.338], "compile_time": 25.77783912420273, "verification_time": 0, "benchmark_time": 1397947.702176869, "strategy_time": 0, "framework_time": 1.1036470532417297, "timestamp": "2025-03-17 10:08:19.977526+00:00"}}
+}

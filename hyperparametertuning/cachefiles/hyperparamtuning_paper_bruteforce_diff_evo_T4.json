@@ -1,0 +1,2348 @@
+{
+  "metadata": {
+    "timeunit": "miliseconds"
+  },
+  "results": [
+    {
+      "timestamp": "2025-03-17 07:19:39.835784+00:00",
+      "configuration": {
+        "method": "best1bin",
+        "popsize": 10,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 38.433462381362915,
+        "framework": 1.9695311784744263,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.039,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 07:39:57.456660+00:00",
+      "configuration": {
+        "method": "best1bin",
+        "popsize": 10,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.74624866247177,
+        "framework": 1.2935958802700043,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.105,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 08:00:29.279966+00:00",
+      "configuration": {
+        "method": "best1bin",
+        "popsize": 10,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.004368275403976,
+        "framework": 1.0771118104457855,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.064,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 08:21:00.780556+00:00",
+      "configuration": {
+        "method": "best1bin",
+        "popsize": 20,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.12972056865692,
+        "framework": 1.1465996503829956,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.28,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 08:41:35.938757+00:00",
+      "configuration": {
+        "method": "best1bin",
+        "popsize": 20,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.001980364322662,
+        "framework": 1.1018365621566772,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.264,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 09:02:05.806956+00:00",
+      "configuration": {
+        "method": "best1bin",
+        "popsize": 20,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.397509336471558,
+        "framework": 1.139562577009201,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.243,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 09:22:51.573333+00:00",
+      "configuration": {
+        "method": "best1bin",
+        "popsize": 30,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.43468400835991,
+        "framework": 1.0809525847434998,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.261,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 09:43:33.816945+00:00",
+      "configuration": {
+        "method": "best1bin",
+        "popsize": 30,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.13916790485382,
+        "framework": 1.226574182510376,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.229,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 10:04:18.265947+00:00",
+      "configuration": {
+        "method": "best1bin",
+        "popsize": 30,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.185655802488327,
+        "framework": 1.138877123594284,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.261,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 10:24:47.691913+00:00",
+      "configuration": {
+        "method": "best1exp",
+        "popsize": 10,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.70323273539543,
+        "framework": 2.2012777626514435,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.038,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 10:45:22.720655+00:00",
+      "configuration": {
+        "method": "best1exp",
+        "popsize": 10,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.674987584352493,
+        "framework": 1.1705607175827026,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.189,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 11:06:03.870508+00:00",
+      "configuration": {
+        "method": "best1exp",
+        "popsize": 10,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.16999840736389,
+        "framework": 1.197870820760727,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.018,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 11:26:49.704192+00:00",
+      "configuration": {
+        "method": "best1exp",
+        "popsize": 20,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.38881078362465,
+        "framework": 1.2146830558776855,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.061,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 11:47:44.969190+00:00",
+      "configuration": {
+        "method": "best1exp",
+        "popsize": 20,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.565247982740402,
+        "framework": 1.2587867677211761,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.101,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 12:08:45.281662+00:00",
+      "configuration": {
+        "method": "best1exp",
+        "popsize": 20,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.33358335494995,
+        "framework": 1.194339245557785,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.156,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 12:29:43.809651+00:00",
+      "configuration": {
+        "method": "best1exp",
+        "popsize": 30,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 24.830970913171768,
+        "framework": 1.1686943471431732,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.125,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 12:50:40.695738+00:00",
+      "configuration": {
+        "method": "best1exp",
+        "popsize": 30,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.435805320739746,
+        "framework": 1.2422502040863037,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.114,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 13:11:41.301505+00:00",
+      "configuration": {
+        "method": "best1exp",
+        "popsize": 30,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.554507970809937,
+        "framework": 1.1285170912742615,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.06,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 13:32:14.073100+00:00",
+      "configuration": {
+        "method": "rand1exp",
+        "popsize": 10,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.75065940618515,
+        "framework": 1.0521113872528076,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.022,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 13:53:06.583159+00:00",
+      "configuration": {
+        "method": "rand1exp",
+        "popsize": 10,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.43775737285614,
+        "framework": 1.1835135519504547,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.084,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 14:13:59.728978+00:00",
+      "configuration": {
+        "method": "rand1exp",
+        "popsize": 10,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.727801024913788,
+        "framework": 1.264188438653946,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.064,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 14:34:38.050314+00:00",
+      "configuration": {
+        "method": "rand1exp",
+        "popsize": 20,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.522280484437943,
+        "framework": 1.175709068775177,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.035,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 14:55:28.506833+00:00",
+      "configuration": {
+        "method": "rand1exp",
+        "popsize": 20,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.37550777196884,
+        "framework": 1.1081844568252563,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.125,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 15:16:26.353513+00:00",
+      "configuration": {
+        "method": "rand1exp",
+        "popsize": 20,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.204621255397797,
+        "framework": 1.2792982161045074,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.016,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 15:37:11.926547+00:00",
+      "configuration": {
+        "method": "rand1exp",
+        "popsize": 30,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.278441607952118,
+        "framework": 1.1046193540096283,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.129,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 15:58:06.207525+00:00",
+      "configuration": {
+        "method": "rand1exp",
+        "popsize": 30,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.670871138572693,
+        "framework": 1.2457966804504395,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.056,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 16:19:02.215771+00:00",
+      "configuration": {
+        "method": "rand1exp",
+        "popsize": 30,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.00995248556137,
+        "framework": 1.216597855091095,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.12,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 16:39:41.244850+00:00",
+      "configuration": {
+        "method": "randtobest1exp",
+        "popsize": 10,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 24.95225891470909,
+        "framework": 1.1184997856616974,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.145,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 17:00:20.985284+00:00",
+      "configuration": {
+        "method": "randtobest1exp",
+        "popsize": 10,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.02208948135376,
+        "framework": 1.3307109475135803,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.035,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 17:21:05.091327+00:00",
+      "configuration": {
+        "method": "randtobest1exp",
+        "popsize": 10,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.30229464173317,
+        "framework": 1.1718757450580597,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.05,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 17:41:50.813035+00:00",
+      "configuration": {
+        "method": "randtobest1exp",
+        "popsize": 20,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.241438299417496,
+        "framework": 1.193717122077942,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.073,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 18:02:52.484917+00:00",
+      "configuration": {
+        "method": "randtobest1exp",
+        "popsize": 20,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.5732499063015,
+        "framework": 1.1450499296188354,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.055,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 18:23:54.854297+00:00",
+      "configuration": {
+        "method": "randtobest1exp",
+        "popsize": 20,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 24.64258298277855,
+        "framework": 1.4830417931079865,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.172,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 18:44:43.737654+00:00",
+      "configuration": {
+        "method": "randtobest1exp",
+        "popsize": 30,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.039803236722946,
+        "framework": 1.1629685759544373,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.006,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 19:05:39.906750+00:00",
+      "configuration": {
+        "method": "randtobest1exp",
+        "popsize": 30,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.75765550136566,
+        "framework": 1.1458173394203186,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.014,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 19:26:45.837493+00:00",
+      "configuration": {
+        "method": "randtobest1exp",
+        "popsize": 30,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.44405683875084,
+        "framework": 1.1220499873161316,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.031,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 19:47:11.122041+00:00",
+      "configuration": {
+        "method": "best2exp",
+        "popsize": 10,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 24.792231619358063,
+        "framework": 1.229356974363327,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.006,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 20:07:52.948374+00:00",
+      "configuration": {
+        "method": "best2exp",
+        "popsize": 10,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.29328688979149,
+        "framework": 1.1661425232887268,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.182,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 20:28:45.361220+00:00",
+      "configuration": {
+        "method": "best2exp",
+        "popsize": 10,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 26.038367301225662,
+        "framework": 1.2500844895839691,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.06,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 20:49:26.986548+00:00",
+      "configuration": {
+        "method": "best2exp",
+        "popsize": 20,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.958947837352753,
+        "framework": 1.3148151338100433,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.028,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 21:10:14.829218+00:00",
+      "configuration": {
+        "method": "best2exp",
+        "popsize": 20,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.485895574092865,
+        "framework": 1.180306077003479,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.067,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 21:31:25.295494+00:00",
+      "configuration": {
+        "method": "best2exp",
+        "popsize": 20,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.320108979940414,
+        "framework": 1.2415871024131775,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.049,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 21:52:25.829983+00:00",
+      "configuration": {
+        "method": "best2exp",
+        "popsize": 30,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.888949632644653,
+        "framework": 1.9116811454296112,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.034,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 22:13:30.153339+00:00",
+      "configuration": {
+        "method": "best2exp",
+        "popsize": 30,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 60.13444811105728,
+        "framework": 147.42158725857735,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.091,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 22:34:32.683461+00:00",
+      "configuration": {
+        "method": "best2exp",
+        "popsize": 30,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.462396442890167,
+        "framework": 1.357540488243103,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.018,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 22:54:59.931948+00:00",
+      "configuration": {
+        "method": "rand2exp",
+        "popsize": 10,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.656573474407196,
+        "framework": 1.1003687977790833,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.087,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 23:15:39.930893+00:00",
+      "configuration": {
+        "method": "rand2exp",
+        "popsize": 10,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 24.906478822231293,
+        "framework": 1.2645833194255829,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.083,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 23:36:30.856712+00:00",
+      "configuration": {
+        "method": "rand2exp",
+        "popsize": 10,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.289151817560196,
+        "framework": 1.2097656726837158,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.022,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 23:57:07.377455+00:00",
+      "configuration": {
+        "method": "rand2exp",
+        "popsize": 20,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.39757266640663,
+        "framework": 1.293715089559555,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.116,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 00:17:57.244907+00:00",
+      "configuration": {
+        "method": "rand2exp",
+        "popsize": 20,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.148987770080566,
+        "framework": 1.255229115486145,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.028,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 00:38:53.218548+00:00",
+      "configuration": {
+        "method": "rand2exp",
+        "popsize": 20,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.507617741823196,
+        "framework": 1.2808628380298615,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.067,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 00:59:43.763029+00:00",
+      "configuration": {
+        "method": "rand2exp",
+        "popsize": 30,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.607313960790634,
+        "framework": 1.2460686266422272,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.019,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 01:20:34.568518+00:00",
+      "configuration": {
+        "method": "rand2exp",
+        "popsize": 30,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.25307983160019,
+        "framework": 1.1553876101970673,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.102,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 01:41:39.689281+00:00",
+      "configuration": {
+        "method": "rand2exp",
+        "popsize": 30,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 26.136066764593124,
+        "framework": 1.286834478378296,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.06,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 02:02:07.863285+00:00",
+      "configuration": {
+        "method": "randtobest1bin",
+        "popsize": 10,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.184225291013718,
+        "framework": 1.2308061122894287,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.004,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 02:22:30.489835+00:00",
+      "configuration": {
+        "method": "randtobest1bin",
+        "popsize": 10,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.770850479602814,
+        "framework": 1.1869966983795166,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.123,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 02:42:57.555576+00:00",
+      "configuration": {
+        "method": "randtobest1bin",
+        "popsize": 10,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.289960205554962,
+        "framework": 1.3592131435871124,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.102,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 03:03:34.174113+00:00",
+      "configuration": {
+        "method": "randtobest1bin",
+        "popsize": 20,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.246448814868927,
+        "framework": 1.2388676404953003,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.225,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 03:24:12.247235+00:00",
+      "configuration": {
+        "method": "randtobest1bin",
+        "popsize": 20,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.84722638130188,
+        "framework": 1.249745488166809,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.285,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 03:44:51.912379+00:00",
+      "configuration": {
+        "method": "randtobest1bin",
+        "popsize": 20,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.769218802452087,
+        "framework": 1.1824406683444977,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.215,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 04:05:33.525662+00:00",
+      "configuration": {
+        "method": "randtobest1bin",
+        "popsize": 30,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.560207664966583,
+        "framework": 1.1821575462818146,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.094,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 04:26:17.567349+00:00",
+      "configuration": {
+        "method": "randtobest1bin",
+        "popsize": 30,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.22747591137886,
+        "framework": 1.1059679090976715,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.172,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 04:47:00.312461+00:00",
+      "configuration": {
+        "method": "randtobest1bin",
+        "popsize": 30,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.33646672964096,
+        "framework": 1.3561733067035675,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.147,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 05:07:28.372975+00:00",
+      "configuration": {
+        "method": "best2bin",
+        "popsize": 10,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.951724499464035,
+        "framework": 1.2510418891906738,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.089,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 05:28:02.803514+00:00",
+      "configuration": {
+        "method": "best2bin",
+        "popsize": 10,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.45301616191864,
+        "framework": 1.271761953830719,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.201,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 05:48:34.651125+00:00",
+      "configuration": {
+        "method": "best2bin",
+        "popsize": 10,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.192875415086746,
+        "framework": 1.2284517288208008,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.128,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 06:09:11.032237+00:00",
+      "configuration": {
+        "method": "best2bin",
+        "popsize": 20,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 24.505916982889175,
+        "framework": 1.395292580127716,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.156,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 06:30:03.183406+00:00",
+      "configuration": {
+        "method": "best2bin",
+        "popsize": 20,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.600992143154144,
+        "framework": 1.1902786791324615,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.153,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 06:50:57.591046+00:00",
+      "configuration": {
+        "method": "best2bin",
+        "popsize": 20,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.526341050863266,
+        "framework": 1.2079216539859772,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.186,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 07:11:38.604815+00:00",
+      "configuration": {
+        "method": "best2bin",
+        "popsize": 30,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.499951094388962,
+        "framework": 1.3257600367069244,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.083,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 07:32:27.901444+00:00",
+      "configuration": {
+        "method": "best2bin",
+        "popsize": 30,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.36826580762863,
+        "framework": 1.1970102787017822,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.094,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 07:53:22.151983+00:00",
+      "configuration": {
+        "method": "best2bin",
+        "popsize": 30,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.074221193790436,
+        "framework": 1.1445023119449615,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.108,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 08:13:56.524872+00:00",
+      "configuration": {
+        "method": "rand2bin",
+        "popsize": 10,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.998517870903015,
+        "framework": 1.268286257982254,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.096,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 08:34:29.985030+00:00",
+      "configuration": {
+        "method": "rand2bin",
+        "popsize": 10,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.824449956417084,
+        "framework": 1.224476844072342,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.146,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 08:55:06.332239+00:00",
+      "configuration": {
+        "method": "rand2bin",
+        "popsize": 10,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.534868240356445,
+        "framework": 1.2004189193248749,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.031,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 09:15:49.201588+00:00",
+      "configuration": {
+        "method": "rand2bin",
+        "popsize": 20,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.006920099258423,
+        "framework": 1.138489693403244,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.066,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 09:36:36.072559+00:00",
+      "configuration": {
+        "method": "rand2bin",
+        "popsize": 20,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.320425629615784,
+        "framework": 1.2007467448711395,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.133,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 09:57:25.391087+00:00",
+      "configuration": {
+        "method": "rand2bin",
+        "popsize": 20,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.457050651311874,
+        "framework": 1.4259293675422668,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.082,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 10:18:02.520843+00:00",
+      "configuration": {
+        "method": "rand2bin",
+        "popsize": 30,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.123540312051773,
+        "framework": 1.353289932012558,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.03,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 10:38:50.673383+00:00",
+      "configuration": {
+        "method": "rand2bin",
+        "popsize": 30,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.302086025476456,
+        "framework": 1.2089163064956665,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.008,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 10:59:40.181888+00:00",
+      "configuration": {
+        "method": "rand2bin",
+        "popsize": 30,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.43332800269127,
+        "framework": 1.1736415326595306,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.106,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 11:20:04.391956+00:00",
+      "configuration": {
+        "method": "rand1bin",
+        "popsize": 10,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.4836305975914,
+        "framework": 1.2139827013015747,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.14,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 11:40:35.425968+00:00",
+      "configuration": {
+        "method": "rand1bin",
+        "popsize": 10,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.19218996167183,
+        "framework": 1.2646503746509552,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.136,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 12:01:06.896039+00:00",
+      "configuration": {
+        "method": "rand1bin",
+        "popsize": 10,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.315705686807632,
+        "framework": 1.2071765959262848,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.064,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 12:21:46.085735+00:00",
+      "configuration": {
+        "method": "rand1bin",
+        "popsize": 20,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.371171534061432,
+        "framework": 1.207202672958374,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.13,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 12:42:25.743483+00:00",
+      "configuration": {
+        "method": "rand1bin",
+        "popsize": 20,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.238677859306335,
+        "framework": 1.224122941493988,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.205,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 13:03:07.693575+00:00",
+      "configuration": {
+        "method": "rand1bin",
+        "popsize": 20,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.113403797149658,
+        "framework": 1.3227872550487518,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.204,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 13:23:53.017773+00:00",
+      "configuration": {
+        "method": "rand1bin",
+        "popsize": 30,
+        "maxiter": 50
+      },
+      "times": {
+        "compilation": 25.271467864513397,
+        "framework": 1.3483576476573944,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.089,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 13:44:44.075496+00:00",
+      "configuration": {
+        "method": "rand1bin",
+        "popsize": 30,
+        "maxiter": 100
+      },
+      "times": {
+        "compilation": 25.122936815023422,
+        "framework": 1.2248605489730835,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.0,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-18 14:05:36.279565+00:00",
+      "configuration": {
+        "method": "rand1bin",
+        "popsize": 30,
+        "maxiter": 150
+      },
+      "times": {
+        "compilation": 25.31503513455391,
+        "framework": 1.2611374258995056,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.005,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    }
+  ],
+  "schema_version": "1.0.0"
+}

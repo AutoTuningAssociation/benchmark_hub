@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "timeunit": "miliseconds"
+  },
+  "results": [
+    {
+      "timestamp": "2025-03-17 07:22:09.499315+00:00",
+      "configuration": {
+        "method": "COBYLA"
+      },
+      "times": {
+        "compilation": 38.73119503259659,
+        "framework": 2.051420509815216,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.333,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 07:45:53.038186+00:00",
+      "configuration": {
+        "method": "L-BFGS-B"
+      },
+      "times": {
+        "compilation": 25.083232671022415,
+        "framework": 1.4661997556686401,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.567,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 08:09:05.968628+00:00",
+      "configuration": {
+        "method": "SLSQP"
+      },
+      "times": {
+        "compilation": 25.94960480928421,
+        "framework": 1.1484436690807343,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.654,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 08:32:21.558427+00:00",
+      "configuration": {
+        "method": "CG"
+      },
+      "times": {
+        "compilation": 25.138217955827713,
+        "framework": 1.1417269706726074,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.375,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 08:57:21.466843+00:00",
+      "configuration": {
+        "method": "Powell"
+      },
+      "times": {
+        "compilation": 25.235358625650406,
+        "framework": 1.0598637163639069,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.549,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 09:21:30.169605+00:00",
+      "configuration": {
+        "method": "Nelder-Mead"
+      },
+      "times": {
+        "compilation": 25.101203471422195,
+        "framework": 1.1501573026180267,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -1.122,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 09:45:02.002904+00:00",
+      "configuration": {
+        "method": "BFGS"
+      },
+      "times": {
+        "compilation": 24.91706982254982,
+        "framework": 1.3268627226352692,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.405,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-03-17 10:08:19.977526+00:00",
+      "configuration": {
+        "method": "trust-constr"
+      },
+      "times": {
+        "compilation": 25.77783912420273,
+        "framework": 1.1036470532417297,
+        "search_algorithm": 0,
+        "validation": 0
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.338,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    }
+  ],
+  "schema_version": "1.0.0"
+}
