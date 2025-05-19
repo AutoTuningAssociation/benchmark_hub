@@ -1,4 +1,4 @@
-"""Get the durations of all the runs."""
+"""Get the durations and number of configs of all the runs."""
 
 import json
 from datetime import datetime
@@ -41,6 +41,34 @@ def get_durations(cache_dir: Path) -> dict:
             duration = last_timestamp - first_timestamp
             durations[cachefile_dir.stem.replace("_milo", "")][cachefile.stem] = duration
     return durations
+
+
+# For each cachefile in the cache directory, get the number of evaluated configs
+def get_num_configs(cache_dir: Path) -> dict:
+    """Get the number of configs of all the runs."""
+    num_configs = {}
+    for cachefile_dir in cache_dir.iterdir():
+        if not cachefile_dir.is_dir():
+            continue
+        num_configs[cachefile_dir.stem.replace("_milo", "")] = {}
+        for cachefile in cachefile_dir.glob("*.json"):
+            if (
+                not cachefile.is_file()
+                or cachefile.stem.endswith("_T4")
+                or cachefile.stem.endswith("_C")
+                or cachefile.stem.endswith("_original")
+            ):
+                continue
+            # skip the cachefile if it does not contain one of the GPU names
+            if not any(gpu in cachefile.stem for gpu in gpus_used):
+                continue
+            print(f"Processing {cachefile}")
+            with open(cachefile, "r") as f:
+                data = json.load(f)
+            cache = data["cache"]
+            num_config = len(cache)
+            num_configs[cachefile_dir.stem.replace("_milo", "")][cachefile.stem] = num_config
+    return num_configs
 
 
 def timedelta_dict_to_df(data):
@@ -97,6 +125,7 @@ def timedelta_dict_to_latex_tabularx_hours(data):
 if __name__ == "__main__":
     # Example usage
     cache_dir = Path("../cachefiles")
+
     durations = get_durations(cache_dir)
     # print(durations)
     df = timedelta_dict_to_df(durations)
@@ -106,3 +135,10 @@ if __name__ == "__main__":
     print(f"Total duration: {round(df.to_numpy().sum() / 3600, 3)} hours")
     # for run, duration in durations.items():
     # print(f"{run}: {duration} seconds")
+
+    num_configs = get_num_configs(cache_dir)
+    total_num_configs = 0
+    for application in num_configs.values():
+        for run in application.values():
+            total_num_configs += run
+    print(f"Total number of configs: {total_num_configs}")
