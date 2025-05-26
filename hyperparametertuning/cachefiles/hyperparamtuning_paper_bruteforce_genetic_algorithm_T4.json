@@ -4,7 +4,7 @@
   },
   "results": [
     {
-      "timestamp": "2025-03-17 08:30:05.250482+00:00",
+      "timestamp": "2025-05-14 10:29:13.650806+00:00",
       "configuration": {
         "method": "single_point",
         "popsize": 10,
@@ -12,12 +12,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 38.64929638803005,
-        "framework": 2.161296084523201,
+        "compilation": 40.72900163009763,
+        "framework": 2.417108975350857,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          824454.0291018784
+          2956345.6859053113
         ]
       },
       "invalidity": "correct",
@@ -25,7 +25,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.157,
+          "value": -0.196,
           "unit": ""
         }
       ],
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:43:40.654528+00:00",
+      "timestamp": "2025-05-14 11:17:54.500783+00:00",
       "configuration": {
         "method": "single_point",
         "popsize": 10,
@@ -42,12 +42,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.86122415959835,
-        "framework": 1.3906173408031464,
+        "compilation": 23.70885806158185,
+        "framework": 1.2636678293347359,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          815376.7520412803
+          2920824.9638439156
         ]
       },
       "invalidity": "correct",
@@ -55,7 +55,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.267,
+          "value": -0.346,
           "unit": ""
         }
       ],
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:57:24.834247+00:00",
+      "timestamp": "2025-05-14 12:06:13.938296+00:00",
       "configuration": {
         "method": "single_point",
         "popsize": 10,
@@ -72,12 +72,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.59416927397251,
-        "framework": 1.278504729270935,
+        "compilation": 23.411709815263748,
+        "framework": 1.1828364804387093,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          824152.8054140508
+          2899412.877651863
         ]
       },
       "invalidity": "correct",
@@ -85,7 +85,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.2,
+          "value": -0.306,
           "unit": ""
         }
       ],
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 09:11:26.904296+00:00",
+      "timestamp": "2025-05-14 12:58:33.733482+00:00",
       "configuration": {
         "method": "single_point",
         "popsize": 10,
@@ -102,12 +102,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.98574012517929,
-        "framework": 1.259414479136467,
+        "compilation": 24.25878494977951,
+        "framework": 1.0141599923372269,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          842042.7314620465
+          3139769.872872159
         ]
       },
       "invalidity": "correct",
@@ -115,7 +115,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.115,
+          "value": -0.094,
           "unit": ""
         }
       ],
@@ -124,980 +124,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 09:25:29.911569+00:00",
+      "timestamp": "2025-05-14 13:49:18.067538+00:00",
       "configuration": {
         "method": "single_point",
-        "popsize": 10,
-        "maxiter": 100,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 25.285957381129265,
-        "framework": 1.1592917144298553,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          842980.7884488255
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.091,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 09:39:21.817862+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 10,
-        "maxiter": 100,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 25.799710303544998,
-        "framework": 1.3303440064191818,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          831879.1233450174
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.03,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 09:53:39.590732+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 10,
-        "maxiter": 150,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 25.72460286319256,
-        "framework": 1.2462455779314041,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          857745.8588406444
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.033,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 10:07:50.796656+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 10,
-        "maxiter": 150,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 25.59594251215458,
-        "framework": 1.2421365827322006,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          851179.042937234
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.001,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 10:21:56.476371+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 10,
-        "maxiter": 150,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 26.110054925084114,
-        "framework": 1.1194683611392975,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          845652.4453647435
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.142,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 10:36:03.467783+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 20,
-        "maxiter": 50,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 25.862688198685646,
-        "framework": 1.1207330971956253,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          846964.3931705505
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.173,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 10:50:12.207674+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 20,
-        "maxiter": 50,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 25.635823607444763,
-        "framework": 1.1683274060487747,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          848713.0489517003
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.105,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 11:04:20.350923+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 20,
-        "maxiter": 50,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 39.25417363643646,
-        "framework": 0.2020522952079773,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          770499.1724044085
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.03,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 11:18:09.170833+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 20,
-        "maxiter": 100,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 25.655880570411682,
-        "framework": 1.3302117586135864,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          828792.8820289671
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.014,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 11:31:53.362064+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 20,
-        "maxiter": 100,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 25.58640018105507,
-        "framework": 1.3804957270622253,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          824164.2209477723
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.193,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 11:45:30.708664+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 20,
-        "maxiter": 100,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 25.84102377295494,
-        "framework": 1.2101605534553528,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          817319.5083290339
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.216,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 11:59:45.551963+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 20,
-        "maxiter": 150,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 25.491755455732346,
-        "framework": 1.1533945798873901,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          854816.6111148894
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.118,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 12:13:46.252250+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 20,
-        "maxiter": 150,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 25.34201368689537,
-        "framework": 1.2643784284591675,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          840673.6380718648
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.163,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 12:27:53.392150+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 20,
-        "maxiter": 150,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 25.607328861951828,
-        "framework": 1.172233372926712,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          847113.0796447396
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.036,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 12:41:36.786639+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 30,
-        "maxiter": 50,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 24.966619908809662,
-        "framework": 1.1957474052906036,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          823368.2861886919
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.068,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 12:55:11.821004+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 30,
-        "maxiter": 50,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 26.173178106546402,
-        "framework": 1.3079382479190826,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          815006.8426206708
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.231,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 13:08:41.706117+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 30,
-        "maxiter": 50,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 25.551877915859222,
-        "framework": 1.3594217598438263,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          809858.1593483686
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.114,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 13:22:39.874088+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 30,
-        "maxiter": 100,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 25.533709675073624,
-        "framework": 1.3755746185779572,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          838141.021180898
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.127,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 13:36:38.195103+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 30,
-        "maxiter": 100,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 25.078650563955307,
-        "framework": 1.2605004012584686,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          838294.6341820061
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.228,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 13:50:31.742582+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 30,
-        "maxiter": 100,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 24.948500096797943,
-        "framework": 1.243259757757187,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          833521.2476029992
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.033,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 14:04:46.174415+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 30,
-        "maxiter": 150,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 25.140296667814255,
-        "framework": 1.315005123615265,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          854405.3355418146
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.162,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 14:19:00.988178+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 30,
-        "maxiter": 150,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 25.03037080168724,
-        "framework": 1.2180544435977936,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          854787.4723933637
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.036,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 14:33:18.511102+00:00",
-      "configuration": {
-        "method": "single_point",
-        "popsize": 30,
-        "maxiter": 150,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 25.52727982401848,
-        "framework": 1.0544881224632263,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          857496.3010959327
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.204,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 14:46:20.756087+00:00",
-      "configuration": {
-        "method": "two_point",
-        "popsize": 10,
-        "maxiter": 50,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 24.651452898979187,
-        "framework": 1.156192272901535,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          782219.1345617175
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.331,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 14:59:21.938280+00:00",
-      "configuration": {
-        "method": "two_point",
-        "popsize": 10,
-        "maxiter": 50,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 25.28512477874756,
-        "framework": 1.1481866240501404,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          781155.7155810297
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.186,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 15:12:27.977301+00:00",
-      "configuration": {
-        "method": "two_point",
-        "popsize": 10,
-        "maxiter": 50,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 25.584429502487183,
-        "framework": 1.2393631041049957,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          786012.1540538967
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.468,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 15:25:51.176931+00:00",
-      "configuration": {
-        "method": "two_point",
-        "popsize": 10,
-        "maxiter": 100,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 25.1845084130764,
-        "framework": 1.113351434469223,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          803173.2901073992
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.122,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 15:39:07.692056+00:00",
-      "configuration": {
-        "method": "two_point",
         "popsize": 10,
         "maxiter": 100,
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.212939828634262,
-        "framework": 1.5447922050952911,
+        "compilation": 24.17576825246215,
+        "framework": 1.1567063629627228,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          796488.3244968951
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.212,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 15:52:19.994735+00:00",
-      "configuration": {
-        "method": "two_point",
-        "popsize": 10,
-        "maxiter": 100,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 25.89060738682747,
-        "framework": 1.2907907366752625,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          792275.456186384
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.133,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 16:05:59.877106+00:00",
-      "configuration": {
-        "method": "two_point",
-        "popsize": 10,
-        "maxiter": 150,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 24.97587725520134,
-        "framework": 1.2135468423366547,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          819856.1391234398
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.168,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 16:19:29.604040+00:00",
-      "configuration": {
-        "method": "two_point",
-        "popsize": 10,
-        "maxiter": 150,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 25.408349931240082,
-        "framework": 1.220904290676117,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          809700.2620846033
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.088,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 16:32:57.140156+00:00",
-      "configuration": {
-        "method": "two_point",
-        "popsize": 10,
-        "maxiter": 150,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 25.332696735858917,
-        "framework": 1.3515911996364594,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          807509.3889161944
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.169,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 16:46:25.316077+00:00",
-      "configuration": {
-        "method": "two_point",
-        "popsize": 20,
-        "maxiter": 50,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 24.904798716306686,
-        "framework": 1.4137178659439087,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          808149.5594643056
+          3044308.685376309
         ]
       },
       "invalidity": "correct",
@@ -1114,20 +154,170 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 16:59:44.770197+00:00",
+      "timestamp": "2025-05-14 14:39:22.362912+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
+        "popsize": 10,
+        "maxiter": 100,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 24.113052990287542,
+        "framework": 1.0776286944746971,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3004270.143627189
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.007,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-14 15:34:08.125384+00:00",
+      "configuration": {
+        "method": "single_point",
+        "popsize": 10,
+        "maxiter": 150,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 24.292109068483114,
+        "framework": 1.1032866314053535,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3285737.0381988585
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.131,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-14 16:27:11.594675+00:00",
+      "configuration": {
+        "method": "single_point",
+        "popsize": 10,
+        "maxiter": 150,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 24.44016607478261,
+        "framework": 1.1007320135831833,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3183443.6780717224
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.117,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-14 17:19:00.416590+00:00",
+      "configuration": {
+        "method": "single_point",
+        "popsize": 10,
+        "maxiter": 150,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 24.29838990792632,
+        "framework": 1.1521480046212673,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3108796.4285081252
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.016,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-14 18:11:05.324182+00:00",
+      "configuration": {
+        "method": "single_point",
+        "popsize": 20,
+        "maxiter": 50,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 25.10800724849105,
+        "framework": 1.0944809764623642,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3124881.3365898095
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.336,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-14 19:02:10.784383+00:00",
+      "configuration": {
+        "method": "single_point",
         "popsize": 20,
         "maxiter": 50,
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.568857789039612,
-        "framework": 1.1519640684127808,
+        "compilation": 24.917140137404203,
+        "framework": 1.0759960860013962,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          799427.3573085666
+          3065434.170621913
         ]
       },
       "invalidity": "correct",
@@ -1135,7 +325,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.115,
+          "value": 0.306,
           "unit": ""
         }
       ],
@@ -1144,20 +334,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 17:13:00.017653+00:00",
+      "timestamp": "2025-05-14 19:52:24.894565+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 20,
         "maxiter": 50,
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.884922593832016,
-        "framework": 1.2012012302875519,
+        "compilation": 24.691306054592133,
+        "framework": 1.176734920591116,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          795220.3284390271
+          3014084.275574889
         ]
       },
       "invalidity": "correct",
@@ -1165,7 +355,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.046,
+          "value": 0.27,
           "unit": ""
         }
       ],
@@ -1174,20 +364,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 17:26:50.192678+00:00",
+      "timestamp": "2025-05-14 20:48:24.516430+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 20,
         "maxiter": 100,
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.771506130695343,
-        "framework": 1.1592097580432892,
+        "compilation": 25.076888035982847,
+        "framework": 1.097658183425665,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          830148.0543874204
+          3359595.6551479176
         ]
       },
       "invalidity": "correct",
@@ -1195,7 +385,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.0,
+          "value": 0.395,
           "unit": ""
         }
       ],
@@ -1204,20 +394,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 17:40:32.717257+00:00",
+      "timestamp": "2025-05-14 21:42:42.391560+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 20,
         "maxiter": 100,
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.136034935712814,
-        "framework": 1.3752356171607971,
+        "compilation": 25.390715803951025,
+        "framework": 1.1996584944427013,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          822498.0269558728
+          3257848.5046927817
         ]
       },
       "invalidity": "correct",
@@ -1225,7 +415,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.141,
+          "value": 0.391,
           "unit": ""
         }
       ],
@@ -1234,20 +424,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 17:54:11.741399+00:00",
+      "timestamp": "2025-05-14 22:35:45.972809+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 20,
         "maxiter": 100,
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.4218727350235,
-        "framework": 1.0982230305671692,
+        "compilation": 24.983052164316177,
+        "framework": 1.1390047147870064,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          818997.5794367492
+          3183555.091016926
         ]
       },
       "invalidity": "correct",
@@ -1255,7 +445,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.022,
+          "value": 0.321,
           "unit": ""
         }
       ],
@@ -1264,20 +454,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 18:08:18.596649+00:00",
+      "timestamp": "2025-05-14 23:35:14.018511+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 20,
         "maxiter": 150,
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 24.87698569893837,
-        "framework": 1.1795349419116974,
+        "compilation": 25.00797901302576,
+        "framework": 1.0743727907538414,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          846829.1522711515
+          3568019.582366105
         ]
       },
       "invalidity": "correct",
@@ -1285,7 +475,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.003,
+          "value": 0.517,
           "unit": ""
         }
       ],
@@ -1294,20 +484,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 18:22:24.384970+00:00",
+      "timestamp": "2025-05-15 00:32:19.909139+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 20,
         "maxiter": 150,
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.824084877967834,
-        "framework": 1.1120215058326721,
+        "compilation": 24.512220174074173,
+        "framework": 1.0677813552320004,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          845761.3417394459
+          3425865.0138718076
         ]
       },
       "invalidity": "correct",
@@ -1315,7 +505,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.102,
+          "value": 0.482,
           "unit": ""
         }
       ],
@@ -1324,20 +514,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 18:36:29.970188+00:00",
+      "timestamp": "2025-05-15 01:27:55.066240+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 20,
         "maxiter": 150,
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.627583265304565,
-        "framework": 1.1660493910312653,
+        "compilation": 24.42354429513216,
+        "framework": 1.2517040595412254,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          845558.3823882043
+          3335131.3759693876
         ]
       },
       "invalidity": "correct",
@@ -1345,7 +535,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.075,
+          "value": 0.324,
           "unit": ""
         }
       ],
@@ -1354,20 +544,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 18:50:10.949730+00:00",
+      "timestamp": "2025-05-15 02:21:46.696032+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 30,
         "maxiter": 50,
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.138694792985916,
-        "framework": 1.4026053249835968,
+        "compilation": 25.02334862947464,
+        "framework": 1.0941289365291595,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          820952.9576934874
+          3231603.636207059
         ]
       },
       "invalidity": "correct",
@@ -1375,7 +565,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.202,
+          "value": 0.415,
           "unit": ""
         }
       ],
@@ -1384,20 +574,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 19:03:43.954885+00:00",
+      "timestamp": "2025-05-15 03:14:09.444429+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 30,
         "maxiter": 50,
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.224901735782623,
-        "framework": 1.1874884366989136,
+        "compilation": 24.32090090587735,
+        "framework": 1.101544126868248,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          812978.7015654147
+          3142722.940008156
         ]
       },
       "invalidity": "correct",
@@ -1405,7 +595,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.212,
+          "value": 0.364,
           "unit": ""
         }
       ],
@@ -1414,20 +604,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 19:17:21.001553+00:00",
+      "timestamp": "2025-05-15 04:05:37.644199+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 30,
         "maxiter": 50,
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.629941374063492,
-        "framework": 1.3854540884494781,
+        "compilation": 24.782977998256683,
+        "framework": 1.1018132790923119,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          817019.611094147
+          3088173.847884871
         ]
       },
       "invalidity": "correct",
@@ -1435,7 +625,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.085,
+          "value": 0.361,
           "unit": ""
         }
       ],
@@ -1444,20 +634,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 19:31:24.590437+00:00",
+      "timestamp": "2025-05-15 05:04:02.402661+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 30,
         "maxiter": 100,
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 24.97456967830658,
-        "framework": 1.105327159166336,
+        "compilation": 23.747968953102827,
+        "framework": 0.9818887338042259,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          843562.7622455359
+          3504733.6769429967
         ]
       },
       "invalidity": "correct",
@@ -1465,7 +655,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.225,
+          "value": 0.474,
           "unit": ""
         }
       ],
@@ -1474,20 +664,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 19:45:29.070550+00:00",
+      "timestamp": "2025-05-15 06:00:47.750067+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 30,
         "maxiter": 100,
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.164108723402023,
-        "framework": 1.3781338930130005,
+        "compilation": 24.460583925247192,
+        "framework": 0.9980900213122368,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          844453.530613333
+          3405321.910609957
         ]
       },
       "invalidity": "correct",
@@ -1495,7 +685,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.165,
+          "value": 0.448,
           "unit": ""
         }
       ],
@@ -1504,20 +694,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 19:59:34.195127+00:00",
+      "timestamp": "2025-05-15 06:55:59.825599+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 30,
         "maxiter": 100,
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.675609707832336,
-        "framework": 1.1579729616641998,
+        "compilation": 24.753701873123646,
+        "framework": 1.212382223457098,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          845097.7017581463
+          3312049.530358985
         ]
       },
       "invalidity": "correct",
@@ -1525,7 +715,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.06,
+          "value": 0.401,
           "unit": ""
         }
       ],
@@ -1534,20 +724,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 20:13:45.048451+00:00",
+      "timestamp": "2025-05-15 07:57:10.838547+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 30,
         "maxiter": 150,
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.920506566762924,
-        "framework": 1.2543685734272003,
+        "compilation": 24.97979672625661,
+        "framework": 1.1326111853122711,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          850826.1083625257
+          3670986.7720850743
         ]
       },
       "invalidity": "correct",
@@ -1555,7 +745,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.164,
+          "value": 0.431,
           "unit": ""
         }
       ],
@@ -1564,20 +754,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 20:27:52.702962+00:00",
+      "timestamp": "2025-05-15 08:56:53.862392+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 30,
         "maxiter": 150,
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.50894394516945,
-        "framework": 1.1429302394390106,
+        "compilation": 24.815788958221674,
+        "framework": 1.074052881449461,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          847627.8189383447
+          3582997.9200591333
         ]
       },
       "invalidity": "correct",
@@ -1585,7 +775,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.15,
+          "value": 0.452,
           "unit": ""
         }
       ],
@@ -1594,20 +784,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 20:42:06.926935+00:00",
+      "timestamp": "2025-05-15 09:55:05.048433+00:00",
       "configuration": {
-        "method": "two_point",
+        "method": "single_point",
         "popsize": 30,
         "maxiter": 150,
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.16293153166771,
-        "framework": 2.154868096113205,
+        "compilation": 24.978563655167818,
+        "framework": 1.1092503555119038,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          854196.6128088534
+          3491159.9171748385
         ]
       },
       "invalidity": "correct",
@@ -1615,7 +805,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.184,
+          "value": 0.442,
           "unit": ""
         }
       ],
@@ -1624,20 +814,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 20:55:10.921892+00:00",
+      "timestamp": "2025-05-15 10:44:27.198686+00:00",
       "configuration": {
-        "method": "uniform",
+        "method": "two_point",
         "popsize": 10,
         "maxiter": 50,
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 26.00662410259247,
-        "framework": 1.2542791664600372,
+        "compilation": 24.361086077988148,
+        "framework": 1.1576996184885502,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          783967.653311789
+          2962124.6978603303
         ]
       },
       "invalidity": "correct",
@@ -1645,7 +835,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.193,
+          "value": -0.078,
           "unit": ""
         }
       ],
@@ -1654,20 +844,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 21:08:18.661215+00:00",
+      "timestamp": "2025-05-15 11:33:06.194793+00:00",
       "configuration": {
-        "method": "uniform",
+        "method": "two_point",
         "popsize": 10,
         "maxiter": 50,
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.28466284275055,
-        "framework": 1.2206286191940308,
+        "compilation": 24.426348973065615,
+        "framework": 1.3732225634157658,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          787712.7755098045
+          2918970.270524267
         ]
       },
       "invalidity": "correct",
@@ -1675,7 +865,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.294,
+          "value": -0.215,
           "unit": ""
         }
       ],
@@ -1684,80 +874,20 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 21:21:17.849083+00:00",
+      "timestamp": "2025-05-15 12:21:15.911473+00:00",
       "configuration": {
-        "method": "uniform",
+        "method": "two_point",
         "popsize": 10,
         "maxiter": 50,
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.637757033109665,
-        "framework": 2.9730238020420074,
+        "compilation": 24.3235370144248,
+        "framework": 1.1081858538091183,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          779159.2192091048
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.251,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 21:34:42.464108+00:00",
-      "configuration": {
-        "method": "uniform",
-        "popsize": 10,
-        "maxiter": 100,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 25.374170392751694,
-        "framework": 2.065349370241165,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          804587.5461027026
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.006,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-17 21:48:02.617525+00:00",
-      "configuration": {
-        "method": "uniform",
-        "popsize": 10,
-        "maxiter": 100,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 25.505129247903824,
-        "framework": 1.369822770357132,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          800126.497309655
+          2889691.212626174
         ]
       },
       "invalidity": "correct",
@@ -1774,7 +904,877 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 22:01:31.973961+00:00",
+      "timestamp": "2025-05-15 13:13:31.659789+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 10,
+        "maxiter": 100,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 24.402152746915817,
+        "framework": 1.117844134569168,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3135722.741362173
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.014,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-15 14:04:22.594040+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 10,
+        "maxiter": 100,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 25.143682025372982,
+        "framework": 1.0953010059893131,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3050907.974231057
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.037,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-15 14:54:25.171752+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 10,
+        "maxiter": 100,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 23.764899000525475,
+        "framework": 1.2395326048135757,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3002552.6704341173
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.158,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-15 15:49:11.807051+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 10,
+        "maxiter": 150,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 24.217436090111732,
+        "framework": 1.1262106709182262,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3286609.9176593125
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.082,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-15 16:42:17.260172+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 10,
+        "maxiter": 150,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 25.168891064822674,
+        "framework": 1.1308989487588406,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3185426.771352999
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.027,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-15 17:33:53.402653+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 10,
+        "maxiter": 150,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 25.210545398294926,
+        "framework": 1.2548407539725304,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3096115.9809059463
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.006,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-15 18:25:46.717468+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 20,
+        "maxiter": 50,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 24.898592848330736,
+        "framework": 1.192685216665268,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3113288.6866712943
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.209,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-15 19:16:51.204588+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 20,
+        "maxiter": 50,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 24.955470114946365,
+        "framework": 1.0238876566290855,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3064461.105130147
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.239,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-15 20:07:02.372800+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 20,
+        "maxiter": 50,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 24.008544627577066,
+        "framework": 1.0405904613435268,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3011143.10580492
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.131,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-15 21:02:54.567303+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 20,
+        "maxiter": 100,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 24.54249607399106,
+        "framework": 1.066308468580246,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3352168.85678377
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.452,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-15 21:57:02.769776+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 20,
+        "maxiter": 100,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 24.523429106920958,
+        "framework": 1.1442126706242561,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3248176.7671531998
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.193,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-15 22:49:39.603018+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 20,
+        "maxiter": 100,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 25.153181049972773,
+        "framework": 1.191332470625639,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3156806.8618676625
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.271,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-15 23:48:33.941899+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 20,
+        "maxiter": 150,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 24.07792489975691,
+        "framework": 1.0247011668980122,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3534313.74166999
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.385,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 00:45:28.187608+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 20,
+        "maxiter": 150,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 25.1154787838459,
+        "framework": 1.2724250555038452,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3414219.2848352715
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.431,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 01:41:04.157173+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 20,
+        "maxiter": 150,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 25.2235010266304,
+        "framework": 1.115191262215376,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3335943.179298658
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.304,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 02:34:54.047067+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 30,
+        "maxiter": 50,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 24.999001063406467,
+        "framework": 1.0284166783094406,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3229863.8302432373
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.362,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 03:27:14.372905+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 30,
+        "maxiter": 50,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 24.874075781553984,
+        "framework": 1.1801822111010551,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3140299.748245161
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.365,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 04:18:40.348599+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 30,
+        "maxiter": 50,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 25.778722018003464,
+        "framework": 1.230686902999878,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3085948.648754973
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.381,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 05:16:17.990759+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 30,
+        "maxiter": 100,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 25.321396999061108,
+        "framework": 1.194790005683899,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3457615.607195068
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.412,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 06:12:21.968283+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 30,
+        "maxiter": 100,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 25.60831466689706,
+        "framework": 1.164834015071392,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3363950.7127399556
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.422,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 07:07:00.033534+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 30,
+        "maxiter": 100,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 24.521568790078163,
+        "framework": 1.0669194161891937,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3278039.627291728
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.446,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 08:07:33.564548+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 30,
+        "maxiter": 150,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 24.272090755403042,
+        "framework": 1.1299075558781624,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3633505.575633608
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.468,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 09:06:37.496798+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 30,
+        "maxiter": 150,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 24.711504112929106,
+        "framework": 1.3194927014410496,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3543906.180681195
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.451,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 10:04:24.744834+00:00",
+      "configuration": {
+        "method": "two_point",
+        "popsize": 30,
+        "maxiter": 150,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 24.295796640217304,
+        "framework": 1.1194986291229725,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3467222.582465969
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.454,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 10:53:33.330206+00:00",
+      "configuration": {
+        "method": "uniform",
+        "popsize": 10,
+        "maxiter": 50,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 25.011917110532522,
+        "framework": 1.124328002333641,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          2948559.1979497112
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.081,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 11:42:04.633602+00:00",
+      "configuration": {
+        "method": "uniform",
+        "popsize": 10,
+        "maxiter": 50,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 24.41874612122774,
+        "framework": 1.220326405018568,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          2911277.719785925
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.202,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 12:30:07.159940+00:00",
+      "configuration": {
+        "method": "uniform",
+        "popsize": 10,
+        "maxiter": 50,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 25.033496785908937,
+        "framework": 1.135737169533968,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          2882500.132664107
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.323,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 13:22:16.643120+00:00",
+      "configuration": {
+        "method": "uniform",
+        "popsize": 10,
+        "maxiter": 100,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 24.082395248115063,
+        "framework": 1.1185556650161743,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3129457.9430888407
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.096,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 14:13:10.800096+00:00",
+      "configuration": {
+        "method": "uniform",
+        "popsize": 10,
+        "maxiter": 100,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 24.851166177541018,
+        "framework": 1.0681618005037308,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          3054131.0223438777
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.099,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-16 15:03:05.903717+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 10,
@@ -1782,12 +1782,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 109.32667925953865,
-        "framework": 10.624956339597702,
+        "compilation": 25.149045046418905,
+        "framework": 1.2080632150173187,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          809236.4401482046
+          2995077.2278476506
         ]
       },
       "invalidity": "correct",
@@ -1795,7 +1795,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.248,
+          "value": -0.14,
           "unit": ""
         }
       ],
@@ -1804,7 +1804,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 22:15:20.667722+00:00",
+      "timestamp": "2025-05-16 15:57:33.689223+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 10,
@@ -1812,12 +1812,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.095954537391663,
-        "framework": 1.3416707515716553,
+        "compilation": 24.480161257088184,
+        "framework": 1.1015338823199272,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          828667.2828607261
+          3267759.886904154
         ]
       },
       "invalidity": "correct",
@@ -1825,7 +1825,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.062,
+          "value": 0.142,
           "unit": ""
         }
       ],
@@ -1834,7 +1834,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 22:28:51.137607+00:00",
+      "timestamp": "2025-05-16 16:50:22.526559+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 10,
@@ -1842,12 +1842,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.45423060655594,
-        "framework": 1.241881400346756,
+        "compilation": 25.463072583079338,
+        "framework": 1.1434825137257576,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          810443.1471154094
+          3168810.69310382
         ]
       },
       "invalidity": "correct",
@@ -1855,7 +1855,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.242,
+          "value": 0.014,
           "unit": ""
         }
       ],
@@ -1864,7 +1864,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 22:42:20.107717+00:00",
+      "timestamp": "2025-05-16 17:41:42.608968+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 10,
@@ -1872,12 +1872,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 26.398666203022003,
-        "framework": 1.2297406792640686,
+        "compilation": 24.91932502016425,
+        "framework": 1.2080324813723564,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          808942.4383528531
+          3080056.21721223
         ]
       },
       "invalidity": "correct",
@@ -1885,7 +1885,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.146,
+          "value": -0.009,
           "unit": ""
         }
       ],
@@ -1894,7 +1894,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 22:55:47.111343+00:00",
+      "timestamp": "2025-05-16 18:33:31.442536+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 20,
@@ -1902,12 +1902,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 37.58653625845909,
-        "framework": 1.4313869178295135,
+        "compilation": 24.776556063443422,
+        "framework": 1.0318146087229252,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          806964.5624123514
+          3108807.723360136
         ]
       },
       "invalidity": "correct",
@@ -1915,7 +1915,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.045,
+          "value": 0.284,
           "unit": ""
         }
       ],
@@ -1924,7 +1924,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 23:09:05.511777+00:00",
+      "timestamp": "2025-05-16 19:05:34.469094+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 20,
@@ -1932,12 +1932,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.462619960308075,
-        "framework": 1.2178532779216766,
+        "compilation": 43.796726036816835,
+        "framework": 0.2005361020565033,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          798373.7031519413
+          1888439.077329822
         ]
       },
       "invalidity": "correct",
@@ -1945,7 +1945,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.08,
+          "value": 0.351,
           "unit": ""
         }
       ],
@@ -1954,7 +1954,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 23:22:20.048913+00:00",
+      "timestamp": "2025-05-16 19:36:13.063439+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 20,
@@ -1962,12 +1962,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.02516657114029,
-        "framework": 1.2124665081501007,
+        "compilation": 24.175525177270174,
+        "framework": 1.324228011071682,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          794510.8546540141
+          1838568.810287863
         ]
       },
       "invalidity": "correct",
@@ -1975,7 +1975,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.067,
+          "value": 0.327,
           "unit": ""
         }
       ],
@@ -1984,7 +1984,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 23:36:06.125160+00:00",
+      "timestamp": "2025-05-16 20:12:23.782823+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 20,
@@ -1992,12 +1992,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.87534859776497,
-        "framework": 1.3093575835227966,
+        "compilation": 24.8536909930408,
+        "framework": 1.1598309502005577,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          826049.0209721029
+          2170693.3353082277
         ]
       },
       "invalidity": "correct",
@@ -2005,7 +2005,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.101,
+          "value": 0.422,
           "unit": ""
         }
       ],
@@ -2014,7 +2014,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 23:49:55.259453+00:00",
+      "timestamp": "2025-05-16 20:46:47.056836+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 20,
@@ -2022,12 +2022,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.541383773088455,
-        "framework": 1.1153705418109894,
+        "compilation": 25.387608911842108,
+        "framework": 1.1115199886262417,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          829107.593305409
+          2063247.4769200198
         ]
       },
       "invalidity": "correct",
@@ -2035,7 +2035,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.111,
+          "value": 0.353,
           "unit": ""
         }
       ],
@@ -2044,7 +2044,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 00:03:33.639701+00:00",
+      "timestamp": "2025-05-16 21:20:23.467763+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 20,
@@ -2052,12 +2052,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.553874671459198,
-        "framework": 1.117125153541565,
+        "compilation": 529.1447266936302,
+        "framework": 136.25804660841823,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          818353.5354807973
+          2015745.4827181064
         ]
       },
       "invalidity": "correct",
@@ -2065,7 +2065,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.005,
+          "value": 0.399,
           "unit": ""
         }
       ],
@@ -2074,7 +2074,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 00:17:33.868621+00:00",
+      "timestamp": "2025-05-16 21:59:24.192220+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 20,
@@ -2082,12 +2082,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.882132351398468,
-        "framework": 1.1988990008831024,
+        "compilation": 24.804445914924145,
+        "framework": 11.81542407721281,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          840201.7942667007
+          2340687.7968208864
         ]
       },
       "invalidity": "correct",
@@ -2095,7 +2095,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.092,
+          "value": 0.424,
           "unit": ""
         }
       ],
@@ -2104,7 +2104,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 00:31:36.311759+00:00",
+      "timestamp": "2025-05-16 22:36:26.753938+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 20,
@@ -2112,12 +2112,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.11391043663025,
-        "framework": 1.2149959802627563,
+        "compilation": 25.644478853791952,
+        "framework": 0.9452286176383495,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          842416.7660847306
+          2222535.0922183134
         ]
       },
       "invalidity": "correct",
@@ -2125,7 +2125,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.087,
+          "value": 0.328,
           "unit": ""
         }
       ],
@@ -2134,7 +2134,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 00:45:35.520347+00:00",
+      "timestamp": "2025-05-16 23:12:15.992883+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 20,
@@ -2142,12 +2142,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.790929794311523,
-        "framework": 1.3481192290782928,
+        "compilation": 25.49136197194457,
+        "framework": 1.2357528321444988,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          839181.3929975033
+          2149212.181326933
         ]
       },
       "invalidity": "correct",
@@ -2155,7 +2155,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.089,
+          "value": 0.412,
           "unit": ""
         }
       ],
@@ -2164,7 +2164,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 00:59:14.387083+00:00",
+      "timestamp": "2025-05-16 23:46:30.448327+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 30,
@@ -2172,12 +2172,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.860145688056946,
-        "framework": 1.3190507888793945,
+        "compilation": 25.107894092798233,
+        "framework": 1.0448656976222992,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          818839.5169042051
+          2054429.23672311
         ]
       },
       "invalidity": "correct",
@@ -2185,7 +2185,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.214,
+          "value": 0.38,
           "unit": ""
         }
       ],
@@ -2194,7 +2194,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 01:12:53.326681+00:00",
+      "timestamp": "2025-05-17 00:19:10.569499+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 30,
@@ -2202,12 +2202,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.20492672920227,
-        "framework": 1.3122446835041046,
+        "compilation": 24.816366843879223,
+        "framework": 1.1985530145466328,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          818913.0401350558
+          1960095.1185389422
         ]
       },
       "invalidity": "correct",
@@ -2215,7 +2215,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.129,
+          "value": 0.397,
           "unit": ""
         }
       ],
@@ -2224,7 +2224,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 01:26:20.205470+00:00",
+      "timestamp": "2025-05-17 00:51:25.818008+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 30,
@@ -2232,12 +2232,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.579441338777542,
-        "framework": 1.1908560991287231,
+        "compilation": 25.615915190428495,
+        "framework": 1.0157609358429909,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          806851.9759885967
+          1935221.8431630172
         ]
       },
       "invalidity": "correct",
@@ -2245,7 +2245,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.243,
+          "value": 0.394,
           "unit": ""
         }
       ],
@@ -2254,7 +2254,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 01:40:19.749029+00:00",
+      "timestamp": "2025-05-17 01:29:21.699871+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 30,
@@ -2262,12 +2262,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.470439344644547,
-        "framework": 1.206662505865097,
+        "compilation": 25.33477870747447,
+        "framework": 1.123182475566864,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          839516.8396905065
+          2275855.3500087
         ]
       },
       "invalidity": "correct",
@@ -2275,7 +2275,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.156,
+          "value": 0.428,
           "unit": ""
         }
       ],
@@ -2284,7 +2284,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 01:54:13.225840+00:00",
+      "timestamp": "2025-05-17 02:06:06.820072+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 30,
@@ -2292,12 +2292,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.022167712450027,
-        "framework": 1.450374722480774,
+        "compilation": 26.141116861253977,
+        "framework": 1.0743113234639168,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          833450.2999261022
+          2205092.9507790133
         ]
       },
       "invalidity": "correct",
@@ -2305,7 +2305,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.113,
+          "value": 0.407,
           "unit": ""
         }
       ],
@@ -2314,7 +2314,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 02:08:08.246984+00:00",
+      "timestamp": "2025-05-17 02:41:38.181782+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 30,
@@ -2322,12 +2322,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.49169957637787,
-        "framework": 1.1578649282455444,
+        "compilation": 25.792154017835855,
+        "framework": 1.1724750511348248,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          834994.4516532123
+          2131334.7074189223
         ]
       },
       "invalidity": "correct",
@@ -2335,7 +2335,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.116,
+          "value": 0.408,
           "unit": ""
         }
       ],
@@ -2344,7 +2344,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 02:22:24.206945+00:00",
+      "timestamp": "2025-05-17 03:22:19.919397+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 30,
@@ -2352,12 +2352,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.386955589056015,
-        "framework": 1.1892057955265045,
+        "compilation": 25.9123002178967,
+        "framework": 1.2185405939817429,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          855933.3429075778
+          2441710.4492769577
         ]
       },
       "invalidity": "correct",
@@ -2365,7 +2365,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.152,
+          "value": 0.404,
           "unit": ""
         }
       ],
@@ -2374,7 +2374,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 02:36:38.595975+00:00",
+      "timestamp": "2025-05-17 04:01:31.770887+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 30,
@@ -2382,12 +2382,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.059428066015244,
-        "framework": 1.3323500752449036,
+        "compilation": 24.944579228758812,
+        "framework": 1.1334805749356747,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          854362.5970445573
+          2351825.3759411164
         ]
       },
       "invalidity": "correct",
@@ -2395,7 +2395,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.171,
+          "value": 0.425,
           "unit": ""
         }
       ],
@@ -2404,7 +2404,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 02:50:51.755547+00:00",
+      "timestamp": "2025-05-17 04:39:33.404553+00:00",
       "configuration": {
         "method": "uniform",
         "popsize": 30,
@@ -2412,12 +2412,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.152649730443954,
-        "framework": 1.0066330432891846,
+        "compilation": 25.825156830251217,
+        "framework": 1.423063687980175,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          853133.3692632616
+          2281606.381763704
         ]
       },
       "invalidity": "correct",
@@ -2425,7 +2425,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.058,
+          "value": 0.384,
           "unit": ""
         }
       ],
@@ -2434,7 +2434,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 03:03:58.762387+00:00",
+      "timestamp": "2025-05-17 05:09:35.932262+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 10,
@@ -2442,12 +2442,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 26.603002101182938,
-        "framework": 1.191709190607071,
+        "compilation": 25.831519160419703,
+        "framework": 1.1077024973928928,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          786979.004509747
+          1802500.737360213
         ]
       },
       "invalidity": "correct",
@@ -2455,7 +2455,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.133,
+          "value": -0.065,
           "unit": ""
         }
       ],
@@ -2464,7 +2464,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 03:16:56.847883+00:00",
+      "timestamp": "2025-05-17 05:38:51.356132+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 10,
@@ -2472,12 +2472,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.552377104759216,
-        "framework": 1.1772587895393372,
+        "compilation": 25.818524416536093,
+        "framework": 1.073278021067381,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          778058.7269254029
+          1755396.9440544024
         ]
       },
       "invalidity": "correct",
@@ -2485,7 +2485,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.298,
+          "value": -0.201,
           "unit": ""
         }
       ],
@@ -2494,7 +2494,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 03:30:02.066138+00:00",
+      "timestamp": "2025-05-17 06:07:39.826719+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 10,
@@ -2502,12 +2502,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.014683604240417,
-        "framework": 1.1437907814979553,
+        "compilation": 24.96044710278511,
+        "framework": 1.1117029935121536,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          785192.0541711152
+          1728444.4788028486
         ]
       },
       "invalidity": "correct",
@@ -2515,7 +2515,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.362,
+          "value": -0.322,
           "unit": ""
         }
       ],
@@ -2524,7 +2524,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 03:43:33.417457+00:00",
+      "timestamp": "2025-05-17 06:40:29.781357+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 10,
@@ -2532,12 +2532,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.16239881515503,
-        "framework": 1.2912824749946594,
+        "compilation": 25.42584901675582,
+        "framework": 1.102191861718893,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          811324.8236253858
+          1969928.075319156
         ]
       },
       "invalidity": "correct",
@@ -2545,7 +2545,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.008,
+          "value": 0.057,
           "unit": ""
         }
       ],
@@ -2554,7 +2554,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 03:56:49.985676+00:00",
+      "timestamp": "2025-05-17 07:11:53.074514+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 10,
@@ -2562,12 +2562,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.471441447734833,
-        "framework": 1.14431232213974,
+        "compilation": 25.512611959129572,
+        "framework": 1.0280227288603783,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          796541.5646657348
+          1883266.5824810974
         ]
       },
       "invalidity": "correct",
@@ -2575,7 +2575,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.218,
+          "value": 0.029,
           "unit": ""
         }
       ],
@@ -2584,7 +2584,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 04:10:03.520870+00:00",
+      "timestamp": "2025-05-17 07:42:21.657150+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 10,
@@ -2592,12 +2592,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.410965085029602,
-        "framework": 1.156240701675415,
+        "compilation": 26.21194999665022,
+        "framework": 1.0939883068203926,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          793508.5851885378
+          1828555.2945258096
         ]
       },
       "invalidity": "correct",
@@ -2605,7 +2605,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.327,
+          "value": -0.036,
           "unit": ""
         }
       ],
@@ -2614,7 +2614,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 04:23:40.794414+00:00",
+      "timestamp": "2025-05-17 08:17:14.471304+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 10,
@@ -2622,372 +2622,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.68846195936203,
-        "framework": 1.24378502368927,
+        "compilation": 25.44800005853176,
+        "framework": 0.9964448399841785,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          817246.5716153383
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.24,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-18 04:37:09.716870+00:00",
-      "configuration": {
-        "method": "disruptive_uniform",
-        "popsize": 10,
-        "maxiter": 150,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 24.735841900110245,
-        "framework": 1.0602101683616638,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          808896.6194950044
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.25,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-18 04:50:38.407910+00:00",
-      "configuration": {
-        "method": "disruptive_uniform",
-        "popsize": 10,
-        "maxiter": 150,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 24.858437478542328,
-        "framework": 1.1977851390838623,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          808664.9408005178
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.145,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-18 05:04:05.173638+00:00",
-      "configuration": {
-        "method": "disruptive_uniform",
-        "popsize": 20,
-        "maxiter": 50,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 25.525987148284912,
-        "framework": 1.217186450958252,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          806738.9430999756
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.047,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-18 05:17:23.625518+00:00",
-      "configuration": {
-        "method": "disruptive_uniform",
-        "popsize": 20,
-        "maxiter": 50,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 24.986781179904938,
-        "framework": 1.4328770339488983,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          798425.4164174199
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.148,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-18 05:30:36.677478+00:00",
-      "configuration": {
-        "method": "disruptive_uniform",
-        "popsize": 20,
-        "maxiter": 50,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 25.80130472779274,
-        "framework": 1.1888481676578522,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          793024.9301232398
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.068,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-18 05:44:31.073088+00:00",
-      "configuration": {
-        "method": "disruptive_uniform",
-        "popsize": 20,
-        "maxiter": 100,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 25.73980763554573,
-        "framework": 1.159433275461197,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          834368.6666674912
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.129,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-18 05:58:10.632957+00:00",
-      "configuration": {
-        "method": "disruptive_uniform",
-        "popsize": 20,
-        "maxiter": 100,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 25.21316707134247,
-        "framework": 1.2631714344024658,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          819533.3524644375
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.046,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-18 06:11:56.347165+00:00",
-      "configuration": {
-        "method": "disruptive_uniform",
-        "popsize": 20,
-        "maxiter": 100,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 25.313924998044968,
-        "framework": 1.2239478528499603,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          825687.630571425
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": -0.089,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-18 06:25:56.492218+00:00",
-      "configuration": {
-        "method": "disruptive_uniform",
-        "popsize": 20,
-        "maxiter": 150,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 26.196181774139404,
-        "framework": 1.1705681681632996,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          840117.6444590092
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.17,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-18 06:39:58.583073+00:00",
-      "configuration": {
-        "method": "disruptive_uniform",
-        "popsize": 20,
-        "maxiter": 150,
-        "mutation_chance": 10
-      },
-      "times": {
-        "compilation": 24.979956448078156,
-        "framework": 1.3623535633087158,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          842064.4715242088
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.022,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-18 06:54:03.159465+00:00",
-      "configuration": {
-        "method": "disruptive_uniform",
-        "popsize": 20,
-        "maxiter": 150,
-        "mutation_chance": 20
-      },
-      "times": {
-        "compilation": 25.012634694576263,
-        "framework": 1.2715533375740051,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          844550.0655062497
-        ]
-      },
-      "invalidity": "correct",
-      "correctness": 1,
-      "measurements": [
-        {
-          "name": "score",
-          "value": 0.212,
-          "unit": ""
-        }
-      ],
-      "objectives": [
-        "score"
-      ]
-    },
-    {
-      "timestamp": "2025-03-18 07:07:40.766631+00:00",
-      "configuration": {
-        "method": "disruptive_uniform",
-        "popsize": 30,
-        "maxiter": 50,
-        "mutation_chance": 5
-      },
-      "times": {
-        "compilation": 25.948256254196167,
-        "framework": 1.3009868562221527,
-        "search_algorithm": 0,
-        "validation": 0,
-        "runtimes": [
-          817579.8752084374
+          2092787.674488034
         ]
       },
       "invalidity": "correct",
@@ -3004,7 +2644,367 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 07:21:08.333317+00:00",
+      "timestamp": "2025-05-17 08:50:34.239706+00:00",
+      "configuration": {
+        "method": "disruptive_uniform",
+        "popsize": 10,
+        "maxiter": 150,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 25.625973008573055,
+        "framework": 1.0798927396535873,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          1999741.6284913197
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.129,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-17 09:22:43.544734+00:00",
+      "configuration": {
+        "method": "disruptive_uniform",
+        "popsize": 10,
+        "maxiter": 150,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 25.87183378636837,
+        "framework": 1.1673849076032639,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          1929277.950661257
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": -0.032,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-17 09:55:12.880393+00:00",
+      "configuration": {
+        "method": "disruptive_uniform",
+        "popsize": 20,
+        "maxiter": 50,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 25.018646847456694,
+        "framework": 1.1786650866270065,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          1949309.4285852276
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.349,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-17 10:26:37.626378+00:00",
+      "configuration": {
+        "method": "disruptive_uniform",
+        "popsize": 20,
+        "maxiter": 50,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 25.37632593885064,
+        "framework": 1.189668197184801,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          1884719.3836690858
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.238,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-17 10:57:21.409213+00:00",
+      "configuration": {
+        "method": "disruptive_uniform",
+        "popsize": 20,
+        "maxiter": 50,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 25.346280075609684,
+        "framework": 1.528722234070301,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          1843755.926629994
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.227,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-17 11:33:36.787692+00:00",
+      "configuration": {
+        "method": "disruptive_uniform",
+        "popsize": 20,
+        "maxiter": 100,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 25.7064844481647,
+        "framework": 1.2396597303450108,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          2175351.4978429303
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.306,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-17 12:08:01.771025+00:00",
+      "configuration": {
+        "method": "disruptive_uniform",
+        "popsize": 20,
+        "maxiter": 100,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 26.563929859548807,
+        "framework": 1.14143593236804,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          2064955.5912651122
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.263,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-17 12:41:16.100083+00:00",
+      "configuration": {
+        "method": "disruptive_uniform",
+        "popsize": 20,
+        "maxiter": 100,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 25.19216202199459,
+        "framework": 1.2148222886025906,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          1994302.594424691
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.346,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-17 13:20:19.846829+00:00",
+      "configuration": {
+        "method": "disruptive_uniform",
+        "popsize": 20,
+        "maxiter": 150,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 25.245030876249075,
+        "framework": 1.0286751203238964,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          2343720.435400959
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.387,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-17 13:57:21.835870+00:00",
+      "configuration": {
+        "method": "disruptive_uniform",
+        "popsize": 20,
+        "maxiter": 150,
+        "mutation_chance": 10
+      },
+      "times": {
+        "compilation": 25.036119855940342,
+        "framework": 1.0428610257804394,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          2221962.925557047
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.327,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-17 14:32:44.197597+00:00",
+      "configuration": {
+        "method": "disruptive_uniform",
+        "popsize": 20,
+        "maxiter": 150,
+        "mutation_chance": 20
+      },
+      "times": {
+        "compilation": 25.97872307524085,
+        "framework": 1.0506757535040379,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          2122334.6616802737
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.366,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-17 15:06:57.219468+00:00",
+      "configuration": {
+        "method": "disruptive_uniform",
+        "popsize": 30,
+        "maxiter": 50,
+        "mutation_chance": 5
+      },
+      "times": {
+        "compilation": 24.539148900657892,
+        "framework": 1.18271354585886,
+        "search_algorithm": 0,
+        "validation": 0,
+        "runtimes": [
+          2052996.1131368764
+        ]
+      },
+      "invalidity": "correct",
+      "correctness": 1,
+      "measurements": [
+        {
+          "name": "score",
+          "value": 0.41,
+          "unit": ""
+        }
+      ],
+      "objectives": [
+        "score"
+      ]
+    },
+    {
+      "timestamp": "2025-05-17 15:39:52.972505+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 30,
@@ -3012,12 +3012,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 25.275476276874542,
-        "framework": 1.149456948041916,
+        "compilation": 24.70018994063139,
+        "framework": 1.098576933145523,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          807540.2206219733
+          1975727.141723968
         ]
       },
       "invalidity": "correct",
@@ -3025,7 +3025,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.176,
+          "value": 0.341,
           "unit": ""
         }
       ],
@@ -3034,7 +3034,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 07:34:31.901089+00:00",
+      "timestamp": "2025-05-17 16:12:00.592422+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 30,
@@ -3042,12 +3042,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.16847476363182,
-        "framework": 1.3095773756504059,
+        "compilation": 25.137248914688826,
+        "framework": 1.087915152311325,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          803541.2529595196
+          1927593.657760881
         ]
       },
       "invalidity": "correct",
@@ -3055,7 +3055,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.037,
+          "value": 0.366,
           "unit": ""
         }
       ],
@@ -3064,7 +3064,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 07:48:34.356490+00:00",
+      "timestamp": "2025-05-17 16:49:27.501574+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 30,
@@ -3072,12 +3072,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.55803582072258,
-        "framework": 1.3069137930870056,
+        "compilation": 24.806038942188025,
+        "framework": 1.2660692445933819,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          842428.4957423806
+          2246883.01697094
         ]
       },
       "invalidity": "correct",
@@ -3085,7 +3085,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.155,
+          "value": 0.412,
           "unit": ""
         }
       ],
@@ -3094,7 +3094,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 08:02:23.141164+00:00",
+      "timestamp": "2025-05-17 17:25:37.836097+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 30,
@@ -3102,12 +3102,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 24.94252845644951,
-        "framework": 1.2666285037994385,
+        "compilation": 25.157486088573933,
+        "framework": 1.2154453434050083,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          828758.4208622575
+          2170308.0972428434
         ]
       },
       "invalidity": "correct",
@@ -3115,7 +3115,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.18,
+          "value": 0.424,
           "unit": ""
         }
       ],
@@ -3124,7 +3124,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 08:16:20.750899+00:00",
+      "timestamp": "2025-05-17 18:00:32.542124+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 30,
@@ -3132,12 +3132,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 25.2433679997921,
-        "framework": 1.1891275644302368,
+        "compilation": 25.31079389154911,
+        "framework": 1.0357480496168137,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          837583.2616351545
+          2094679.6451262198
         ]
       },
       "invalidity": "correct",
@@ -3145,7 +3145,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.095,
+          "value": 0.427,
           "unit": ""
         }
       ],
@@ -3154,7 +3154,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 08:30:26.479431+00:00",
+      "timestamp": "2025-05-17 18:41:03.687976+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 30,
@@ -3162,12 +3162,12 @@
         "mutation_chance": 5
       },
       "times": {
-        "compilation": 25.45507624745369,
-        "framework": 1.1696331202983856,
+        "compilation": 25.32613230869174,
+        "framework": 1.0710740461945534,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          845701.8653936684
+          2431119.419954717
         ]
       },
       "invalidity": "correct",
@@ -3175,7 +3175,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.162,
+          "value": 0.438,
           "unit": ""
         }
       ],
@@ -3184,7 +3184,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 08:44:34.473677+00:00",
+      "timestamp": "2025-05-17 19:19:51.723938+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 30,
@@ -3192,12 +3192,12 @@
         "mutation_chance": 10
       },
       "times": {
-        "compilation": 24.805109947919846,
-        "framework": 1.3491325080394745,
+        "compilation": 25.732613168656826,
+        "framework": 1.3495469465851784,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          847968.0508226156
+          2328008.8446708396
         ]
       },
       "invalidity": "correct",
@@ -3205,7 +3205,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.121,
+          "value": 0.419,
           "unit": ""
         }
       ],
@@ -3214,7 +3214,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 08:58:42.908516+00:00",
+      "timestamp": "2025-05-17 19:57:00.299053+00:00",
       "configuration": {
         "method": "disruptive_uniform",
         "popsize": 30,
@@ -3222,12 +3222,12 @@
         "mutation_chance": 20
       },
       "times": {
-        "compilation": 26.155985891819,
-        "framework": 1.2008324265480042,
+        "compilation": 25.48583084717393,
+        "framework": 1.0767048224806786,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          848407.4413366616
+          2228548.5175950453
         ]
       },
       "invalidity": "correct",
@@ -3235,7 +3235,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.02,
+          "value": 0.465,
           "unit": ""
         }
       ],

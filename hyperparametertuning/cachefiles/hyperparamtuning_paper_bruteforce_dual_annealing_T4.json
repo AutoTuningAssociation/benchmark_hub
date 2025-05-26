@@ -4,17 +4,17 @@
   },
   "results": [
     {
-      "timestamp": "2025-03-17 07:22:09.499315+00:00",
+      "timestamp": "2025-05-13 18:28:25.350273+00:00",
       "configuration": {
         "method": "COBYLA"
       },
       "times": {
-        "compilation": 38.73119503259659,
-        "framework": 2.051420509815216,
+        "compilation": 41.75034584477544,
+        "framework": 1.9200011156499386,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1404346.5172871947
+          2291309.4415632077
         ]
       },
       "invalidity": "correct",
@@ -22,7 +22,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.333,
+          "value": -0.234,
           "unit": ""
         }
       ],
@@ -31,17 +31,17 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 07:45:53.038186+00:00",
+      "timestamp": "2025-05-13 19:06:40.778860+00:00",
       "configuration": {
         "method": "L-BFGS-B"
       },
       "times": {
-        "compilation": 25.083232671022415,
-        "framework": 1.4661997556686401,
+        "compilation": 23.237424436956644,
+        "framework": 1.2631495483219624,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1423512.282051146
+          2295404.0484703146
         ]
       },
       "invalidity": "correct",
@@ -49,7 +49,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.567,
+          "value": -0.409,
           "unit": ""
         }
       ],
@@ -58,17 +58,17 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:09:05.968628+00:00",
+      "timestamp": "2025-05-13 19:44:59.229573+00:00",
       "configuration": {
         "method": "SLSQP"
       },
       "times": {
-        "compilation": 25.94960480928421,
-        "framework": 1.1484436690807343,
+        "compilation": 23.279550950974226,
+        "framework": 1.0891030542552471,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1392903.305683285
+          2298426.2788719498
         ]
       },
       "invalidity": "correct",
@@ -76,7 +76,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.654,
+          "value": -0.544,
           "unit": ""
         }
       ],
@@ -85,17 +85,17 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:32:21.558427+00:00",
+      "timestamp": "2025-05-13 20:36:51.165217+00:00",
       "configuration": {
         "method": "CG"
       },
       "times": {
-        "compilation": 25.138217955827713,
-        "framework": 1.1417269706726074,
+        "compilation": 42.5133858807385,
+        "framework": 0.18846383318305016,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1395563.4813010693
+          2306033.6661301553
         ]
       },
       "invalidity": "correct",
@@ -103,7 +103,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.375,
+          "value": -0.392,
           "unit": ""
         }
       ],
@@ -112,17 +112,17 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:57:21.466843+00:00",
+      "timestamp": "2025-05-13 21:17:57.369011+00:00",
       "configuration": {
         "method": "Powell"
       },
       "times": {
-        "compilation": 25.235358625650406,
-        "framework": 1.0598637163639069,
+        "compilation": 24.203467182815075,
+        "framework": 1.482360064983368,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1499882.083144039
+          2466178.068123758
         ]
       },
       "invalidity": "correct",
@@ -130,7 +130,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.549,
+          "value": -0.645,
           "unit": ""
         }
       ],
@@ -139,17 +139,17 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 09:21:30.169605+00:00",
+      "timestamp": "2025-05-13 21:57:32.792925+00:00",
       "configuration": {
         "method": "Nelder-Mead"
       },
       "times": {
-        "compilation": 25.101203471422195,
-        "framework": 1.1501573026180267,
+        "compilation": 23.240469861775637,
+        "framework": 1.3459553010761738,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1448676.4690876007
+          2375399.2667468265
         ]
       },
       "invalidity": "correct",
@@ -157,7 +157,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -1.122,
+          "value": -1.011,
           "unit": ""
         }
       ],
@@ -166,17 +166,17 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 09:45:02.002904+00:00",
+      "timestamp": "2025-05-13 22:35:41.657137+00:00",
       "configuration": {
         "method": "BFGS"
       },
       "times": {
-        "compilation": 24.91706982254982,
-        "framework": 1.3268627226352692,
+        "compilation": 23.836107924580574,
+        "framework": 1.043718308210373,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1411807.0164956152
+          2288839.2949290574
         ]
       },
       "invalidity": "correct",
@@ -184,7 +184,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.405,
+          "value": -0.49,
           "unit": ""
         }
       ],
@@ -193,17 +193,17 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 10:08:19.977526+00:00",
+      "timestamp": "2025-05-13 23:13:49.592966+00:00",
       "configuration": {
         "method": "trust-constr"
       },
       "times": {
-        "compilation": 25.77783912420273,
-        "framework": 1.1036470532417297,
+        "compilation": 23.710271809250116,
+        "framework": 1.0267570614814758,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1397947.702176869
+          2287910.966631025
         ]
       },
       "invalidity": "correct",
@@ -211,7 +211,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.338,
+          "value": -0.528,
           "unit": ""
         }
       ],

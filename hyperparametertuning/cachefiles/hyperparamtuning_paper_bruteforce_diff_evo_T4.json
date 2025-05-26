@@ -4,19 +4,19 @@
   },
   "results": [
     {
-      "timestamp": "2025-03-17 07:19:39.835784+00:00",
+      "timestamp": "2025-05-14 10:02:14.664504+00:00",
       "configuration": {
         "method": "best1bin",
         "popsize": 10,
         "maxiter": 50
       },
       "times": {
-        "compilation": 38.433462381362915,
-        "framework": 1.9695311784744263,
+        "compilation": 41.29962204024196,
+        "framework": 12.536744121462107,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1222014.279525727
+          1563557.8444190323
         ]
       },
       "invalidity": "correct",
@@ -24,7 +24,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.039,
+          "value": -1.315,
           "unit": ""
         }
       ],
@@ -33,19 +33,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 07:39:57.456660+00:00",
+      "timestamp": "2025-05-14 10:28:17.926642+00:00",
       "configuration": {
         "method": "best1bin",
         "popsize": 10,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.74624866247177,
-        "framework": 1.2935958802700043,
+        "compilation": 24.04866274446249,
+        "framework": 1.3835490681231022,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1217593.7936864793
+          1563236.6633340716
         ]
       },
       "invalidity": "correct",
@@ -53,7 +53,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.105,
+          "value": -1.212,
           "unit": ""
         }
       ],
@@ -62,19 +62,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:00:29.279966+00:00",
+      "timestamp": "2025-05-14 10:54:21.666692+00:00",
       "configuration": {
         "method": "best1bin",
         "popsize": 10,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.004368275403976,
-        "framework": 1.0771118104457855,
+        "compilation": 23.57063628733158,
+        "framework": 1.1839354410767555,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1231797.183457762
+          1563715.2561210096
         ]
       },
       "invalidity": "correct",
@@ -82,7 +82,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.064,
+          "value": -1.218,
           "unit": ""
         }
       ],
@@ -91,19 +91,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:21:00.780556+00:00",
+      "timestamp": "2025-05-14 11:20:55.913171+00:00",
       "configuration": {
         "method": "best1bin",
         "popsize": 20,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.12972056865692,
-        "framework": 1.1465996503829956,
+        "compilation": 23.657710291445255,
+        "framework": 1.2152139097452164,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1231474.2758981884
+          1594221.5667730197
         ]
       },
       "invalidity": "correct",
@@ -111,7 +111,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.28,
+          "value": -0.719,
           "unit": ""
         }
       ],
@@ -120,19 +120,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:41:35.938757+00:00",
+      "timestamp": "2025-05-14 11:47:32.678616+00:00",
       "configuration": {
         "method": "best1bin",
         "popsize": 20,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.001980364322662,
-        "framework": 1.1018365621566772,
+        "compilation": 24.05968029052019,
+        "framework": 1.1296533048152924,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1235132.0577003062
+          1596740.218100138
         ]
       },
       "invalidity": "correct",
@@ -140,7 +140,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.264,
+          "value": -0.556,
           "unit": ""
         }
       ],
@@ -149,19 +149,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 09:02:05.806956+00:00",
+      "timestamp": "2025-05-14 12:14:08.355009+00:00",
       "configuration": {
         "method": "best1bin",
         "popsize": 20,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.397509336471558,
-        "framework": 1.139562577009201,
+        "compilation": 25.07748082280159,
+        "framework": 1.191949937492609,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1229841.6214883327
+          1595650.0838161446
         ]
       },
       "invalidity": "correct",
@@ -169,7 +169,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.243,
+          "value": -0.479,
           "unit": ""
         }
       ],
@@ -178,19 +178,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 09:22:51.573333+00:00",
+      "timestamp": "2025-05-14 12:40:56.460387+00:00",
       "configuration": {
         "method": "best1bin",
         "popsize": 30,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.43468400835991,
-        "framework": 1.0809525847434998,
+        "compilation": 24.98486777767539,
+        "framework": 1.2070480734109879,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1245739.8213297129
+          1608079.145307187
         ]
       },
       "invalidity": "correct",
@@ -198,7 +198,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.261,
+          "value": -0.6,
           "unit": ""
         }
       ],
@@ -207,19 +207,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 09:43:33.816945+00:00",
+      "timestamp": "2025-05-14 13:07:49.174054+00:00",
       "configuration": {
         "method": "best1bin",
         "popsize": 30,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.13916790485382,
-        "framework": 1.226574182510376,
+        "compilation": 24.660094175487757,
+        "framework": 1.1262474581599236,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1242217.2054238617
+          1612687.840399798
         ]
       },
       "invalidity": "correct",
@@ -227,7 +227,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.229,
+          "value": -0.419,
           "unit": ""
         }
       ],
@@ -236,19 +236,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 10:04:18.265947+00:00",
+      "timestamp": "2025-05-14 13:34:37.835369+00:00",
       "configuration": {
         "method": "best1bin",
         "popsize": 30,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.185655802488327,
-        "framework": 1.138877123594284,
+        "compilation": 25.20301891490817,
+        "framework": 1.1373087763786316,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1244422.6384796202
+          1608634.9373473786
         ]
       },
       "invalidity": "correct",
@@ -256,7 +256,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.261,
+          "value": -0.495,
           "unit": ""
         }
       ],
@@ -265,19 +265,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 10:24:47.691913+00:00",
+      "timestamp": "2025-05-14 14:00:55.975207+00:00",
       "configuration": {
         "method": "best1exp",
         "popsize": 10,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.70323273539543,
-        "framework": 2.2012777626514435,
+        "compilation": 24.952150881290436,
+        "framework": 1.0358192957937717,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1229398.021582514
+          1578113.8128829189
         ]
       },
       "invalidity": "correct",
@@ -285,7 +285,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.038,
+          "value": -1.225,
           "unit": ""
         }
       ],
@@ -294,19 +294,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 10:45:22.720655+00:00",
+      "timestamp": "2025-05-14 14:27:36.070257+00:00",
       "configuration": {
         "method": "best1exp",
         "popsize": 10,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.674987584352493,
-        "framework": 1.1705607175827026,
+        "compilation": 23.919785395264626,
+        "framework": 1.0881167836487293,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1235001.8555037677
+          1600070.0060129166
         ]
       },
       "invalidity": "correct",
@@ -314,7 +314,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.189,
+          "value": -1.068,
           "unit": ""
         }
       ],
@@ -323,19 +323,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 11:06:03.870508+00:00",
+      "timestamp": "2025-05-14 14:54:22.257681+00:00",
       "configuration": {
         "method": "best1exp",
         "popsize": 10,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.16999840736389,
-        "framework": 1.197870820760727,
+        "compilation": 24.95876420289278,
+        "framework": 1.1345339007675648,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1241123.44558537
+          1606161.2934870645
         ]
       },
       "invalidity": "correct",
@@ -343,7 +343,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.018,
+          "value": -1.191,
           "unit": ""
         }
       ],
@@ -352,19 +352,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 11:26:49.704192+00:00",
+      "timestamp": "2025-05-14 15:21:15.384968+00:00",
       "configuration": {
         "method": "best1exp",
         "popsize": 20,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.38881078362465,
-        "framework": 1.2146830558776855,
+        "compilation": 25.216727051883936,
+        "framework": 1.2761685065925121,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1245807.0413209498
+          1613100.7559597492
         ]
       },
       "invalidity": "correct",
@@ -372,7 +372,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.061,
+          "value": -0.721,
           "unit": ""
         }
       ],
@@ -381,19 +381,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 11:47:44.969190+00:00",
+      "timestamp": "2025-05-14 15:48:37.289071+00:00",
       "configuration": {
         "method": "best1exp",
         "popsize": 20,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.565247982740402,
-        "framework": 1.2587867677211761,
+        "compilation": 24.271748028695583,
+        "framework": 1.1370880529284477,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1255238.1340377033
+          1641878.6584697664
         ]
       },
       "invalidity": "correct",
@@ -401,7 +401,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.101,
+          "value": -0.746,
           "unit": ""
         }
       ],
@@ -410,19 +410,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 12:08:45.281662+00:00",
+      "timestamp": "2025-05-14 16:16:18.841127+00:00",
       "configuration": {
         "method": "best1exp",
         "popsize": 20,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.33358335494995,
-        "framework": 1.194339245557785,
+        "compilation": 24.685482028871775,
+        "framework": 1.115698367357254,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1260285.9071493149
+          1661526.1633927003
         ]
       },
       "invalidity": "correct",
@@ -430,7 +430,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.156,
+          "value": -0.672,
           "unit": ""
         }
       ],
@@ -439,19 +439,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 12:29:43.809651+00:00",
+      "timestamp": "2025-05-14 16:43:25.561154+00:00",
       "configuration": {
         "method": "best1exp",
         "popsize": 30,
         "maxiter": 50
       },
       "times": {
-        "compilation": 24.830970913171768,
-        "framework": 1.1686943471431732,
+        "compilation": 25.872573256492615,
+        "framework": 1.2219161726534367,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1258501.9516348839
+          1626692.8958613425
         ]
       },
       "invalidity": "correct",
@@ -459,7 +459,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.125,
+          "value": -0.561,
           "unit": ""
         }
       ],
@@ -468,19 +468,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 12:50:40.695738+00:00",
+      "timestamp": "2025-05-14 17:10:47.440166+00:00",
       "configuration": {
         "method": "best1exp",
         "popsize": 30,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.435805320739746,
-        "framework": 1.2422502040863037,
+        "compilation": 25.706273037940264,
+        "framework": 1.2655486352741718,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1256859.370239079
+          1641852.004098706
         ]
       },
       "invalidity": "correct",
@@ -488,7 +488,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.114,
+          "value": -0.6,
           "unit": ""
         }
       ],
@@ -497,19 +497,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 13:11:41.301505+00:00",
+      "timestamp": "2025-05-14 17:38:17.251218+00:00",
       "configuration": {
         "method": "best1exp",
         "popsize": 30,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.554507970809937,
-        "framework": 1.1285170912742615,
+        "compilation": 24.333573877811432,
+        "framework": 1.1285222135484219,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1260579.0446065366
+          1649785.5514539406
         ]
       },
       "invalidity": "correct",
@@ -517,7 +517,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.06,
+          "value": -0.625,
           "unit": ""
         }
       ],
@@ -526,19 +526,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 13:32:14.073100+00:00",
+      "timestamp": "2025-05-14 18:04:40.488281+00:00",
       "configuration": {
         "method": "rand1exp",
         "popsize": 10,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.75065940618515,
-        "framework": 1.0521113872528076,
+        "compilation": 25.221604853868484,
+        "framework": 1.147477887570858,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1232744.7553500533
+          1583210.6566461734
         ]
       },
       "invalidity": "correct",
@@ -546,7 +546,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.022,
+          "value": -1.136,
           "unit": ""
         }
       ],
@@ -555,19 +555,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 13:53:06.583159+00:00",
+      "timestamp": "2025-05-14 18:31:29.720174+00:00",
       "configuration": {
         "method": "rand1exp",
         "popsize": 10,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.43775737285614,
-        "framework": 1.1835135519504547,
+        "compilation": 25.05681710317731,
+        "framework": 1.2041432783007622,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1252483.3976849914
+          1609205.58431698
         ]
       },
       "invalidity": "correct",
@@ -575,7 +575,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.084,
+          "value": -1.074,
           "unit": ""
         }
       ],
@@ -584,19 +584,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 14:13:59.728978+00:00",
+      "timestamp": "2025-05-14 18:58:35.191542+00:00",
       "configuration": {
         "method": "rand1exp",
         "popsize": 10,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.727801024913788,
-        "framework": 1.264188438653946,
+        "compilation": 25.36312025040388,
+        "framework": 1.4168517664074898,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1253118.7885142863
+          1625444.5493509993
         ]
       },
       "invalidity": "correct",
@@ -604,7 +604,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.064,
+          "value": -1.244,
           "unit": ""
         }
       ],
@@ -613,19 +613,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 14:34:38.050314+00:00",
+      "timestamp": "2025-05-14 19:25:23.303781+00:00",
       "configuration": {
         "method": "rand1exp",
         "popsize": 20,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.522280484437943,
-        "framework": 1.175709068775177,
+        "compilation": 24.80859123170376,
+        "framework": 1.1348240077495575,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1238294.5986762643
+          1608086.2588998862
         ]
       },
       "invalidity": "correct",
@@ -633,7 +633,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.035,
+          "value": -0.966,
           "unit": ""
         }
       ],
@@ -642,19 +642,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 14:55:28.506833+00:00",
+      "timestamp": "2025-05-14 19:52:34.492917+00:00",
       "configuration": {
         "method": "rand1exp",
         "popsize": 20,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.37550777196884,
-        "framework": 1.1081844568252563,
+        "compilation": 25.27975430712104,
+        "framework": 1.184276770800352,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1250429.9956820905
+          1631162.6360788941
         ]
       },
       "invalidity": "correct",
@@ -662,7 +662,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.125,
+          "value": -0.962,
           "unit": ""
         }
       ],
@@ -671,19 +671,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 15:16:26.353513+00:00",
+      "timestamp": "2025-05-14 20:19:59.109259+00:00",
       "configuration": {
         "method": "rand1exp",
         "popsize": 20,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.204621255397797,
-        "framework": 1.2792982161045074,
+        "compilation": 25.36911191418767,
+        "framework": 1.3817972503602505,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1257820.1581873
+          1644589.5320018753
         ]
       },
       "invalidity": "correct",
@@ -691,7 +691,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.016,
+          "value": -0.624,
           "unit": ""
         }
       ],
@@ -700,19 +700,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 15:37:11.926547+00:00",
+      "timestamp": "2025-05-14 20:47:03.417854+00:00",
       "configuration": {
         "method": "rand1exp",
         "popsize": 30,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.278441607952118,
-        "framework": 1.1046193540096283,
+        "compilation": 24.183091707527637,
+        "framework": 1.1053490452468395,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1245546.6136448085
+          1624283.1968031824
         ]
       },
       "invalidity": "correct",
@@ -720,7 +720,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.129,
+          "value": -0.689,
           "unit": ""
         }
       ],
@@ -729,19 +729,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 15:58:06.207525+00:00",
+      "timestamp": "2025-05-14 21:14:18.523532+00:00",
       "configuration": {
         "method": "rand1exp",
         "popsize": 30,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.670871138572693,
-        "framework": 1.2457966804504395,
+        "compilation": 24.49582703411579,
+        "framework": 1.4059823006391525,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1254254.02437523
+          1635079.7382299788
         ]
       },
       "invalidity": "correct",
@@ -749,7 +749,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.056,
+          "value": -0.639,
           "unit": ""
         }
       ],
@@ -758,19 +758,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 16:19:02.215771+00:00",
+      "timestamp": "2025-05-14 21:41:39.687018+00:00",
       "configuration": {
         "method": "rand1exp",
         "popsize": 30,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.00995248556137,
-        "framework": 1.216597855091095,
+        "compilation": 24.084515869617462,
+        "framework": 1.2274682521820068,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1255981.9831065834
+          1641138.1363850087
         ]
       },
       "invalidity": "correct",
@@ -778,7 +778,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.12,
+          "value": -0.736,
           "unit": ""
         }
       ],
@@ -787,19 +787,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 16:39:41.244850+00:00",
+      "timestamp": "2025-05-14 22:08:03.620792+00:00",
       "configuration": {
         "method": "randtobest1exp",
         "popsize": 10,
         "maxiter": 50
       },
       "times": {
-        "compilation": 24.95225891470909,
-        "framework": 1.1184997856616974,
+        "compilation": 24.348090402781963,
+        "framework": 1.1863196268677711,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1239002.9680170119
+          1583908.2017452456
         ]
       },
       "invalidity": "correct",
@@ -807,7 +807,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.145,
+          "value": -0.906,
           "unit": ""
         }
       ],
@@ -816,19 +816,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 17:00:20.985284+00:00",
+      "timestamp": "2025-05-14 22:34:43.604482+00:00",
       "configuration": {
         "method": "randtobest1exp",
         "popsize": 10,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.02208948135376,
-        "framework": 1.3307109475135803,
+        "compilation": 24.527595844119787,
+        "framework": 1.1194255203008652,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1239714.0434719622
+          1599958.0052578822
         ]
       },
       "invalidity": "correct",
@@ -836,7 +836,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.035,
+          "value": -1.024,
           "unit": ""
         }
       ],
@@ -845,19 +845,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 17:21:05.091327+00:00",
+      "timestamp": "2025-05-14 23:01:37.650548+00:00",
       "configuration": {
         "method": "randtobest1exp",
         "popsize": 10,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.30229464173317,
-        "framework": 1.1718757450580597,
+        "compilation": 24.561719968914986,
+        "framework": 1.1567045003175735,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1244079.5320160687
+          1614020.311590284
         ]
       },
       "invalidity": "correct",
@@ -865,7 +865,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.05,
+          "value": -1.015,
           "unit": ""
         }
       ],
@@ -874,19 +874,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 17:41:50.813035+00:00",
+      "timestamp": "2025-05-14 23:28:33.356986+00:00",
       "configuration": {
         "method": "randtobest1exp",
         "popsize": 20,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.241438299417496,
-        "framework": 1.193717122077942,
+        "compilation": 24.753035977482796,
+        "framework": 1.2360126711428165,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1245695.2370591462
+          1615680.412972346
         ]
       },
       "invalidity": "correct",
@@ -894,7 +894,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.073,
+          "value": -0.71,
           "unit": ""
         }
       ],
@@ -903,19 +903,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 18:02:52.484917+00:00",
+      "timestamp": "2025-05-14 23:55:52.388277+00:00",
       "configuration": {
         "method": "randtobest1exp",
         "popsize": 20,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.5732499063015,
-        "framework": 1.1450499296188354,
+        "compilation": 23.920769337564707,
+        "framework": 1.2841429561376572,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1261645.121499896
+          1639006.0496549122
         ]
       },
       "invalidity": "correct",
@@ -923,7 +923,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.055,
+          "value": -0.526,
           "unit": ""
         }
       ],
@@ -932,19 +932,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 18:23:54.854297+00:00",
+      "timestamp": "2025-05-15 00:23:29.050290+00:00",
       "configuration": {
         "method": "randtobest1exp",
         "popsize": 20,
         "maxiter": 150
       },
       "times": {
-        "compilation": 24.64258298277855,
-        "framework": 1.4830417931079865,
+        "compilation": 25.67696711048484,
+        "framework": 2.0441561937332153,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1262343.2124517858
+          1656634.2402826995
         ]
       },
       "invalidity": "correct",
@@ -952,7 +952,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.172,
+          "value": -0.625,
           "unit": ""
         }
       ],
@@ -961,19 +961,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 18:44:43.737654+00:00",
+      "timestamp": "2025-05-15 00:50:32.576484+00:00",
       "configuration": {
         "method": "randtobest1exp",
         "popsize": 30,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.039803236722946,
-        "framework": 1.1629685759544373,
+        "compilation": 25.093913078308105,
+        "framework": 1.1629778891801834,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1248857.0782095194
+          1623499.8894738965
         ]
       },
       "invalidity": "correct",
@@ -981,7 +981,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.006,
+          "value": -0.585,
           "unit": ""
         }
       ],
@@ -990,19 +990,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 19:05:39.906750+00:00",
+      "timestamp": "2025-05-15 01:18:00.730372+00:00",
       "configuration": {
         "method": "randtobest1exp",
         "popsize": 30,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.75765550136566,
-        "framework": 1.1458173394203186,
+        "compilation": 23.984067607671022,
+        "framework": 1.1841063387691975,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1256142.0834884048
+          1648128.6797779612
         ]
       },
       "invalidity": "correct",
@@ -1010,7 +1010,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.014,
+          "value": -0.669,
           "unit": ""
         }
       ],
@@ -1019,19 +1019,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 19:26:45.837493+00:00",
+      "timestamp": "2025-05-15 01:45:32.903739+00:00",
       "configuration": {
         "method": "randtobest1exp",
         "popsize": 30,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.44405683875084,
-        "framework": 1.1220499873161316,
+        "compilation": 25.01309383660555,
+        "framework": 1.2330478057265282,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1265904.1366502643
+          1652147.0820070244
         ]
       },
       "invalidity": "correct",
@@ -1039,7 +1039,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.031,
+          "value": -0.658,
           "unit": ""
         }
       ],
@@ -1048,19 +1048,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 19:47:11.122041+00:00",
+      "timestamp": "2025-05-15 02:11:52.661031+00:00",
       "configuration": {
         "method": "best2exp",
         "popsize": 10,
         "maxiter": 50
       },
       "times": {
-        "compilation": 24.792231619358063,
-        "framework": 1.229356974363327,
+        "compilation": 23.94821122288704,
+        "framework": 1.2467531487345695,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1225258.4878988564
+          1579731.9736620411
         ]
       },
       "invalidity": "correct",
@@ -1068,7 +1068,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.006,
+          "value": -1.138,
           "unit": ""
         }
       ],
@@ -1077,19 +1077,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 20:07:52.948374+00:00",
+      "timestamp": "2025-05-15 02:38:42.833823+00:00",
       "configuration": {
         "method": "best2exp",
         "popsize": 10,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.29328688979149,
-        "framework": 1.1661425232887268,
+        "compilation": 24.229818023741245,
+        "framework": 1.1846967972815037,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1241799.836870283
+          1610147.341194097
         ]
       },
       "invalidity": "correct",
@@ -1097,7 +1097,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.182,
+          "value": -1.135,
           "unit": ""
         }
       ],
@@ -1106,19 +1106,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 20:28:45.361220+00:00",
+      "timestamp": "2025-05-15 03:05:46.509758+00:00",
       "configuration": {
         "method": "best2exp",
         "popsize": 10,
         "maxiter": 150
       },
       "times": {
-        "compilation": 26.038367301225662,
-        "framework": 1.2500844895839691,
+        "compilation": 24.401799775660038,
+        "framework": 1.3536135666072369,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1252385.5194710195
+          1623650.1415087841
         ]
       },
       "invalidity": "correct",
@@ -1126,7 +1126,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.06,
+          "value": -1.11,
           "unit": ""
         }
       ],
@@ -1135,19 +1135,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 20:49:26.986548+00:00",
+      "timestamp": "2025-05-15 03:32:39.510510+00:00",
       "configuration": {
         "method": "best2exp",
         "popsize": 20,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.958947837352753,
-        "framework": 1.3148151338100433,
+        "compilation": 24.77179327979684,
+        "framework": 1.1284011416137218,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1241598.0156697333
+          1612974.815374706
         ]
       },
       "invalidity": "correct",
@@ -1155,7 +1155,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.028,
+          "value": -0.964,
           "unit": ""
         }
       ],
@@ -1164,19 +1164,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 21:10:14.829218+00:00",
+      "timestamp": "2025-05-15 03:59:46.416842+00:00",
       "configuration": {
         "method": "best2exp",
         "popsize": 20,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.485895574092865,
-        "framework": 1.180306077003479,
+        "compilation": 24.99973913654685,
+        "framework": 1.185137778520584,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1247815.9666880965
+          1626880.1104440354
         ]
       },
       "invalidity": "correct",
@@ -1184,7 +1184,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.067,
+          "value": -0.712,
           "unit": ""
         }
       ],
@@ -1193,19 +1193,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 21:31:25.295494+00:00",
+      "timestamp": "2025-05-15 04:27:11.281407+00:00",
       "configuration": {
         "method": "best2exp",
         "popsize": 20,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.320108979940414,
-        "framework": 1.2415871024131775,
+        "compilation": 24.315469432622194,
+        "framework": 1.0894970037043095,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1270439.6762251854
+          1644839.123022277
         ]
       },
       "invalidity": "correct",
@@ -1213,7 +1213,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.049,
+          "value": -0.619,
           "unit": ""
         }
       ],
@@ -1222,19 +1222,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 21:52:25.829983+00:00",
+      "timestamp": "2025-05-15 04:54:08.865780+00:00",
       "configuration": {
         "method": "best2exp",
         "popsize": 30,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.888949632644653,
-        "framework": 1.9116811454296112,
+        "compilation": 25.45714285224676,
+        "framework": 1.1652298271656036,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1260506.6511482
+          1617557.7143002301
         ]
       },
       "invalidity": "correct",
@@ -1242,7 +1242,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.034,
+          "value": -0.59,
           "unit": ""
         }
       ],
@@ -1251,19 +1251,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 22:13:30.153339+00:00",
+      "timestamp": "2025-05-15 05:21:17.751441+00:00",
       "configuration": {
         "method": "best2exp",
         "popsize": 30,
         "maxiter": 100
       },
       "times": {
-        "compilation": 60.13444811105728,
-        "framework": 147.42158725857735,
+        "compilation": 24.704997893422842,
+        "framework": 1.1535286903381348,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1264115.7621257007
+          1628859.7383280285
         ]
       },
       "invalidity": "correct",
@@ -1271,7 +1271,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.091,
+          "value": -0.74,
           "unit": ""
         }
       ],
@@ -1280,19 +1280,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 22:34:32.683461+00:00",
+      "timestamp": "2025-05-15 05:48:35.945092+00:00",
       "configuration": {
         "method": "best2exp",
         "popsize": 30,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.462396442890167,
-        "framework": 1.357540488243103,
+        "compilation": 24.982416070997715,
+        "framework": 1.4812517911195755,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1262503.2651498914
+          1638167.1467060223
         ]
       },
       "invalidity": "correct",
@@ -1300,7 +1300,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.018,
+          "value": -0.665,
           "unit": ""
         }
       ],
@@ -1309,19 +1309,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 22:54:59.931948+00:00",
+      "timestamp": "2025-05-15 06:14:52.996965+00:00",
       "configuration": {
         "method": "rand2exp",
         "popsize": 10,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.656573474407196,
-        "framework": 1.1003687977790833,
+        "compilation": 24.22394696623087,
+        "framework": 1.188043039292097,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1227221.6908149421
+          1577026.4218798839
         ]
       },
       "invalidity": "correct",
@@ -1329,7 +1329,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.087,
+          "value": -1.246,
           "unit": ""
         }
       ],
@@ -1338,19 +1338,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 23:15:39.930893+00:00",
+      "timestamp": "2025-05-15 06:41:39.657468+00:00",
       "configuration": {
         "method": "rand2exp",
         "popsize": 10,
         "maxiter": 100
       },
       "times": {
-        "compilation": 24.906478822231293,
-        "framework": 1.2645833194255829,
+        "compilation": 24.319898337125778,
+        "framework": 1.212498638778925,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1239972.7361612022
+          1606634.9337068386
         ]
       },
       "invalidity": "correct",
@@ -1358,7 +1358,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.083,
+          "value": -1.139,
           "unit": ""
         }
       ],
@@ -1367,19 +1367,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 23:36:30.856712+00:00",
+      "timestamp": "2025-05-15 07:08:40.376161+00:00",
       "configuration": {
         "method": "rand2exp",
         "popsize": 10,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.289151817560196,
-        "framework": 1.2097656726837158,
+        "compilation": 24.354001972824335,
+        "framework": 1.1447332799434662,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1250899.281065911
+          1620693.1577739306
         ]
       },
       "invalidity": "correct",
@@ -1387,7 +1387,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.022,
+          "value": -0.86,
           "unit": ""
         }
       ],
@@ -1396,19 +1396,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 23:57:07.377455+00:00",
+      "timestamp": "2025-05-15 07:35:23.661808+00:00",
       "configuration": {
         "method": "rand2exp",
         "popsize": 20,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.39757266640663,
-        "framework": 1.293715089559555,
+        "compilation": 24.502950254827738,
+        "framework": 1.1687376536428928,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1236494.0147176385
+          1603259.9364458583
         ]
       },
       "invalidity": "correct",
@@ -1416,7 +1416,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.116,
+          "value": -1.019,
           "unit": ""
         }
       ],
@@ -1425,19 +1425,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 00:17:57.244907+00:00",
+      "timestamp": "2025-05-15 08:02:33.190450+00:00",
       "configuration": {
         "method": "rand2exp",
         "popsize": 20,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.148987770080566,
-        "framework": 1.255229115486145,
+        "compilation": 24.712902959436178,
+        "framework": 1.071333885192871,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1249841.009400785
+          1629502.8203232214
         ]
       },
       "invalidity": "correct",
@@ -1445,7 +1445,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.028,
+          "value": -0.934,
           "unit": ""
         }
       ],
@@ -1454,19 +1454,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 00:38:53.218548+00:00",
+      "timestamp": "2025-05-15 08:29:54.484232+00:00",
       "configuration": {
         "method": "rand2exp",
         "popsize": 20,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.507617741823196,
-        "framework": 1.2808628380298615,
+        "compilation": 24.203650187700987,
+        "framework": 1.0621678084135056,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1255946.814712137
+          1641268.478943035
         ]
       },
       "invalidity": "correct",
@@ -1474,7 +1474,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.067,
+          "value": -0.77,
           "unit": ""
         }
       ],
@@ -1483,19 +1483,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 00:59:43.763029+00:00",
+      "timestamp": "2025-05-15 08:56:55.112392+00:00",
       "configuration": {
         "method": "rand2exp",
         "popsize": 30,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.607313960790634,
-        "framework": 1.2460686266422272,
+        "compilation": 24.782894179224968,
+        "framework": 1.2465836480259895,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1250517.5895541906
+          1620602.0938763395
         ]
       },
       "invalidity": "correct",
@@ -1503,7 +1503,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.019,
+          "value": -0.748,
           "unit": ""
         }
       ],
@@ -1512,19 +1512,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 01:20:34.568518+00:00",
+      "timestamp": "2025-05-15 09:24:14.587488+00:00",
       "configuration": {
         "method": "rand2exp",
         "popsize": 30,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.25307983160019,
-        "framework": 1.1553876101970673,
+        "compilation": 23.959374986588955,
+        "framework": 1.2005455791950226,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1250779.0445759892
+          1639449.9008320272
         ]
       },
       "invalidity": "correct",
@@ -1532,7 +1532,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.102,
+          "value": -0.904,
           "unit": ""
         }
       ],
@@ -1541,19 +1541,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 01:41:39.689281+00:00",
+      "timestamp": "2025-05-15 09:51:40.099518+00:00",
       "configuration": {
         "method": "rand2exp",
         "popsize": 30,
         "maxiter": 150
       },
       "times": {
-        "compilation": 26.136066764593124,
-        "framework": 1.286834478378296,
+        "compilation": 24.250927846878767,
+        "framework": 1.2130914255976677,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1265093.3021381497
+          1645486.5288957953
         ]
       },
       "invalidity": "correct",
@@ -1561,7 +1561,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.06,
+          "value": -0.855,
           "unit": ""
         }
       ],
@@ -1570,19 +1570,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 02:02:07.863285+00:00",
+      "timestamp": "2025-05-15 10:17:39.050498+00:00",
       "configuration": {
         "method": "randtobest1bin",
         "popsize": 10,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.184225291013718,
-        "framework": 1.2308061122894287,
+        "compilation": 23.85159069672227,
+        "framework": 1.1147372424602509,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1228147.551715374
+          1558925.976863131
         ]
       },
       "invalidity": "correct",
@@ -1590,7 +1590,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.004,
+          "value": -1.207,
           "unit": ""
         }
       ],
@@ -1599,19 +1599,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 02:22:30.489835+00:00",
+      "timestamp": "2025-05-15 10:43:38.116629+00:00",
       "configuration": {
         "method": "randtobest1bin",
         "popsize": 10,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.770850479602814,
-        "framework": 1.1869966983795166,
+        "compilation": 24.600643198937178,
+        "framework": 1.2671318836510181,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1222599.5547100902
+          1559040.1649731211
         ]
       },
       "invalidity": "correct",
@@ -1619,7 +1619,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.123,
+          "value": -1.031,
           "unit": ""
         }
       ],
@@ -1628,19 +1628,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 02:42:57.555576+00:00",
+      "timestamp": "2025-05-15 11:09:44.381874+00:00",
       "configuration": {
         "method": "randtobest1bin",
         "popsize": 10,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.289960205554962,
-        "framework": 1.3592131435871124,
+        "compilation": 24.799273815006018,
+        "framework": 1.228048000484705,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1227039.0555225313
+          1566239.1821960919
         ]
       },
       "invalidity": "correct",
@@ -1648,7 +1648,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.102,
+          "value": -1.315,
           "unit": ""
         }
       ],
@@ -1657,19 +1657,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 03:03:34.174113+00:00",
+      "timestamp": "2025-05-15 11:36:15.983179+00:00",
       "configuration": {
         "method": "randtobest1bin",
         "popsize": 20,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.246448814868927,
-        "framework": 1.2388676404953003,
+        "compilation": 24.21866776421666,
+        "framework": 1.0374709963798523,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1236592.002145946
+          1591576.0123780929
         ]
       },
       "invalidity": "correct",
@@ -1677,7 +1677,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.225,
+          "value": -0.605,
           "unit": ""
         }
       ],
@@ -1686,19 +1686,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 03:24:12.247235+00:00",
+      "timestamp": "2025-05-15 12:02:53.848782+00:00",
       "configuration": {
         "method": "randtobest1bin",
         "popsize": 20,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.84722638130188,
-        "framework": 1.249745488166809,
+        "compilation": 24.42748798057437,
+        "framework": 18.83751666173339,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1238045.987624675
+          1597822.3007670604
         ]
       },
       "invalidity": "correct",
@@ -1706,7 +1706,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.285,
+          "value": -0.618,
           "unit": ""
         }
       ],
@@ -1715,19 +1715,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 03:44:51.912379+00:00",
+      "timestamp": "2025-05-15 12:29:29.372289+00:00",
       "configuration": {
         "method": "randtobest1bin",
         "popsize": 20,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.769218802452087,
-        "framework": 1.1824406683444977,
+        "compilation": 24.294978938996792,
+        "framework": 1.2119770981371403,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1239638.1545886397
+          1595497.8697439656
         ]
       },
       "invalidity": "correct",
@@ -1735,7 +1735,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.215,
+          "value": -0.695,
           "unit": ""
         }
       ],
@@ -1744,19 +1744,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 04:05:33.525662+00:00",
+      "timestamp": "2025-05-15 12:56:16.985636+00:00",
       "configuration": {
         "method": "randtobest1bin",
         "popsize": 30,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.560207664966583,
-        "framework": 1.1821575462818146,
+        "compilation": 24.17550515383482,
+        "framework": 1.1859098449349403,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1241586.5017212927
+          1607587.9353368655
         ]
       },
       "invalidity": "correct",
@@ -1764,7 +1764,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.094,
+          "value": -0.711,
           "unit": ""
         }
       ],
@@ -1773,19 +1773,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 04:26:17.567349+00:00",
+      "timestamp": "2025-05-15 13:23:03.203900+00:00",
       "configuration": {
         "method": "randtobest1bin",
         "popsize": 30,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.22747591137886,
-        "framework": 1.1059679090976715,
+        "compilation": 24.855678901076317,
+        "framework": 1.3101128861308098,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1244015.3147280216
+          1606192.0606498607
         ]
       },
       "invalidity": "correct",
@@ -1793,7 +1793,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.172,
+          "value": -0.572,
           "unit": ""
         }
       ],
@@ -1802,19 +1802,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 04:47:00.312461+00:00",
+      "timestamp": "2025-05-15 13:49:52.301961+00:00",
       "configuration": {
         "method": "randtobest1bin",
         "popsize": 30,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.33646672964096,
-        "framework": 1.3561733067035675,
+        "compilation": 24.90117261186242,
+        "framework": 1.0970942676067352,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1242718.3827497065
+          1609072.0264362171
         ]
       },
       "invalidity": "correct",
@@ -1822,7 +1822,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.147,
+          "value": -0.53,
           "unit": ""
         }
       ],
@@ -1831,19 +1831,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 05:07:28.372975+00:00",
+      "timestamp": "2025-05-15 14:15:57.774074+00:00",
       "configuration": {
         "method": "best2bin",
         "popsize": 10,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.951724499464035,
-        "framework": 1.2510418891906738,
+        "compilation": 24.60756478831172,
+        "framework": 1.1055590584874153,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1228033.274333924
+          1565446.2973889895
         ]
       },
       "invalidity": "correct",
@@ -1851,7 +1851,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.089,
+          "value": -0.916,
           "unit": ""
         }
       ],
@@ -1860,19 +1860,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 05:28:02.803514+00:00",
+      "timestamp": "2025-05-15 14:42:22.958621+00:00",
       "configuration": {
         "method": "best2bin",
         "popsize": 10,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.45301616191864,
-        "framework": 1.271761953830719,
+        "compilation": 24.398472160100937,
+        "framework": 1.238859724253416,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1234403.777077794
+          1585158.8718709536
         ]
       },
       "invalidity": "correct",
@@ -1880,7 +1880,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.201,
+          "value": -1.081,
           "unit": ""
         }
       ],
@@ -1889,19 +1889,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 05:48:34.651125+00:00",
+      "timestamp": "2025-05-15 15:08:47.570009+00:00",
       "configuration": {
         "method": "best2bin",
         "popsize": 10,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.192875415086746,
-        "framework": 1.2284517288208008,
+        "compilation": 24.691181257367134,
+        "framework": 1.236514188349247,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1231821.1524300277
+          1584585.4230578989
         ]
       },
       "invalidity": "correct",
@@ -1909,7 +1909,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.128,
+          "value": -0.955,
           "unit": ""
         }
       ],
@@ -1918,19 +1918,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 06:09:11.032237+00:00",
+      "timestamp": "2025-05-15 15:35:19.954236+00:00",
       "configuration": {
         "method": "best2bin",
         "popsize": 20,
         "maxiter": 50
       },
       "times": {
-        "compilation": 24.505916982889175,
-        "framework": 1.395292580127716,
+        "compilation": 24.147273041307926,
+        "framework": 1.1538797989487648,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1236355.1716767251
+          1592358.8889250532
         ]
       },
       "invalidity": "correct",
@@ -1938,7 +1938,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.156,
+          "value": -0.79,
           "unit": ""
         }
       ],
@@ -1947,19 +1947,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 06:30:03.183406+00:00",
+      "timestamp": "2025-05-15 16:02:08.017889+00:00",
       "configuration": {
         "method": "best2bin",
         "popsize": 20,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.600992143154144,
-        "framework": 1.1902786791324615,
+        "compilation": 25.10269219055772,
+        "framework": 1.252954825758934,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1252124.3417300284
+          1608037.2605798766
         ]
       },
       "invalidity": "correct",
@@ -1967,7 +1967,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.153,
+          "value": -0.782,
           "unit": ""
         }
       ],
@@ -1976,19 +1976,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 06:50:57.591046+00:00",
+      "timestamp": "2025-05-15 16:29:02.717363+00:00",
       "configuration": {
         "method": "best2bin",
         "popsize": 20,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.526341050863266,
-        "framework": 1.2079216539859772,
+        "compilation": 25.054811965674162,
+        "framework": 1.2828311882913113,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1254380.8686956763
+          1614673.096569255
         ]
       },
       "invalidity": "correct",
@@ -1996,7 +1996,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.186,
+          "value": -0.819,
           "unit": ""
         }
       ],
@@ -2005,19 +2005,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 07:11:38.604815+00:00",
+      "timestamp": "2025-05-15 16:55:58.276234+00:00",
       "configuration": {
         "method": "best2bin",
         "popsize": 30,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.499951094388962,
-        "framework": 1.3257600367069244,
+        "compilation": 25.22383676841855,
+        "framework": 1.2481766752898693,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1240986.9041256607
+          1615532.3607968166
         ]
       },
       "invalidity": "correct",
@@ -2025,7 +2025,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.083,
+          "value": -0.544,
           "unit": ""
         }
       ],
@@ -2034,19 +2034,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 07:32:27.901444+00:00",
+      "timestamp": "2025-05-15 17:23:05.366095+00:00",
       "configuration": {
         "method": "best2bin",
         "popsize": 30,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.36826580762863,
-        "framework": 1.1970102787017822,
+        "compilation": 24.208346847444773,
+        "framework": 1.1327811516821384,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1249270.0264453888
+          1627064.4816430286
         ]
       },
       "invalidity": "correct",
@@ -2054,7 +2054,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.094,
+          "value": -0.538,
           "unit": ""
         }
       ],
@@ -2063,19 +2063,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 07:53:22.151983+00:00",
+      "timestamp": "2025-05-15 17:50:16.475015+00:00",
       "configuration": {
         "method": "best2bin",
         "popsize": 30,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.074221193790436,
-        "framework": 1.1445023119449615,
+        "compilation": 25.06061317399144,
+        "framework": 1.0801716707646847,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1254224.2842949927
+          1631082.7428461052
         ]
       },
       "invalidity": "correct",
@@ -2083,7 +2083,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.108,
+          "value": -0.523,
           "unit": ""
         }
       ],
@@ -2092,19 +2092,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 08:13:56.524872+00:00",
+      "timestamp": "2025-05-15 18:16:50.862796+00:00",
       "configuration": {
         "method": "rand2bin",
         "popsize": 10,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.998517870903015,
-        "framework": 1.268286257982254,
+        "compilation": 24.756784085184336,
+        "framework": 1.216747798025608,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1234345.5841615796
+          1594361.7704003118
         ]
       },
       "invalidity": "correct",
@@ -2112,7 +2112,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.096,
+          "value": -1.234,
           "unit": ""
         }
       ],
@@ -2121,19 +2121,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 08:34:29.985030+00:00",
+      "timestamp": "2025-05-15 18:43:33.544938+00:00",
       "configuration": {
         "method": "rand2bin",
         "popsize": 10,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.824449956417084,
-        "framework": 1.224476844072342,
+        "compilation": 24.792770855128765,
+        "framework": 1.2596179731190205,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1233433.0710209906
+          1602656.0531649739
         ]
       },
       "invalidity": "correct",
@@ -2141,7 +2141,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.146,
+          "value": -1.147,
           "unit": ""
         }
       ],
@@ -2150,19 +2150,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 08:55:06.332239+00:00",
+      "timestamp": "2025-05-15 19:10:21.139939+00:00",
       "configuration": {
         "method": "rand2bin",
         "popsize": 10,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.534868240356445,
-        "framework": 1.2004189193248749,
+        "compilation": 24.873743299394846,
+        "framework": 1.2248726561665535,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1236320.4349391162
+          1607568.8662030734
         ]
       },
       "invalidity": "correct",
@@ -2170,7 +2170,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.031,
+          "value": -1.077,
           "unit": ""
         }
       ],
@@ -2179,19 +2179,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 09:15:49.201588+00:00",
+      "timestamp": "2025-05-15 19:37:02.265937+00:00",
       "configuration": {
         "method": "rand2bin",
         "popsize": 20,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.006920099258423,
-        "framework": 1.138489693403244,
+        "compilation": 24.73514387384057,
+        "framework": 1.2005772441625595,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1242843.166116625
+          1601100.0251239166
         ]
       },
       "invalidity": "correct",
@@ -2199,7 +2199,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.066,
+          "value": -1.035,
           "unit": ""
         }
       ],
@@ -2208,19 +2208,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 09:36:36.072559+00:00",
+      "timestamp": "2025-05-15 20:03:59.397742+00:00",
       "configuration": {
         "method": "rand2bin",
         "popsize": 20,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.320425629615784,
-        "framework": 1.2007467448711395,
+        "compilation": 25.592518039047718,
+        "framework": 1.1172108352184296,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1246844.3992696702
+          1617105.0581899472
         ]
       },
       "invalidity": "correct",
@@ -2228,7 +2228,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.133,
+          "value": -0.822,
           "unit": ""
         }
       ],
@@ -2237,19 +2237,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 09:57:25.391087+00:00",
+      "timestamp": "2025-05-15 20:31:06.092042+00:00",
       "configuration": {
         "method": "rand2bin",
         "popsize": 20,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.457050651311874,
-        "framework": 1.4259293675422668,
+        "compilation": 24.751644115895033,
+        "framework": 1.3237688690423965,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1249291.6074544191
+          1626668.1865761057
         ]
       },
       "invalidity": "correct",
@@ -2257,7 +2257,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.082,
+          "value": -0.696,
           "unit": ""
         }
       ],
@@ -2266,19 +2266,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 10:18:02.520843+00:00",
+      "timestamp": "2025-05-15 20:57:59.871565+00:00",
       "configuration": {
         "method": "rand2bin",
         "popsize": 30,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.123540312051773,
-        "framework": 1.353289932012558,
+        "compilation": 24.2371610365808,
+        "framework": 1.1170310899615288,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1237103.242188692
+          1613754.1323029436
         ]
       },
       "invalidity": "correct",
@@ -2286,7 +2286,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.03,
+          "value": -0.68,
           "unit": ""
         }
       ],
@@ -2295,19 +2295,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 10:38:50.673383+00:00",
+      "timestamp": "2025-05-15 21:25:00.912835+00:00",
       "configuration": {
         "method": "rand2bin",
         "popsize": 30,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.302086025476456,
-        "framework": 1.2089163064956665,
+        "compilation": 25.118860881775618,
+        "framework": 1.2706578709185123,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1248125.9906105697
+          1621014.7760412656
         ]
       },
       "invalidity": "correct",
@@ -2315,7 +2315,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.008,
+          "value": -0.794,
           "unit": ""
         }
       ],
@@ -2324,19 +2324,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 10:59:40.181888+00:00",
+      "timestamp": "2025-05-15 21:52:08.196152+00:00",
       "configuration": {
         "method": "rand2bin",
         "popsize": 30,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.43332800269127,
-        "framework": 1.1736415326595306,
+        "compilation": 24.44293489679694,
+        "framework": 1.0843994095921516,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1249481.8599112332
+          1627257.7508506365
         ]
       },
       "invalidity": "correct",
@@ -2344,7 +2344,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.106,
+          "value": -0.791,
           "unit": ""
         }
       ],
@@ -2353,19 +2353,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 11:20:04.391956+00:00",
+      "timestamp": "2025-05-15 22:18:29.760651+00:00",
       "configuration": {
         "method": "rand1bin",
         "popsize": 10,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.4836305975914,
-        "framework": 1.2139827013015747,
+        "compilation": 24.63410422205925,
+        "framework": 1.1146347969770432,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1224183.3322495222
+          1581538.7133429758
         ]
       },
       "invalidity": "correct",
@@ -2373,7 +2373,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.14,
+          "value": -1.12,
           "unit": ""
         }
       ],
@@ -2382,19 +2382,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 11:40:35.425968+00:00",
+      "timestamp": "2025-05-15 22:45:02.789472+00:00",
       "configuration": {
         "method": "rand1bin",
         "popsize": 10,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.19218996167183,
-        "framework": 1.2646503746509552,
+        "compilation": 24.38257308676839,
+        "framework": 1.3050329871475697,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1231007.5192376971
+          1593003.0946638435
         ]
       },
       "invalidity": "correct",
@@ -2402,7 +2402,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.136,
+          "value": -1.088,
           "unit": ""
         }
       ],
@@ -2411,19 +2411,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 12:01:06.896039+00:00",
+      "timestamp": "2025-05-15 23:11:32.603423+00:00",
       "configuration": {
         "method": "rand1bin",
         "popsize": 10,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.315705686807632,
-        "framework": 1.2071765959262848,
+        "compilation": 25.158245116472244,
+        "framework": 1.342112198472023,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1231443.5118809342
+          1589787.4060436152
         ]
       },
       "invalidity": "correct",
@@ -2431,7 +2431,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.064,
+          "value": -1.089,
           "unit": ""
         }
       ],
@@ -2440,19 +2440,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 12:21:46.085735+00:00",
+      "timestamp": "2025-05-15 23:38:11.411661+00:00",
       "configuration": {
         "method": "rand1bin",
         "popsize": 20,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.371171534061432,
-        "framework": 1.207202672958374,
+        "compilation": 24.871226865798235,
+        "framework": 1.3319123536348343,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1239163.0800254643
+          1598781.939518638
         ]
       },
       "invalidity": "correct",
@@ -2460,7 +2460,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.13,
+          "value": -0.897,
           "unit": ""
         }
       ],
@@ -2469,19 +2469,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 12:42:25.743483+00:00",
+      "timestamp": "2025-05-16 00:05:11.615432+00:00",
       "configuration": {
         "method": "rand1bin",
         "popsize": 20,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.238677859306335,
-        "framework": 1.224122941493988,
+        "compilation": 24.684136733412743,
+        "framework": 1.1445325799286366,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1239631.1732009053
+          1620177.9052782804
         ]
       },
       "invalidity": "correct",
@@ -2489,7 +2489,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.205,
+          "value": -0.79,
           "unit": ""
         }
       ],
@@ -2498,19 +2498,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 13:03:07.693575+00:00",
+      "timestamp": "2025-05-16 00:32:04.902537+00:00",
       "configuration": {
         "method": "rand1bin",
         "popsize": 20,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.113403797149658,
-        "framework": 1.3227872550487518,
+        "compilation": 24.870957247912884,
+        "framework": 1.1455542407929897,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1241923.5907234251
+          1613260.9899477102
         ]
       },
       "invalidity": "correct",
@@ -2518,7 +2518,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.204,
+          "value": -0.739,
           "unit": ""
         }
       ],
@@ -2527,19 +2527,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 13:23:53.017773+00:00",
+      "timestamp": "2025-05-16 00:58:56.521569+00:00",
       "configuration": {
         "method": "rand1bin",
         "popsize": 30,
         "maxiter": 50
       },
       "times": {
-        "compilation": 25.271467864513397,
-        "framework": 1.3483576476573944,
+        "compilation": 24.79533525183797,
+        "framework": 1.1649508960545063,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1245297.5305207074
+          1611593.034231104
         ]
       },
       "invalidity": "correct",
@@ -2547,7 +2547,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.089,
+          "value": -0.675,
           "unit": ""
         }
       ],
@@ -2556,19 +2556,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 13:44:44.075496+00:00",
+      "timestamp": "2025-05-16 01:26:02.116479+00:00",
       "configuration": {
         "method": "rand1bin",
         "popsize": 30,
         "maxiter": 100
       },
       "times": {
-        "compilation": 25.122936815023422,
-        "framework": 1.2248605489730835,
+        "compilation": 24.082391057163477,
+        "framework": 1.04212062433362,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1251031.3367247581
+          1625569.747982081
         ]
       },
       "invalidity": "correct",
@@ -2576,7 +2576,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.0,
+          "value": -0.711,
           "unit": ""
         }
       ],
@@ -2585,19 +2585,19 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 14:05:36.279565+00:00",
+      "timestamp": "2025-05-16 01:53:07.002844+00:00",
       "configuration": {
         "method": "rand1bin",
         "popsize": 30,
         "maxiter": 150
       },
       "times": {
-        "compilation": 25.31503513455391,
-        "framework": 1.2611374258995056,
+        "compilation": 24.54312378540635,
+        "framework": 1.1660628952085972,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          1252177.4564608932
+          1624860.6182783842
         ]
       },
       "invalidity": "correct",
@@ -2605,7 +2605,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.005,
+          "value": -0.725,
           "unit": ""
         }
       ],

@@ -4,7 +4,7 @@
   },
   "results": [
     {
-      "timestamp": "2025-03-17 07:10:18.518878+00:00",
+      "timestamp": "2025-05-14 10:03:10.647004+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 50,
@@ -12,12 +12,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 39.453767240047455,
-        "framework": 2.1674707531929016,
+        "compilation": 72.51875009387732,
+        "framework": 40.28538055717945,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          786954.4039107859
+          1639113.4478952736
         ]
       },
       "invalidity": "correct",
@@ -25,7 +25,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.429,
+          "value": -1.295,
           "unit": ""
         }
       ],
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 07:23:22.908627+00:00",
+      "timestamp": "2025-05-14 10:30:22.004858+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 50,
@@ -42,12 +42,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.83349123597145,
-        "framework": 1.291513442993164,
+        "compilation": 42.005009949207306,
+        "framework": 1.605628989636898,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          784362.5815398991
+          1631314.096253831
         ]
       },
       "invalidity": "correct",
@@ -55,7 +55,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.466,
+          "value": -1.664,
           "unit": ""
         }
       ],
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 07:36:33.202796+00:00",
+      "timestamp": "2025-05-14 10:57:36.727778+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 50,
@@ -72,12 +72,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.04907378554344,
-        "framework": 1.1227242648601532,
+        "compilation": 23.806347977370024,
+        "framework": 1.323881559073925,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          790266.8458484113
+          1634697.7489553392
         ]
       },
       "invalidity": "correct",
@@ -85,7 +85,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.454,
+          "value": -1.803,
           "unit": ""
         }
       ],
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 07:49:53.417280+00:00",
+      "timestamp": "2025-05-14 11:24:47.534531+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 50,
@@ -102,12 +102,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 25.70267766714096,
-        "framework": 1.5354342758655548,
+        "compilation": 24.119671899825335,
+        "framework": 1.186647918075323,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          800187.2053146362
+          1630781.4088091254
         ]
       },
       "invalidity": "correct",
@@ -115,7 +115,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.377,
+          "value": -1.289,
           "unit": ""
         }
       ],
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:02:59.238586+00:00",
+      "timestamp": "2025-05-14 11:52:02.753195+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 50,
@@ -132,12 +132,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.71820467710495,
-        "framework": 1.252397894859314,
+        "compilation": 23.880444932729006,
+        "framework": 1.2242370285093784,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          785794.2941226065
+          1635193.5204458423
         ]
       },
       "invalidity": "correct",
@@ -145,7 +145,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.175,
+          "value": -1.399,
           "unit": ""
         }
       ],
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:16:12.098853+00:00",
+      "timestamp": "2025-05-14 12:19:13.926184+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 50,
@@ -162,12 +162,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.57268738746643,
-        "framework": 1.0240450501441956,
+        "compilation": 24.68657586723566,
+        "framework": 1.1012870818376541,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          792833.6308598518
+          1631147.1622842364
         ]
       },
       "invalidity": "correct",
@@ -175,7 +175,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.159,
+          "value": -1.448,
           "unit": ""
         }
       ],
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:29:18.728872+00:00",
+      "timestamp": "2025-05-14 12:46:27.633457+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 50,
@@ -192,12 +192,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 25.729525834321976,
-        "framework": 1.0378696024417877,
+        "compilation": 24.274928960949183,
+        "framework": 1.2779771350324154,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          786603.2101213932
+          1633681.683240924
         ]
       },
       "invalidity": "correct",
@@ -205,7 +205,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.305,
+          "value": -1.235,
           "unit": ""
         }
       ],
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:42:21.791793+00:00",
+      "timestamp": "2025-05-14 13:13:35.057357+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 50,
@@ -222,12 +222,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.57564154267311,
-        "framework": 1.0864697396755219,
+        "compilation": 24.46269430220127,
+        "framework": 1.2073647230863571,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          783036.216262728
+          1627398.177642841
         ]
       },
       "invalidity": "correct",
@@ -235,7 +235,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.125,
+          "value": -1.212,
           "unit": ""
         }
       ],
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 08:55:24.909277+00:00",
+      "timestamp": "2025-05-14 13:40:49.110686+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 50,
@@ -252,12 +252,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.765404105186462,
-        "framework": 1.1867471039295197,
+        "compilation": 25.06699599325657,
+        "framework": 1.118347980082035,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          783090.4970467091
+          1634027.1087111905
         ]
       },
       "invalidity": "correct",
@@ -265,7 +265,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.152,
+          "value": -1.314,
           "unit": ""
         }
       ],
@@ -274,7 +274,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 09:09:16.042988+00:00",
+      "timestamp": "2025-05-14 14:09:18.082464+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 100,
@@ -282,12 +282,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 25.618478655815125,
-        "framework": 1.0954402387142181,
+        "compilation": 23.857220076024532,
+        "framework": 1.0519647039473057,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          831106.9612652063
+          1708946.833841037
         ]
       },
       "invalidity": "correct",
@@ -295,7 +295,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.308,
+          "value": -1.624,
           "unit": ""
         }
       ],
@@ -304,7 +304,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 09:23:03.675507+00:00",
+      "timestamp": "2025-05-14 14:37:50.228641+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 100,
@@ -312,12 +312,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 26.0004960000515,
-        "framework": 1.2152567505836487,
+        "compilation": 24.312491063028574,
+        "framework": 1.1123381555080414,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          827605.2672974765
+          1712120.7154528238
         ]
       },
       "invalidity": "correct",
@@ -325,7 +325,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.389,
+          "value": -1.527,
           "unit": ""
         }
       ],
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 09:36:54.588100+00:00",
+      "timestamp": "2025-05-14 15:06:29.759187+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 100,
@@ -342,12 +342,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.15940198302269,
-        "framework": 1.1818408966064453,
+        "compilation": 24.75601900368929,
+        "framework": 1.0504215024411678,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          830885.2156735957
+          1719504.7041773796
         ]
       },
       "invalidity": "correct",
@@ -355,7 +355,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.383,
+          "value": -1.612,
           "unit": ""
         }
       ],
@@ -364,7 +364,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 09:50:51.365933+00:00",
+      "timestamp": "2025-05-14 15:34:58.328816+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 100,
@@ -372,12 +372,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.023205369710922,
-        "framework": 1.1328980326652527,
+        "compilation": 25.116309989243746,
+        "framework": 1.1109947226941586,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          836750.6402470171
+          1708543.3642291464
         ]
       },
       "invalidity": "correct",
@@ -385,7 +385,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.313,
+          "value": -1.476,
           "unit": ""
         }
       ],
@@ -394,7 +394,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 10:04:40.106138+00:00",
+      "timestamp": "2025-05-14 16:03:33.474812+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 100,
@@ -402,12 +402,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 26.362400501966476,
-        "framework": 1.417994499206543,
+        "compilation": 25.13298112899065,
+        "framework": 1.3086437247693539,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          828712.3882435262
+          1715119.51775942
         ]
       },
       "invalidity": "correct",
@@ -415,7 +415,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.437,
+          "value": -1.33,
           "unit": ""
         }
       ],
@@ -424,7 +424,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 10:18:23.069505+00:00",
+      "timestamp": "2025-05-14 16:32:13.470314+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 100,
@@ -432,12 +432,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.171158999204636,
-        "framework": 1.2846775352954865,
+        "compilation": 25.163560174405575,
+        "framework": 1.1414713226258755,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          822935.875557363
+          1719969.159044791
         ]
       },
       "invalidity": "correct",
@@ -445,7 +445,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.036,
+          "value": -1.33,
           "unit": ""
         }
       ],
@@ -454,7 +454,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 10:32:07.748178+00:00",
+      "timestamp": "2025-05-14 17:00:47.821992+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 100,
@@ -462,12 +462,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 25.922514498233795,
-        "framework": 1.1127181351184845,
+        "compilation": 25.214304216206074,
+        "framework": 1.0970891453325748,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          824651.6006365418
+          1714325.3177748993
         ]
       },
       "invalidity": "correct",
@@ -475,7 +475,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.196,
+          "value": -1.12,
           "unit": ""
         }
       ],
@@ -484,7 +484,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 10:45:49.468013+00:00",
+      "timestamp": "2025-05-14 17:29:19.914671+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 100,
@@ -492,12 +492,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 26.268616318702698,
-        "framework": 1.2809410691261292,
+        "compilation": 25.25797812268138,
+        "framework": 1.1130068451166153,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          821692.2480240464
+          1712066.270248033
         ]
       },
       "invalidity": "correct",
@@ -505,7 +505,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.057,
+          "value": -0.917,
           "unit": ""
         }
       ],
@@ -514,7 +514,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 10:59:29.403713+00:00",
+      "timestamp": "2025-05-14 17:57:51.516943+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 100,
@@ -522,12 +522,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.451680809259415,
-        "framework": 1.222752034664154,
+        "compilation": 25.043584872037172,
+        "framework": 1.2249480932950974,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          819907.9880043864
+          1711575.8925951086
         ]
       },
       "invalidity": "correct",
@@ -535,7 +535,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.028,
+          "value": -1.082,
           "unit": ""
         }
       ],
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 11:13:47.456942+00:00",
+      "timestamp": "2025-05-14 18:27:36.388447+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 150,
@@ -552,12 +552,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.111308485269547,
-        "framework": 1.0979063808918,
+        "compilation": 25.597829837352037,
+        "framework": 1.2537320144474506,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          858025.9823575616
+          1784844.619446434
         ]
       },
       "invalidity": "correct",
@@ -565,7 +565,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.473,
+          "value": -1.731,
           "unit": ""
         }
       ],
@@ -574,7 +574,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 11:28:17.155357+00:00",
+      "timestamp": "2025-05-14 18:57:33.326734+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 150,
@@ -582,12 +582,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 26.03602409362793,
-        "framework": 1.22760608792305,
+        "compilation": 24.995877407491207,
+        "framework": 1.1560488492250443,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          869671.1137592793
+          1796912.0981087908
         ]
       },
       "invalidity": "correct",
@@ -595,7 +595,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.431,
+          "value": -1.623,
           "unit": ""
         }
       ],
@@ -604,7 +604,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 11:42:52.236891+00:00",
+      "timestamp": "2025-05-14 19:27:31.600469+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 150,
@@ -612,12 +612,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.87268501520157,
-        "framework": 1.0540038347244263,
+        "compilation": 24.107408244162798,
+        "framework": 1.1401274241507053,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          875054.5420907438
+          1798248.4522941522
         ]
       },
       "invalidity": "correct",
@@ -625,7 +625,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.64,
+          "value": -1.573,
           "unit": ""
         }
       ],
@@ -634,7 +634,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 11:57:10.035750+00:00",
+      "timestamp": "2025-05-14 19:57:21.786513+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 150,
@@ -642,12 +642,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.209771633148193,
-        "framework": 1.0936222970485687,
+        "compilation": 24.913234170526266,
+        "framework": 1.1542062275111675,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          857771.5188674629
+          1790159.9413556978
         ]
       },
       "invalidity": "correct",
@@ -655,7 +655,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.199,
+          "value": -1.287,
           "unit": ""
         }
       ],
@@ -664,7 +664,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 12:11:36.468022+00:00",
+      "timestamp": "2025-05-14 20:27:07.235691+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 150,
@@ -672,12 +672,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.777824223041534,
-        "framework": 1.173902302980423,
+        "compilation": 25.23900894448161,
+        "framework": 1.4727497473359108,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          866405.2834250033
+          1785422.3674829118
         ]
       },
       "invalidity": "correct",
@@ -685,7 +685,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.094,
+          "value": -1.296,
           "unit": ""
         }
       ],
@@ -694,7 +694,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 12:26:06.472386+00:00",
+      "timestamp": "2025-05-14 20:57:00.579681+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 150,
@@ -702,12 +702,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.501137763261795,
-        "framework": 1.261293888092041,
+        "compilation": 46.43854591995478,
+        "framework": 1.0992242023348808,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          869976.5645936131
+          1793296.4161089621
         ]
       },
       "invalidity": "correct",
@@ -715,7 +715,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.191,
+          "value": -1.364,
           "unit": ""
         }
       ],
@@ -724,7 +724,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 12:40:15.267005+00:00",
+      "timestamp": "2025-05-14 21:26:47.179648+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 150,
@@ -732,12 +732,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.208989322185516,
-        "framework": 1.0662153363227844,
+        "compilation": 25.02611093223095,
+        "framework": 1.108081080019474,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          848767.3051506281
+          1786573.7963411957
         ]
       },
       "invalidity": "correct",
@@ -745,7 +745,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.106,
+          "value": -1.446,
           "unit": ""
         }
       ],
@@ -754,7 +754,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 12:54:21.240766+00:00",
+      "timestamp": "2025-05-14 21:56:36.357302+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 150,
@@ -762,12 +762,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.54316818714142,
-        "framework": 1.2288093566894531,
+        "compilation": 24.983533658087254,
+        "framework": 1.0696887038648129,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          845946.9494558871
+          1789151.565768756
         ]
       },
       "invalidity": "correct",
@@ -775,7 +775,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.008,
+          "value": -1.071,
           "unit": ""
         }
       ],
@@ -784,7 +784,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 13:08:27.826823+00:00",
+      "timestamp": "2025-05-14 22:26:22.982359+00:00",
       "configuration": {
         "popsize": 10,
         "maxiter": 150,
@@ -792,12 +792,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.96818283200264,
-        "framework": 1.141965389251709,
+        "compilation": 25.015341117978096,
+        "framework": 1.2657837942242622,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          846558.9096024632
+          1786598.738632165
         ]
       },
       "invalidity": "correct",
@@ -805,7 +805,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.187,
+          "value": -0.987,
           "unit": ""
         }
       ],
@@ -814,7 +814,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 13:22:03.054729+00:00",
+      "timestamp": "2025-05-14 22:54:54.715225+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 50,
@@ -822,12 +822,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.297971606254578,
-        "framework": 1.024048775434494,
+        "compilation": 24.895766749978065,
+        "framework": 1.4171670190989971,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          815200.5474381149
+          1711706.5170402639
         ]
       },
       "invalidity": "correct",
@@ -835,7 +835,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.025,
+          "value": -0.879,
           "unit": ""
         }
       ],
@@ -844,7 +844,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 13:35:41.307640+00:00",
+      "timestamp": "2025-05-14 23:23:26.875207+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 50,
@@ -852,12 +852,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 26.000186800956726,
-        "framework": 1.0682940483093262,
+        "compilation": 24.994031991809607,
+        "framework": 1.1787815019488335,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          818225.8040346205
+          1712133.773099631
         ]
       },
       "invalidity": "correct",
@@ -865,7 +865,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.024,
+          "value": -0.869,
           "unit": ""
         }
       ],
@@ -874,7 +874,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 13:49:22.792676+00:00",
+      "timestamp": "2025-05-14 23:51:59.402219+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 50,
@@ -882,12 +882,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.740724056959152,
-        "framework": 1.1363811790943146,
+        "compilation": 25.13372292742133,
+        "framework": 1.1180192232131958,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          821458.1226818264
+          1712500.7254029624
         ]
       },
       "invalidity": "correct",
@@ -895,7 +895,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.018,
+          "value": -0.793,
           "unit": ""
         }
       ],
@@ -904,7 +904,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 14:02:55.378100+00:00",
+      "timestamp": "2025-05-15 00:20:33.104555+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 50,
@@ -912,12 +912,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 25.68715810775757,
-        "framework": 1.2651607394218445,
+        "compilation": 24.7307107783854,
+        "framework": 1.1934195645153522,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          812558.4353730083
+          1713676.344263833
         ]
       },
       "invalidity": "correct",
@@ -925,7 +925,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.138,
+          "value": -0.799,
           "unit": ""
         }
       ],
@@ -934,7 +934,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 14:16:29.770129+00:00",
+      "timestamp": "2025-05-15 00:49:07.123325+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 50,
@@ -942,12 +942,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.91909095644951,
-        "framework": 1.062929630279541,
+        "compilation": 24.008932057768106,
+        "framework": 1.0704598389565945,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          814365.0117293
+          1713993.654242251
         ]
       },
       "invalidity": "correct",
@@ -955,7 +955,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.163,
+          "value": -0.733,
           "unit": ""
         }
       ],
@@ -964,7 +964,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 14:30:06.444282+00:00",
+      "timestamp": "2025-05-15 01:17:39.021285+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 50,
@@ -972,12 +972,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.849949568510056,
-        "framework": 1.153886318206787,
+        "compilation": 24.539470206946135,
+        "framework": 1.0777730494737625,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          816647.1116021276
+          1711872.239200864
         ]
       },
       "invalidity": "correct",
@@ -985,7 +985,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.217,
+          "value": -0.66,
           "unit": ""
         }
       ],
@@ -994,7 +994,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 14:43:41.378719+00:00",
+      "timestamp": "2025-05-15 01:46:10.824205+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 50,
@@ -1002,12 +1002,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.2550488114357,
-        "framework": 1.1616051197052002,
+        "compilation": 24.272965267300606,
+        "framework": 1.110284123569727,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          814906.9834910333
+          1711777.497916948
         ]
       },
       "invalidity": "correct",
@@ -1015,7 +1015,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.066,
+          "value": -0.683,
           "unit": ""
         }
       ],
@@ -1024,7 +1024,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 14:57:28.304835+00:00",
+      "timestamp": "2025-05-15 02:14:44.221792+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 50,
@@ -1032,12 +1032,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.75242891907692,
-        "framework": 1.168571412563324,
+        "compilation": 24.14457406848669,
+        "framework": 1.262738835066557,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          826899.1584889591
+          1713372.1420629881
         ]
       },
       "invalidity": "correct",
@@ -1045,7 +1045,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.02,
+          "value": -0.565,
           "unit": ""
         }
       ],
@@ -1054,7 +1054,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 15:11:08.434524+00:00",
+      "timestamp": "2025-05-15 02:43:07.481628+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 50,
@@ -1062,12 +1062,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.392048060894012,
-        "framework": 1.1037178337574005,
+        "compilation": 24.162868969142437,
+        "framework": 1.2353379279375076,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          820103.1568385661
+          1703234.4020949677
         ]
       },
       "invalidity": "correct",
@@ -1075,7 +1075,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.103,
+          "value": -0.581,
           "unit": ""
         }
       ],
@@ -1084,7 +1084,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 15:25:43.523441+00:00",
+      "timestamp": "2025-05-15 03:14:08.242476+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 100,
@@ -1092,12 +1092,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.33349597454071,
-        "framework": 1.1572204530239105,
+        "compilation": 25.041990913450718,
+        "framework": 1.1888602748513222,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          875061.3791495562
+          1860734.5811049454
         ]
       },
       "invalidity": "correct",
@@ -1105,7 +1105,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.035,
+          "value": -0.705,
           "unit": ""
         }
       ],
@@ -1114,7 +1114,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 15:40:39.268113+00:00",
+      "timestamp": "2025-05-15 03:44:59.237767+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 100,
@@ -1122,12 +1122,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.62135085463524,
-        "framework": 1.1312887072563171,
+        "compilation": 25.535223074257374,
+        "framework": 86.24484855681658,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          895717.883836478
+          1850883.4755863063
         ]
       },
       "invalidity": "correct",
@@ -1135,7 +1135,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.022,
+          "value": -0.761,
           "unit": ""
         }
       ],
@@ -1144,7 +1144,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 15:55:24.592920+00:00",
+      "timestamp": "2025-05-15 04:15:56.064664+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 100,
@@ -1152,12 +1152,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.861721485853195,
-        "framework": 1.165643334388733,
+        "compilation": 24.594325106590986,
+        "framework": 1.0637766681611538,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          885297.7423667908
+          1856801.2031619437
         ]
       },
       "invalidity": "correct",
@@ -1165,7 +1165,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.247,
+          "value": -0.882,
           "unit": ""
         }
       ],
@@ -1174,7 +1174,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 16:09:56.734890+00:00",
+      "timestamp": "2025-05-15 04:46:50.974755+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 100,
@@ -1182,12 +1182,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.316512376070023,
-        "framework": 1.2163780629634857,
+        "compilation": 24.637935683131218,
+        "framework": 1.1607687920331955,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          872114.4028753042
+          1854884.2552588321
         ]
       },
       "invalidity": "correct",
@@ -1195,7 +1195,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.146,
+          "value": -0.688,
           "unit": ""
         }
       ],
@@ -1204,7 +1204,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 16:24:28.563677+00:00",
+      "timestamp": "2025-05-15 05:17:55.171662+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 100,
@@ -1212,12 +1212,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.519520044326782,
-        "framework": 1.1834576725959778,
+        "compilation": 25.151748675853014,
+        "framework": 1.166589092463255,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          871802.0467199385
+          1864170.5536101945
         ]
       },
       "invalidity": "correct",
@@ -1225,7 +1225,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.14,
+          "value": -0.589,
           "unit": ""
         }
       ],
@@ -1234,7 +1234,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 16:39:02.159229+00:00",
+      "timestamp": "2025-05-15 05:48:51.177151+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 100,
@@ -1242,12 +1242,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.28081664443016,
-        "framework": 1.2483559548854828,
+        "compilation": 24.32553982362151,
+        "framework": 1.3084933161735535,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          873567.9874420166
+          1855979.8176409677
         ]
       },
       "invalidity": "correct",
@@ -1255,7 +1255,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.063,
+          "value": -0.756,
           "unit": ""
         }
       ],
@@ -1264,7 +1264,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 16:53:24.385490+00:00",
+      "timestamp": "2025-05-15 06:19:32.134584+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 100,
@@ -1272,12 +1272,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.031311601400375,
-        "framework": 1.2217611074447632,
+        "compilation": 25.05178889259696,
+        "framework": 1.0441211052238941,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          862198.9693269134
+          1840931.3002410345
         ]
       },
       "invalidity": "correct",
@@ -1285,7 +1285,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.1,
+          "value": -0.614,
           "unit": ""
         }
       ],
@@ -1294,7 +1294,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 17:07:54.388838+00:00",
+      "timestamp": "2025-05-15 06:50:22.920666+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 100,
@@ -1302,12 +1302,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 26.066873222589493,
-        "framework": 1.2545101344585419,
+        "compilation": 24.88479809835553,
+        "framework": 1.2508770450949669,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          869975.9879857302
+          1850759.9109229632
         ]
       },
       "invalidity": "correct",
@@ -1315,7 +1315,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.046,
+          "value": -0.561,
           "unit": ""
         }
       ],
@@ -1324,7 +1324,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 17:22:22.349589+00:00",
+      "timestamp": "2025-05-15 07:20:59.853298+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 100,
@@ -1332,12 +1332,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.568517088890076,
-        "framework": 1.2034066021442413,
+        "compilation": 24.59548832848668,
+        "framework": 1.265412662178278,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          867932.9402893782
+          1836906.7059741355
         ]
       },
       "invalidity": "correct",
@@ -1345,7 +1345,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.084,
+          "value": -0.5,
           "unit": ""
         }
       ],
@@ -1354,7 +1354,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 17:37:43.715935+00:00",
+      "timestamp": "2025-05-15 07:54:06.442461+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 150,
@@ -1362,12 +1362,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.141654700040817,
-        "framework": 1.2344159185886383,
+        "compilation": 24.81410698965192,
+        "framework": 1.1444669216871262,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          921338.9340825379
+          1986563.1688740104
         ]
       },
       "invalidity": "correct",
@@ -1375,7 +1375,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.058,
+          "value": -0.96,
           "unit": ""
         }
       ],
@@ -1384,7 +1384,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 17:53:23.813140+00:00",
+      "timestamp": "2025-05-15 08:27:06.266565+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 150,
@@ -1392,12 +1392,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.585711002349854,
-        "framework": 1.1553838849067688,
+        "compilation": 24.535499047487974,
+        "framework": 1.2235748581588268,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          940070.427518338
+          1979798.3109871857
         ]
       },
       "invalidity": "correct",
@@ -1405,7 +1405,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.082,
+          "value": -0.817,
           "unit": ""
         }
       ],
@@ -1414,7 +1414,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 18:08:56.068880+00:00",
+      "timestamp": "2025-05-15 09:00:11.269103+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 150,
@@ -1422,12 +1422,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.43982693552971,
-        "framework": 1.1532828211784363,
+        "compilation": 24.58677301183343,
+        "framework": 1.1906232684850693,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          932228.1113378704
+          1984976.724240929
         ]
       },
       "invalidity": "correct",
@@ -1435,7 +1435,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.041,
+          "value": -0.87,
           "unit": ""
         }
       ],
@@ -1444,7 +1444,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 18:24:17.110214+00:00",
+      "timestamp": "2025-05-15 09:33:15.287241+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 150,
@@ -1452,12 +1452,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 25.58552473783493,
-        "framework": 1.2307092547416687,
+        "compilation": 23.961475118994713,
+        "framework": 1.139759086072445,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          921014.4793987274
+          1983993.00140189
         ]
       },
       "invalidity": "correct",
@@ -1465,7 +1465,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.111,
+          "value": -0.654,
           "unit": ""
         }
       ],
@@ -1474,7 +1474,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 18:39:51.375074+00:00",
+      "timestamp": "2025-05-15 10:06:15.803112+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 150,
@@ -1482,12 +1482,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 26.49955451488495,
-        "framework": 1.1263713240623474,
+        "compilation": 24.665736127644777,
+        "framework": 1.2218421325087547,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          934237.1972799301
+          1980489.9460729212
         ]
       },
       "invalidity": "correct",
@@ -1495,7 +1495,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.106,
+          "value": -0.765,
           "unit": ""
         }
       ],
@@ -1504,7 +1504,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 18:55:15.976681+00:00",
+      "timestamp": "2025-05-15 10:39:21.372518+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 150,
@@ -1512,12 +1512,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.589542627334595,
-        "framework": 1.1323243379592896,
+        "compilation": 25.0196591950953,
+        "framework": 1.2283041141927242,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          924573.8470889628
+          1985543.1191730313
         ]
       },
       "invalidity": "correct",
@@ -1525,7 +1525,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.075,
+          "value": -0.639,
           "unit": ""
         }
       ],
@@ -1534,7 +1534,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 19:10:23.766229+00:00",
+      "timestamp": "2025-05-15 11:12:00.979693+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 150,
@@ -1542,12 +1542,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 25.458645075559616,
-        "framework": 1.0451972484588623,
+        "compilation": 24.06442491337657,
+        "framework": 1.17561686784029,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          907763.0082704127
+          1959581.8992629647
         ]
       },
       "invalidity": "correct",
@@ -1555,7 +1555,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.012,
+          "value": -0.603,
           "unit": ""
         }
       ],
@@ -1564,7 +1564,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 19:25:33.859653+00:00",
+      "timestamp": "2025-05-15 11:44:46.912253+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 150,
@@ -1572,12 +1572,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 26.737190783023834,
-        "framework": 1.1427365243434906,
+        "compilation": 24.296117946505547,
+        "framework": 1.1794730089604855,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          910065.5070729554
+          1965907.0480200462
         ]
       },
       "invalidity": "correct",
@@ -1585,7 +1585,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.212,
+          "value": -0.477,
           "unit": ""
         }
       ],
@@ -1594,7 +1594,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 19:40:36.306416+00:00",
+      "timestamp": "2025-05-15 12:17:12.888525+00:00",
       "configuration": {
         "popsize": 20,
         "maxiter": 150,
@@ -1602,12 +1602,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.10030025243759,
-        "framework": 1.279640942811966,
+        "compilation": 24.58381513133645,
+        "framework": 1.1320235207676888,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          902419.3467311561
+          1945950.5202709697
         ]
       },
       "invalidity": "correct",
@@ -1615,7 +1615,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.303,
+          "value": -0.577,
           "unit": ""
         }
       ],
@@ -1624,7 +1624,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 19:54:53.506781+00:00",
+      "timestamp": "2025-05-15 12:47:01.585007+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 50,
@@ -1632,12 +1632,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.076145470142365,
-        "framework": 1.163046807050705,
+        "compilation": 24.33434035629034,
+        "framework": 1.1705653741955757,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          857173.0907075107
+          1788670.939347241
         ]
       },
       "invalidity": "correct",
@@ -1645,7 +1645,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.101,
+          "value": -0.593,
           "unit": ""
         }
       ],
@@ -1654,7 +1654,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 20:08:58.408596+00:00",
+      "timestamp": "2025-05-15 13:16:47.897966+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 50,
@@ -1662,12 +1662,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 26.37089416384697,
-        "framework": 1.2144781649112701,
+        "compilation": 24.38618801534176,
+        "framework": 1.218755729496479,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          844874.1929791868
+          1786287.3175409622
         ]
       },
       "invalidity": "correct",
@@ -1675,7 +1675,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.123,
+          "value": -0.58,
           "unit": ""
         }
       ],
@@ -1684,7 +1684,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 20:23:03.162474+00:00",
+      "timestamp": "2025-05-15 13:46:33.026187+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 50,
@@ -1692,12 +1692,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.105403900146484,
-        "framework": 1.2303292751312256,
+        "compilation": 24.217901285737753,
+        "framework": 1.220489852130413,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          844726.5017814934
+          1785102.7467497624
         ]
       },
       "invalidity": "correct",
@@ -1705,7 +1705,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.005,
+          "value": -0.613,
           "unit": ""
         }
       ],
@@ -1714,7 +1714,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 20:37:02.771138+00:00",
+      "timestamp": "2025-05-15 14:16:09.320811+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 50,
@@ -1722,12 +1722,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 25.254402309656143,
-        "framework": 1.1040270328521729,
+        "compilation": 24.516640231013298,
+        "framework": 1.183860469609499,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          839582.2682790458
+          1776268.8882579096
         ]
       },
       "invalidity": "correct",
@@ -1735,7 +1735,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.18,
+          "value": -0.552,
           "unit": ""
         }
       ],
@@ -1744,7 +1744,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 20:51:12.424707+00:00",
+      "timestamp": "2025-05-15 14:45:52.834577+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 50,
@@ -1752,12 +1752,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.492601096630096,
-        "framework": 1.9228309392929077,
+        "compilation": 24.84133606776595,
+        "framework": 1.264491118490696,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          849626.1159703135
+          1783487.6243630424
         ]
       },
       "invalidity": "correct",
@@ -1765,7 +1765,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.13,
+          "value": -0.512,
           "unit": ""
         }
       ],
@@ -1774,7 +1774,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 21:05:15.702583+00:00",
+      "timestamp": "2025-05-15 15:15:39.865348+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 50,
@@ -1782,12 +1782,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.595612823963165,
-        "framework": 1.1102482676506042,
+        "compilation": 24.09882890060544,
+        "framework": 1.181195955723524,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          843251.1330656707
+          1787005.4174200632
         ]
       },
       "invalidity": "correct",
@@ -1795,7 +1795,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": -0.005,
+          "value": -0.55,
           "unit": ""
         }
       ],
@@ -1804,7 +1804,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 21:19:11.806880+00:00",
+      "timestamp": "2025-05-15 15:45:05.953976+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 50,
@@ -1812,12 +1812,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.37237310409546,
-        "framework": 1.826997846364975,
+        "compilation": 26.676143053919077,
+        "framework": 1.1629932560026646,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          836076.0621801019
+          1766060.7514739968
         ]
       },
       "invalidity": "correct",
@@ -1825,7 +1825,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.076,
+          "value": -0.39,
           "unit": ""
         }
       ],
@@ -1834,7 +1834,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 21:33:08.414310+00:00",
+      "timestamp": "2025-05-15 16:14:38.162462+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 50,
@@ -1842,12 +1842,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 26.25235915184021,
-        "framework": 1.1082403361797333,
+        "compilation": 25.64611006528139,
+        "framework": 1.083493698388338,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          836580.0327807665
+          1772181.7209161818
         ]
       },
       "invalidity": "correct",
@@ -1855,7 +1855,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.232,
+          "value": -0.402,
           "unit": ""
         }
       ],
@@ -1864,7 +1864,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 21:47:09.582665+00:00",
+      "timestamp": "2025-05-15 16:44:09.527423+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 50,
@@ -1872,12 +1872,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.20934322476387,
-        "framework": 1.191936433315277,
+        "compilation": 25.45006200671196,
+        "framework": 1.2070839293301105,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          841140.9155540168
+          1771338.2671410218
         ]
       },
       "invalidity": "correct",
@@ -1885,7 +1885,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.196,
+          "value": -0.448,
           "unit": ""
         }
       ],
@@ -1894,7 +1894,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 22:02:47.925455+00:00",
+      "timestamp": "2025-05-15 17:17:11.279644+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 100,
@@ -1902,12 +1902,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 50.57799443602562,
-        "framework": 562.6427605748177,
+        "compilation": 24.69001291319728,
+        "framework": 1.2270924635231495,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          937729.5328825712
+          1981726.266966667
         ]
       },
       "invalidity": "correct",
@@ -1915,7 +1915,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.295,
+          "value": -0.49,
           "unit": ""
         }
       ],
@@ -1924,7 +1924,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 22:18:12.149907+00:00",
+      "timestamp": "2025-05-15 17:50:14.174971+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 100,
@@ -1932,12 +1932,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 26.53627097606659,
-        "framework": 1.283545047044754,
+        "compilation": 25.432958733290434,
+        "framework": 1.1257422156631947,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          924196.593657136
+          1982868.7326670624
         ]
       },
       "invalidity": "correct",
@@ -1945,7 +1945,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.148,
+          "value": -0.641,
           "unit": ""
         }
       ],
@@ -1954,7 +1954,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 22:33:34.898017+00:00",
+      "timestamp": "2025-05-15 18:23:23.764581+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 100,
@@ -1962,12 +1962,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 26.0760635137558,
-        "framework": 1.347362995147705,
+        "compilation": 24.058444891124964,
+        "framework": 1.1619692668318748,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          922720.6502892077
+          1989564.3539330922
         ]
       },
       "invalidity": "correct",
@@ -1975,7 +1975,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.123,
+          "value": -0.656,
           "unit": ""
         }
       ],
@@ -1984,7 +1984,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 22:48:49.667604+00:00",
+      "timestamp": "2025-05-15 18:55:59.236648+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 100,
@@ -1992,12 +1992,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.655390858650208,
-        "framework": 2.19929963350296,
+        "compilation": 24.53052159398794,
+        "framework": 1.1303615756332874,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          914740.6946457922
+          1955446.369544603
         ]
       },
       "invalidity": "correct",
@@ -2005,7 +2005,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.159,
+          "value": -0.506,
           "unit": ""
         }
       ],
@@ -2014,7 +2014,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 23:04:10.039108+00:00",
+      "timestamp": "2025-05-15 19:29:07.972836+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 100,
@@ -2022,12 +2022,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 26.140697300434113,
-        "framework": 1.2077167630195618,
+        "compilation": 25.057821068912745,
+        "framework": 1.0951152071356773,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          920344.0302759409
+          1988709.9720626138
         ]
       },
       "invalidity": "correct",
@@ -2035,7 +2035,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.244,
+          "value": -0.435,
           "unit": ""
         }
       ],
@@ -2044,7 +2044,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 23:19:26.488896+00:00",
+      "timestamp": "2025-05-15 20:02:07.113773+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 100,
@@ -2052,12 +2052,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.53616091609001,
-        "framework": 1.209646463394165,
+        "compilation": 23.879480082541704,
+        "framework": 1.5193168073892593,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          916423.0027273297
+          1979115.499312058
         ]
       },
       "invalidity": "correct",
@@ -2065,7 +2065,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.169,
+          "value": -0.526,
           "unit": ""
         }
       ],
@@ -2074,7 +2074,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 23:34:27.871994+00:00",
+      "timestamp": "2025-05-15 20:34:19.130216+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 100,
@@ -2082,12 +2082,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 27.241986244916916,
-        "framework": 1.1680200695991516,
+        "compilation": 24.75640783086419,
+        "framework": 1.1057257652282715,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          901354.6508401632
+          1931990.5450856313
         ]
       },
       "invalidity": "correct",
@@ -2095,7 +2095,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.095,
+          "value": -0.327,
           "unit": ""
         }
       ],
@@ -2104,7 +2104,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-17 23:49:28.510134+00:00",
+      "timestamp": "2025-05-15 21:06:40.607250+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 100,
@@ -2112,12 +2112,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.746583938598633,
-        "framework": 1.1217929422855377,
+        "compilation": 25.11575911194086,
+        "framework": 1.2859925627708435,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          900611.1603938043
+          1941450.5970305763
         ]
       },
       "invalidity": "correct",
@@ -2125,7 +2125,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.157,
+          "value": -0.397,
           "unit": ""
         }
       ],
@@ -2134,7 +2134,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 00:04:22.599810+00:00",
+      "timestamp": "2025-05-15 21:38:48.477289+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 100,
@@ -2142,12 +2142,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.729313492774963,
-        "framework": 1.2321695685386658,
+        "compilation": 24.17594287544489,
+        "framework": 1.189341302961111,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          894062.6772008836
+          1927844.6118822321
         ]
       },
       "invalidity": "correct",
@@ -2155,7 +2155,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.175,
+          "value": -0.397,
           "unit": ""
         }
       ],
@@ -2164,7 +2164,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 00:20:58.872894+00:00",
+      "timestamp": "2025-05-15 22:14:48.807200+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 150,
@@ -2172,12 +2172,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.376117020845413,
-        "framework": 1.1504441499710083,
+        "compilation": 24.455083068460226,
+        "framework": 1.1536949314177036,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          996245.5223500729
+          2160304.265310988
         ]
       },
       "invalidity": "correct",
@@ -2185,7 +2185,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.166,
+          "value": -0.53,
           "unit": ""
         }
       ],
@@ -2194,7 +2194,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 00:37:36.412217+00:00",
+      "timestamp": "2025-05-15 22:50:52.789300+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 150,
@@ -2202,12 +2202,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.982987135648727,
-        "framework": 1.2185163795948029,
+        "compilation": 25.691756047308445,
+        "framework": 1.173622440546751,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          997512.0836682618
+          2163955.1987037994
         ]
       },
       "invalidity": "correct",
@@ -2215,7 +2215,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.034,
+          "value": -0.611,
           "unit": ""
         }
       ],
@@ -2224,7 +2224,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 00:54:14.992341+00:00",
+      "timestamp": "2025-05-15 23:27:02.316893+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 150,
@@ -2232,12 +2232,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.56242048740387,
-        "framework": 1.2157037854194641,
+        "compilation": 24.760582018643618,
+        "framework": 1.246567815542221,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          998553.3093214035
+          2169501.549690962
         ]
       },
       "invalidity": "correct",
@@ -2245,7 +2245,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.107,
+          "value": -0.553,
           "unit": ""
         }
       ],
@@ -2254,7 +2254,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 01:10:33.660193+00:00",
+      "timestamp": "2025-05-16 00:02:31.159117+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 150,
@@ -2262,12 +2262,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.378747075796127,
-        "framework": 1.184113323688507,
+        "compilation": 24.8951050452888,
+        "framework": 1.1089006438851357,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          978640.2545683086
+          2128816.182852257
         ]
       },
       "invalidity": "correct",
@@ -2275,7 +2275,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.117,
+          "value": -0.573,
           "unit": ""
         }
       ],
@@ -2284,7 +2284,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 01:27:10.323142+00:00",
+      "timestamp": "2025-05-16 00:38:29.669516+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 150,
@@ -2292,12 +2292,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.72348341345787,
-        "framework": 1.1919140815734863,
+        "compilation": 24.55115271732211,
+        "framework": 15.850001014769077,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          996635.995388031
+          2158469.960765913
         ]
       },
       "invalidity": "correct",
@@ -2305,7 +2305,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.231,
+          "value": -0.395,
           "unit": ""
         }
       ],
@@ -2314,7 +2314,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 01:43:46.402288+00:00",
+      "timestamp": "2025-05-16 01:14:22.260880+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 150,
@@ -2322,12 +2322,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.126449763774872,
-        "framework": 1.1089220643043518,
+        "compilation": 25.11724131181836,
+        "framework": 1.322288066148758,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          996052.8737381101
+          2152564.8885872215
         ]
       },
       "invalidity": "correct",
@@ -2335,7 +2335,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.199,
+          "value": -0.515,
           "unit": ""
         }
       ],
@@ -2344,7 +2344,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 01:59:47.733758+00:00",
+      "timestamp": "2025-05-16 01:48:50.796465+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 150,
@@ -2352,12 +2352,12 @@
         "c2": 0.5
       },
       "times": {
-        "compilation": 26.304952800273895,
-        "framework": 1.1937953531742096,
+        "compilation": 25.26078000664711,
+        "framework": 1.3852482661604881,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          961303.9349988103
+          2068508.8737797923
         ]
       },
       "invalidity": "correct",
@@ -2365,7 +2365,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.11,
+          "value": -0.441,
           "unit": ""
         }
       ],
@@ -2374,7 +2374,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 02:15:47.415528+00:00",
+      "timestamp": "2025-05-16 02:23:45.900031+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 150,
@@ -2382,12 +2382,12 @@
         "c2": 1.0
       },
       "times": {
-        "compilation": 25.65648779273033,
-        "framework": 1.2068413197994232,
+        "compilation": 25.088336318731308,
+        "framework": 1.1704661883413792,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          959654.8712514341
+          2095077.2724132985
         ]
       },
       "invalidity": "correct",
@@ -2395,7 +2395,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.25,
+          "value": -0.432,
           "unit": ""
         }
       ],
@@ -2404,7 +2404,7 @@
       ]
     },
     {
-      "timestamp": "2025-03-18 02:31:50.369799+00:00",
+      "timestamp": "2025-05-16 02:58:12.785842+00:00",
       "configuration": {
         "popsize": 30,
         "maxiter": 150,
@@ -2412,12 +2412,12 @@
         "c2": 1.5
       },
       "times": {
-        "compilation": 25.883737951517105,
-        "framework": 1.2087859213352203,
+        "compilation": 25.228016078472137,
+        "framework": 1.2673074379563332,
         "search_algorithm": 0,
         "validation": 0,
         "runtimes": [
-          962927.1274767816
+          2066859.2799874023
         ]
       },
       "invalidity": "correct",
@@ -2425,7 +2425,7 @@
       "measurements": [
         {
           "name": "score",
-          "value": 0.18,
+          "value": -0.408,
           "unit": ""
         }
       ],
