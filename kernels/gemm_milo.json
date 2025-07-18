@@ -213,7 +213,6 @@
         ],
         "ProblemSize": [
             4096,
-            4096,
             4096
         ],
         "SharedMemory": 0,
