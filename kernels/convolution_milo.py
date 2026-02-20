@@ -140,13 +140,13 @@ def tune(
 
 
 if __name__ == "__main__":
-    language = sys.argv[1]
-    device_name = sys.argv[2]
-
     if len(sys.argv) != 3:
         raise ValueError(
-            f"Usage: python convolution_milo.py [language ('HIP' or 'CUDA')] [device name], given: {sys.argv}"
+            f"Usage: python convolution_milo.py [language ('HIP' or 'CUDA')] [device name], given: {sys.argv[1:]}"
         )
+
+    language = sys.argv[1]
+    device_name = sys.argv[2]
 
     if language not in ("HIP", "CUDA"):
         raise ValueError(f"{language} not valid, specify HIP or CUDA")

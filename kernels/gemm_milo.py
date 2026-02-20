@@ -177,11 +177,11 @@ def tune(
 
 
 if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        raise ValueError(f"Usage: python gemm_milo.py [language ('HIP', 'OpenCL' or 'CUDA')] [device name], given: {sys.argv[1:]}")
+
     language = sys.argv[1]
     device_name = sys.argv[2]
-
-    if len(sys.argv) != 3:
-        raise ValueError(f"Usage: python gemm_milo.py [language ('HIP', 'OpenCL' or 'CUDA')] [device name], given: {sys.argv}")
 
     if language not in ("HIP", "OpenCL", "CUDA"):
         raise ValueError(f"{language} not valid, specify HIP, OpenCL or CUDA")
